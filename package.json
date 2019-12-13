@@ -1,0 +1,8 @@
+{
+  "name": "formula1",
+  "version": "1.0.0",
+  "description": "GraphQL API for historical and modern Formula 1 era",
+  "main": "index.js",
+  "author": "simecek.m@seznam.cz",
+  "license": "MIT"
+}
