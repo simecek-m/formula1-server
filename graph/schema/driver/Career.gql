@@ -1,0 +1,7 @@
+type Career {
+  start: Int
+  end: Int
+  titles: [Season]
+  points: Int!
+  teams: [Team]
+}

@@ -1,0 +1,13 @@
+type Driver {
+  firstname: String!
+  lastname: String!
+  height(unit: LengthUnit = METER): Float!
+  birthday: Int!
+  nationality: Nationality!
+  team: Team
+  car: Car
+  points: Int!
+  position: Int!
+  career: Career
+  photo: String
+}

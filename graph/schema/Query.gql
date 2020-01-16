@@ -1,0 +1,7 @@
+type Query {
+  teams: [Team]
+  drivers: [Driver]
+  cars: [Car]
+  circuits: [Circuit]
+  corners: [Corner]
+}

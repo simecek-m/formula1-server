@@ -1,0 +1,4 @@
+enum SpeedUnit {
+  KILOMETERS_PER_HOUR
+  MILES_PER_HOUR
+}

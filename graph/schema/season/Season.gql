@@ -1,0 +1,6 @@
+type Season {
+  year: Int!
+  races: [Race]
+  driverStanding: [DriverStanding]
+  teamStanding: [TeamStanding]
+}

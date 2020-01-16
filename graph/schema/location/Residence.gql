@@ -1,0 +1,4 @@
+type Residence {
+  country: Country!
+  city: String!
+}

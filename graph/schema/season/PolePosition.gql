@@ -1,0 +1,5 @@
+type PolePosition {
+  driver: Driver!
+  team: Team!
+  time: Int!
+}

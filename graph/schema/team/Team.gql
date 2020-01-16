@@ -1,0 +1,10 @@
+type Team {
+  name: String!
+  principal: String!
+  residence: Residence!
+  drivers: [Driver]
+  car: Car!
+  position: Int!
+  points: Int!
+  color: String!
+}

@@ -1,0 +1,8 @@
+enum Nationality {
+  BRITISH
+  GERMAN
+  POLISH
+  AUSTRIAN
+  MONACO
+  FINNISH
+}

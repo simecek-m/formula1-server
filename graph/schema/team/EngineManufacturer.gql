@@ -1,0 +1,6 @@
+enum EngineManufacturer {
+  Ferrari
+  Mercedes
+  Renault
+  Honda
+}
