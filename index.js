@@ -1,46 +1,21 @@
 const express = require("express");
 const { ApolloServer, gql } = require("apollo-server-express");
+const path = require("path");
+const { loadFiles } = require("@graphql-toolkit/file-loading");
 
+const GRAPH_SCHEMA_PATH = "graph/schema/**/*.gql";
+const GRAPH_RESOLVER_PATH = "graph/resolver/**/*.js";
 const GRAPH_API_PATH = "/graphql";
 const PORT = 8080;
 
 const app = express();
 
-const typeDefs = gql`
-  type Query {
-    teams: [Team]
-  }
-
-  type Team {
-    name: String!
-    ceo: String
-    active: Boolean
-  }
-`;
-
-const resolvers = {
-  Query: {
-    teams: () => {
-      return [
-        {
-          name: "Mercedes",
-          ceo: "Toto Wolff",
-          active: true
-        },
-        {
-          name: "Ferrari",
-          ceo: "Mattia Binotto"
-        }
-      ];
-    }
-  }
-};
-
+const typeDefs = loadFiles(path.join(__dirname, GRAPH_SCHEMA_PATH));
+const resolvers = loadFiles(path.join(__dirname, GRAPH_RESOLVER_PATH));
 const apolloServer = new ApolloServer({
   typeDefs,
   resolvers
 });
-
 apolloServer.applyMiddleware({ app, path: GRAPH_API_PATH });
 
 app.listen({ port: PORT }, () => {
