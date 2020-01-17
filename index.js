@@ -2,11 +2,17 @@ const express = require("express");
 const { ApolloServer } = require("apollo-server-express");
 const path = require("path");
 const { loadFiles } = require("@graphql-toolkit/file-loading");
+const mongoose = require("mongoose");
 
 const GRAPH_SCHEMA_PATH = "graph/schema/**/*.gql";
 const GRAPH_RESOLVER_PATH = "graph/resolver/**/*.js";
 const GRAPH_API_PATH = "/graphql";
 const PORT = 8080;
+const MONGOOSE_CONNECTION = "mongodb://localhost/formula1";
+const MONGOOSE_CONFIGURATION = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+};
 
 const app = express();
 
@@ -17,6 +23,15 @@ const apolloServer = new ApolloServer({
   resolvers
 });
 apolloServer.applyMiddleware({ app, path: GRAPH_API_PATH });
+
+mongoose
+  .connect(MONGOOSE_CONNECTION, MONGOOSE_CONFIGURATION)
+  .then(() => {
+    console.log("MongoDB successfully connected!");
+  })
+  .catch(error => {
+    console.log("Error while connection to MongoDB: ", error);
+  });
 
 app.listen({ port: PORT }, () => {
   console.log(
