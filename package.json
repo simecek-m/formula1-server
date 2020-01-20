@@ -19,5 +19,11 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src",
+    "@database": "src/database",
+    "@graph": "src/graph"
   }
 }

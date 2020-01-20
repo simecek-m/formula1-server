@@ -82,7 +82,7 @@ const drivers = [hamilton, vettel, leclerc, bottas];
 const teams = [ferrari, mercedes];
 const cars = [sf90, w10];
 
-const Driver = require("../../database/model/Driver");
+const Driver = require("@database/model/Driver");
 
 const resolvers = {
   Query: {

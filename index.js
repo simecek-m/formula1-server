@@ -3,6 +3,7 @@ const { ApolloServer } = require("apollo-server-express");
 const path = require("path");
 const { loadFiles } = require("@graphql-toolkit/file-loading");
 const mongoose = require("mongoose");
+require("module-alias/register");
 
 const GRAPH_SCHEMA_PATH = "src/graph/schema/**/*.gql";
 const GRAPH_RESOLVER_PATH = "src/graph/resolver/**/*.js";
