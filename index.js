@@ -4,8 +4,8 @@ const path = require("path");
 const { loadFiles } = require("@graphql-toolkit/file-loading");
 const mongoose = require("mongoose");
 
-const GRAPH_SCHEMA_PATH = "graph/schema/**/*.gql";
-const GRAPH_RESOLVER_PATH = "graph/resolver/**/*.js";
+const GRAPH_SCHEMA_PATH = "src/graph/schema/**/*.gql";
+const GRAPH_RESOLVER_PATH = "src/graph/resolver/**/*.js";
 const GRAPH_API_PATH = "/graphql";
 const PORT = 8080;
 const MONGOOSE_CONNECTION = "mongodb://localhost/formula1";
