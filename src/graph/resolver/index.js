@@ -1,94 +1,38 @@
-// test data => drivers
-const vettel = {
-  firstname: "Sebastian",
-  lastname: "Vettel",
-  nationality: "GERMAN"
-};
-
-const leclerc = {
-  firstname: "Charles",
-  lastname: "Leclerc",
-  nationality: "MONACO"
-};
-
-const hamilton = {
-  firstname: "Lewis",
-  lastname: "Hamilton",
-  nationality: "BRITISH"
-};
-
-const bottas = {
-  firstname: "Valtteri",
-  lastname: "Bottas",
-  nationality: "FINNISH"
-};
-
-// test data => teams
-const ferrari = {
-  name: "Ferrari",
-  principal: "Mattia Binotto",
-  residence: {
-    country: {
-      name: "Great Britain"
-    }
-  },
-  drivers: [vettel, leclerc]
-};
-
-const mercedes = {
-  name: "Mercedes",
-  principal: "Toto Wolff",
-  active: true,
-  residence: {
-    country: {
-      name: "Germany"
-    }
-  },
-  drivers: [hamilton, bottas]
-};
-
-vettel.team = ferrari;
-leclerc.team = ferrari;
-bottas.team = mercedes;
-hamilton.team = mercedes;
-
-// test data => cars
-const sf90 = {
-  name: "Ferrari SF90",
-  team: ferrari,
-  drivers: [vettel, leclerc],
-  fuel: "Shell",
-  weight: 743
-};
-
-vettel.car = sf90;
-leclerc.car = sf90;
-ferrari.car = sf90;
-
-const w10 = {
-  name: "Mercedes AMG F1 W10 EQ Power+",
-  team: mercedes,
-  drivers: [hamilton, bottas],
-  fuel: "Petronas",
-  weight: 743
-};
-
-hamilton.car = w10;
-bottas.car = w10;
-mercedes.car = w10;
-
-// joined data
-const drivers = [hamilton, vettel, leclerc, bottas];
-const teams = [ferrari, mercedes];
-const cars = [sf90, w10];
-
-const Driver = require("@database/model/Driver");
+const mongoose = require("mongoose");
+const Driver = require("@database/model/driver/Driver");
+const Team = require("@database/model/team/Team");
+const ObjectId = mongoose.Types.ObjectId;
 
 const resolvers = {
   Query: {
-    teams: () => teams,
-    drivers: () => Driver.find(),
-    cars: () => cars
+    teams: () => Team.find(),
+    drivers: () => Driver.find()
+  },
+  Team: {
+    drivers: ({ _id }) => {
+      return Driver.find({ team: _id });
+    }
+  },
+  Driver: {
+    height: (obj, args) => {
+      switch (args.unit) {
+        case "CENTIMETER":
+          return obj.height * 100;
+        case "KILOMETER":
+          return obj.height * 0.001;
+        case "INCH":
+          return obj.height * 39.3700787;
+        case "FOOT":
+          return obj.height * 3.2808399;
+        case "YARD":
+          return obj.height * 1.0936133;
+        case "MILE":
+          return obj.height * 0.000621371192;
+        default:
+          return obj.height;
+      }
+    },
+    team: ({ _id }) => Team.findOne({ drivers: ObjectId(_id) })
   },
   Car: {
     weight(obj, args) {
