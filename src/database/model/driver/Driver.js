@@ -20,10 +20,6 @@ const driverSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  // TODO: nested schemas
-  // team: Team,
-  // car: Car
-  // career: Career,
   photo: String
 });
 
