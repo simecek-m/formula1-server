@@ -3,7 +3,7 @@ type Driver {
   lastname: String!
   height(unit: LengthUnit = METER): Float!
   birthday: String!
-  nationality: Nationality!
+  country: Country
   team: Team
   car: Car
   points: Int!

@@ -9,7 +9,6 @@ const hamilton = {
   lastname: "Hamilton",
   height: 1.74,
   birthday: "07.01.1985",
-  nationality: "BRITISH",
   points: 413,
   position: 1
 };
@@ -20,7 +19,6 @@ const bottas = {
   lastname: "Bottas",
   height: 1.73,
   birthday: "28.08.1989",
-  nationality: "FINNISH",
   points: 326,
   position: 2
 };
@@ -31,7 +29,6 @@ const vettel = {
   lastname: "Vettel",
   height: 1.75,
   birthday: "03.07.1987",
-  nationality: "GERMAN",
   points: 240,
   position: 5
 };
@@ -42,7 +39,6 @@ const leclerc = {
   lastname: "Leclerc",
   height: 1.8,
   birthday: "16.10.1997",
-  nationality: "MONACO",
   points: 264,
   position: 4
 };
@@ -53,7 +49,6 @@ const verstappen = {
   lastname: "Verstappen",
   height: 1.8,
   birthday: "30.09.1997",
-  nationality: "DUTCH",
   points: 278,
   position: 3
 };
@@ -64,7 +59,6 @@ const albon = {
   lastname: "Albon",
   height: 1.86,
   birthday: "23.03.1996",
-  nationality: "THAI",
   points: 92,
   position: 8
 };
@@ -116,5 +110,70 @@ leclerc.team = ferrari._id;
 verstappen.team = redbull._id;
 albon.team = redbull._id;
 
+// countries
+const britain = {
+  _id: ObjectId(),
+  name: "Great Britain",
+  drivers: [hamilton._id],
+  circuits: [],
+  flag: "/static/assets/flag/britain.svg"
+};
+
+const finland = {
+  _id: ObjectId(),
+  name: "Finland",
+  drivers: [bottas._id],
+  circuits: [],
+  flag: "/static/assets/flag/finland.svg"
+};
+
+const germany = {
+  _id: ObjectId(),
+  name: "Germany",
+  drivers: [vettel._id],
+  circuits: [],
+  flag: "/static/assets/flag/germany.svg"
+};
+
+const monaco = {
+  _id: ObjectId(),
+  name: "Monaco",
+  drivers: [leclerc._id],
+  circuits: [],
+  flag: "/static/assets/flag/monaco.svg"
+};
+
+const netherlands = {
+  _id: ObjectId(),
+  name: "Netherlands",
+  drivers: [verstappen._id],
+  circuits: [],
+  flag: "/static/assets/flag/netherlands.svg"
+};
+
+const thailand = {
+  _id: ObjectId(),
+  name: "Thailand",
+  drivers: [albon._id],
+  circuits: [],
+  flag: "/static/assets/flag/thailand.svg"
+};
+
+hamilton.country = britain._id;
+bottas.country = finland._id;
+vettel.country = germany._id;
+leclerc.country = monaco._id;
+verstappen.country = netherlands._id;
+albon.country = thailand._id;
+
+// insert documents into DB
 db.drivers.insertMany([hamilton, bottas, vettel, leclerc, verstappen, albon]);
 db.teams.insertMany([mercedes, ferrari, redbull]);
+db.countries.insertMany([
+  britain,
+  finland,
+  germany,
+  monaco,
+  netherlands,
+  thailand
+]);

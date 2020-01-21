@@ -11,7 +11,6 @@ const driverSchema = new mongoose.Schema({
   },
   height: Number,
   birthday: String,
-  nationality: String,
   points: {
     type: Number,
     required: true

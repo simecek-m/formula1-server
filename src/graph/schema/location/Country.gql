@@ -2,4 +2,5 @@ type Country {
   name: String!
   drivers: [Driver]
   circuits: [Circuit]
+  flag: String!
 }
