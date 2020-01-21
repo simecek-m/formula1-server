@@ -1,17 +1,16 @@
-const mongoose = require("mongoose");
+// mongoose models
 const Driver = require("@database/model/driver/Driver");
 const Team = require("@database/model/team/Team");
-const ObjectId = mongoose.Types.ObjectId;
+const Country = require("@database/model/location/Country");
 
 const resolvers = {
   Query: {
     teams: () => Team.find(),
-    drivers: () => Driver.find()
+    drivers: () => Driver.find(),
+    countries: () => Country.find()
   },
   Team: {
-    drivers: ({ _id }) => {
-      return Driver.find({ team: _id });
-    }
+    drivers: ({ _id }) => Driver.find({ team: _id })
   },
   Driver: {
     height: (obj, args) => {
@@ -32,7 +31,11 @@ const resolvers = {
           return obj.height;
       }
     },
-    team: ({ _id }) => Team.findOne({ drivers: ObjectId(_id) })
+    team: ({ _id }) => Team.findOne({ drivers: _id }),
+    country: ({ _id }) => Country.findOne({ drivers: _id })
+  },
+  Country: {
+    drivers: ({ _id }) => Driver.find({ country: _id })
   },
   Car: {
     weight(obj, args) {
