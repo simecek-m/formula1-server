@@ -1,3 +1,7 @@
+// import
+const { GraphQLScalarType } = require("graphql");
+const moment = require("moment");
+
 // mongoose models
 const Driver = require("@database/model/driver/Driver");
 const Team = require("@database/model/team/Team");
@@ -9,6 +13,13 @@ const resolvers = {
     drivers: () => Driver.find(),
     countries: () => Country.find()
   },
+  Date: new GraphQLScalarType({
+    name: 'Date',
+    description: 'Date without time (YYYY-MM-DD)',
+    serialize(value) {
+      return moment(value).format("YYYY-MM-DD");
+    }
+  }),
   Team: {
     drivers: ({ _id }) => Driver.find({ team: _id })
   },
