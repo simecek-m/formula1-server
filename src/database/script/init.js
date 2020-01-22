@@ -103,6 +103,26 @@ const ricciardo = {
   position: 9
 };
 
+const gasly = {
+  _id: ObjectId(),
+  firstname: "Pierre",
+  lastname: "Gasly",
+  height: 1.77,
+  birthday: new Date("1996-02-07"),
+  points: 95,
+  position: 7
+};
+
+const kvyat = {
+  _id: ObjectId(),
+  firstname: "Daniel",
+  lastname: "Kvyat",
+  height: 1.82,
+  birthday: new Date("1994-04-26"),
+  points: 37,
+  position: 13
+};
+
 // teams
 const mercedes = {
   _id: ObjectId(),
@@ -164,6 +184,18 @@ const renault = {
   // car: Car!
 };
 
+const tororosso = {
+  _id: ObjectId(),
+  name: "Toro Rosso",
+  principal: "",
+  drivers: [gasly._id, kvyat._id],
+  position: 6,
+  points: 85,
+  color: "#469BFF"
+  //TODO: complete data
+  // car: Car!
+};
+
 hamilton.team = mercedes._id;
 bottas.team = mercedes._id;
 vettel.team = ferrari._id;
@@ -174,6 +206,8 @@ sainz.team = mclaren._id;
 norris.team = mclaren._id;
 hulkenberg.team = renault._id;
 ricciardo.team = renault._id;
+gasly.team = tororosso._id;
+kvyat.team = tororosso._id;
 
 // countries
 const britain = {
@@ -252,6 +286,24 @@ const australia = {
   flag: "/static/assets/flag/australia.svg"
 };
 
+const france = {
+  _id: ObjectId(),
+  name: "France",
+  drivers: [gasly._id],
+  teams: [],
+  circuits: [],
+  flag: "/static/assets/flag/france.svg"
+};
+
+const russia = {
+  _id: ObjectId(),
+  name: "Russia",
+  drivers: [kvyat._id],
+  teams: [],
+  circuits: [],
+  flag: "/static/assets/flag/russia.svg"
+};
+
 hamilton.country = britain._id;
 bottas.country = finland._id;
 vettel.country = germany._id;
@@ -262,6 +314,8 @@ sainz.country = spain._id;
 norris.country = britain._id;
 hulkenberg.country = germany._id;
 ricciardo.country = australia._id;
+gasly.country = france._id;
+kvyat.country = russia._id;
 
 // residences
 const mercedes_residence = {
@@ -294,11 +348,18 @@ const renault_residence = {
   city: "Enstone"
 };
 
+const tororosso_residence = {
+  _id: ObjectId(),
+  country: italy._id,
+  city: "Faenza"
+};
+
 mercedes.residence = mercedes_residence._id;
 ferrari.residence = ferrari_residence._id;
 redbull.residence = redbull_residence._id;
 mclaren.residence = mclaren_residence._id;
 renault.residence = renault_residence._id;
+tororosso.residence = tororosso_residence._id;
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -311,9 +372,11 @@ db.drivers.insertMany([
   sainz,
   norris,
   hulkenberg,
-  ricciardo
+  ricciardo,
+  gasly,
+  kvyat
 ]);
-db.teams.insertMany([mercedes, ferrari, redbull, mclaren, renault]);
+db.teams.insertMany([mercedes, ferrari, redbull, mclaren, renault, tororosso]);
 db.countries.insertMany([
   britain,
   finland,
@@ -323,12 +386,15 @@ db.countries.insertMany([
   thailand,
   italy,
   spain,
-  australia
+  australia,
+  france,
+  russia
 ]);
 db.residences.insertMany([
   mercedes_residence,
   ferrari_residence,
   redbull_residence,
   mclaren_residence,
-  renault_residence
+  renault_residence,
+  tororosso_residence
 ]);
