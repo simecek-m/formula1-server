@@ -10,7 +10,10 @@ const driverSchema = new mongoose.Schema({
     required: true
   },
   height: Number,
-  birthday: String,
+  birthday: {
+    type: Date,
+    required: true
+  },
   points: {
     type: Number,
     required: true

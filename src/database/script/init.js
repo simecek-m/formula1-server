@@ -8,7 +8,7 @@ const hamilton = {
   firstname: "Lewis",
   lastname: "Hamilton",
   height: 1.74,
-  birthday: "07.01.1985",
+  birthday: new Date("1985-01-07"),
   points: 413,
   position: 1
 };
@@ -18,7 +18,7 @@ const bottas = {
   firstname: "Valtteri",
   lastname: "Bottas",
   height: 1.73,
-  birthday: "28.08.1989",
+  birthday: new Date("1989-08-28"),
   points: 326,
   position: 2
 };
@@ -28,7 +28,7 @@ const vettel = {
   firstname: "Sebastian",
   lastname: "Vettel",
   height: 1.75,
-  birthday: "03.07.1987",
+  birthday: new Date("1987-07-03"),
   points: 240,
   position: 5
 };
@@ -38,7 +38,7 @@ const leclerc = {
   firstname: "Charles",
   lastname: "Leclerc",
   height: 1.8,
-  birthday: "16.10.1997",
+  birthday: new Date("1997-10-16"),
   points: 264,
   position: 4
 };
@@ -48,7 +48,7 @@ const verstappen = {
   firstname: "Max",
   lastname: "Verstappen",
   height: 1.8,
-  birthday: "30.09.1997",
+  birthday: new Date("1997-09-30"),
   points: 278,
   position: 3
 };
@@ -58,7 +58,7 @@ const albon = {
   firstname: "Alexander",
   lastname: "Albon",
   height: 1.86,
-  birthday: "23.03.1996",
+  birthday: new Date("1996-03-23"),
   points: 92,
   position: 8
 };
