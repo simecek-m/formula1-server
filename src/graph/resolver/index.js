@@ -6,12 +6,14 @@ const moment = require("moment");
 const Driver = require("@database/model/driver/Driver");
 const Team = require("@database/model/team/Team");
 const Country = require("@database/model/location/Country");
+const Residence = require("@database/model/location/Residence");
 
 const resolvers = {
   Query: {
     teams: () => Team.find(),
     drivers: () => Driver.find(),
-    countries: () => Country.find()
+    countries: () => Country.find(),
+    residences: () => Residence.find()
   },
   Date: new GraphQLScalarType({
     name: 'Date',
@@ -20,8 +22,12 @@ const resolvers = {
       return moment(value).format("YYYY-MM-DD");
     }
   }),
+  Residence: {
+    country: ({ country }) => Country.findOne({ _id: country })
+  },
   Team: {
-    drivers: ({ _id }) => Driver.find({ team: _id })
+    drivers: ({ _id }) => Driver.find({ team: _id }),
+    residence: ({ residence }) => Residence.findOne({ _id: residence})
   },
   Driver: {
     height: (obj, args) => {
@@ -46,7 +52,8 @@ const resolvers = {
     country: ({ _id }) => Country.findOne({ drivers: _id })
   },
   Country: {
-    drivers: ({ _id }) => Driver.find({ country: _id })
+    drivers: ({ _id }) => Driver.find({ country: _id }),
+    teams: async ({ teams }) => Team.find({ _id: teams })
   },
   Car: {
     weight(obj, args) {

@@ -2,6 +2,7 @@ type Query {
   teams: [Team]
   drivers: [Driver]
   countries: [Country]
+  residences: [Residence]
   cars: [Car]
   circuits: [Circuit]
   corners: [Corner]

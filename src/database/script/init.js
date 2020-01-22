@@ -115,6 +115,7 @@ const britain = {
   _id: ObjectId(),
   name: "Great Britain",
   drivers: [hamilton._id],
+  teams: [mercedes._id, redbull._id],
   circuits: [],
   flag: "/static/assets/flag/britain.svg"
 };
@@ -159,12 +160,44 @@ const thailand = {
   flag: "/static/assets/flag/thailand.svg"
 };
 
+const italy = {
+  _id: ObjectId(),
+  name: "Italy",
+  drivers: [],
+  teams: [ferrari._id],
+  circuits: [],
+  flag: "/static/assets/flag/italy.svg"
+}
+
 hamilton.country = britain._id;
 bottas.country = finland._id;
 vettel.country = germany._id;
 leclerc.country = monaco._id;
 verstappen.country = netherlands._id;
 albon.country = thailand._id;
+
+// residences
+const mercedes_residence = {
+  _id: ObjectId(),
+  country: britain._id,
+  city: "Brackley"
+};
+
+const ferrari_residence = {
+  _id: ObjectId(),
+  country: italy._id,
+  city: "Maranello"
+}
+
+const redbull_residence = {
+  _id: ObjectId(),
+  country: britain._id,
+  city: "Milton Keynes"
+};
+
+mercedes.residence = mercedes_residence._id;
+ferrari.residence = ferrari_residence._id;
+redbull.residence = redbull_residence._id;
 
 // insert documents into DB
 db.drivers.insertMany([hamilton, bottas, vettel, leclerc, verstappen, albon]);
@@ -175,5 +208,7 @@ db.countries.insertMany([
   germany,
   monaco,
   netherlands,
-  thailand
+  thailand,
+  italy
 ]);
+db.residences.insertMany([mercedes_residence, ferrari_residence, redbull_residence]);

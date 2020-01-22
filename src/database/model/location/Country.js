@@ -5,6 +5,7 @@ const countrySchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  teams: Array,
   flag: {
     type: String,
     required: true
