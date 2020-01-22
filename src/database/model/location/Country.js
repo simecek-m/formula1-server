@@ -11,6 +11,6 @@ const countrySchema = new mongoose.Schema({
   }
 });
 
-const Driver = mongoose.model("country", countrySchema);
+const Country = mongoose.model("country", countrySchema);
 
-module.exports = Driver;
+module.exports = Country;
