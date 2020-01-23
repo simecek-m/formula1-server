@@ -8,6 +8,7 @@ const Team = require("@database/model/team/Team");
 const Country = require("@database/model/location/Country");
 const Residence = require("@database/model/location/Residence");
 const Car = require("@database/model/team/Car");
+const Circuit = require("@database/model/circuit/Circuit");
 
 const resolvers = {
   Query: {
@@ -15,7 +16,8 @@ const resolvers = {
     drivers: () => Driver.find(),
     countries: () => Country.find(),
     residences: () => Residence.find(),
-    cars: () => Car.find()
+    cars: () => Car.find(),
+    circuits: () => Circuit.find()
   },
   Date: new GraphQLScalarType({
     name: "Date",
@@ -57,17 +59,39 @@ const resolvers = {
   },
   Country: {
     drivers: ({ _id }) => Driver.find({ country: _id }),
-    teams: ({ teams }) => Team.find({ _id: teams })
+    teams: ({ teams }) => Team.find({ _id: teams }),
+    circuits: ({ circuits }) => Circuit.find({ _id: circuits })
   },
   Car: {
     team: ({ team }) => Team.findOne({ _id: team }),
     drivers: ({ drivers }) => Driver.find({ _id: drivers }),
-    weight(obj, args) {
+    weight: (obj, args) => {
       switch (args.unit) {
         case "POUND":
           return obj.weight * 2.20462262;
         default:
           return obj.weight;
+      }
+    }
+  },
+  Circuit: {
+    country: ({ country }) => Country.findOne({ _id: country }),
+    length: (obj, args) => {
+      switch (args.unit) {
+        case "CENTIMETER":
+          return obj.length * 100;
+        case "KILOMETER":
+          return obj.length * 0.001;
+        case "INCH":
+          return obj.length * 39.3700787;
+        case "FOOT":
+          return obj.length * 3.2808399;
+        case "YARD":
+          return obj.length * 1.0936133;
+        case "MILE":
+          return obj.length * 0.000621371192;
+        default:
+          return obj.length;
       }
     }
   }
