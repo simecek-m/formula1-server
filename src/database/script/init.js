@@ -182,8 +182,6 @@ const tororosso = {
   position: 6,
   points: 85,
   color: "#469BFF"
-  //TODO: complete data
-  // car: Car!
 };
 
 hamilton.team = mercedes._id;
@@ -379,6 +377,24 @@ const russia = {
   flag: "/static/assets/flag/russia.svg"
 };
 
+const bahrain = {
+  _id: ObjectId(),
+  name: "Bahrain",
+  drivers: [],
+  teams: [],
+  circuits: [],
+  flag: "/static/assets/flag/bahrain.svg"
+};
+
+const china = {
+  _id: ObjectId(),
+  name: "China",
+  drivers: [],
+  teams: [],
+  circuits: [],
+  flag: "/static/assets/flag/china.svg"
+};
+
 hamilton.country = britain._id;
 bottas.country = finland._id;
 vettel.country = germany._id;
@@ -436,6 +452,73 @@ mclaren.residence = mclaren_residence._id;
 renault.residence = renault_residence._id;
 tororosso.residence = tororosso_residence._id;
 
+// circuits
+const melbourne = {
+  _id: ObjectId(),
+  name: "Melbourne Grand Prix Circuit",
+  city: "Melbourne",
+  country: australia._id,
+  opened: new Date("1953-11-20"),
+  corners: [],
+  length: 5303,
+  active: true,
+  map: null
+};
+
+const bahrain_circuit = {
+  _id: ObjectId(),
+  name: "Bahrain International Circuit",
+  city: "Sakhir",
+  country: bahrain._id,
+  opened: new Date("2004-03-17"),
+  corners: [],
+  length: 5412,
+  active: true,
+  map: null
+};
+
+const shanghai = {
+  _id: ObjectId(),
+  name: "Shangai International Circuit",
+  city: "Shangai",
+  country: china._id,
+  opened: new Date("2004-06-06"),
+  corners: [],
+  length: 5451,
+  active: true,
+  map: null
+};
+
+const imola = {
+  _id: ObjectId(),
+  name: "Autodromo Enzo e Dino Ferrari",
+  city: "Imola",
+  country: italy._id,
+  opened: new Date("1952-10-19"),
+  corners: [],
+  length: 4909,
+  active: false,
+  map: null
+};
+
+const monza = {
+  _id: ObjectId(),
+  name: "Autodromo Nazionale Monza",
+  city: "Monza",
+  country: italy._id,
+  opened: new Date("1922-09-03"),
+  corners: [],
+  length: 5793,
+  active: true,
+  map: null
+};
+
+australia.circuits = [melbourne._id];
+bahrain.circuits = [bahrain_circuit._id];
+china.circuits = [shanghai._id];
+
+italy.circuits = [imola._id, monza._id];
+
 // insert documents into DB
 db.drivers.insertMany([
   hamilton,
@@ -463,7 +546,9 @@ db.countries.insertMany([
   spain,
   australia,
   france,
-  russia
+  russia,
+  bahrain,
+  china
 ]);
 db.residences.insertMany([
   mercedes_residence,
@@ -473,6 +558,7 @@ db.residences.insertMany([
   renault_residence,
   tororosso_residence
 ]);
+db.circuits.insertMany([melbourne, bahrain_circuit, shanghai, imola, monza]);
 db.cars.insertMany([
   ferrari_car,
   mercedes_car,
