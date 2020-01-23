@@ -6,6 +6,7 @@ const countrySchema = new mongoose.Schema({
     required: true
   },
   teams: Array,
+  circuits: Array,
   flag: {
     type: String,
     required: true

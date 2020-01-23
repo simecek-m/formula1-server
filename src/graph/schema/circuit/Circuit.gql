@@ -1,8 +1,8 @@
 type Circuit {
-  location: Country
   name: String!
-  opened: Int
-  corners: [Corner]
-  length(unit: LengthUnit = KILOMETER): Float
-  grade: Int
+  city: String!
+  country: Country!
+  opened: Date!
+  corners: [Corner]!
+  length(unit: LengthUnit = KILOMETER): Float!
 }
