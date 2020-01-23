@@ -132,8 +132,6 @@ const mercedes = {
   position: 1,
   points: 739,
   color: "#00D2BE"
-  //TODO: complete data
-  // car: Car!
 };
 
 const ferrari = {
@@ -144,8 +142,6 @@ const ferrari = {
   position: 2,
   points: 504,
   color: "#DC0000"
-  //TODO: complete data
-  // car: Car!
 };
 
 const redbull = {
@@ -156,8 +152,6 @@ const redbull = {
   position: 3,
   points: 417,
   color: "#1E41FF"
-  //TODO: complete data
-  // car: Car!
 };
 
 const mclaren = {
@@ -168,8 +162,6 @@ const mclaren = {
   position: 4,
   points: 145,
   color: "#FF8700"
-  //TODO: complete data
-  // car: Car!
 };
 
 const renault = {
@@ -180,8 +172,6 @@ const renault = {
   position: 5,
   points: 91,
   color: "#FFF500"
-  //TODO: complete data
-  // car: Car!
 };
 
 const tororosso = {
@@ -208,6 +198,91 @@ hulkenberg.team = renault._id;
 ricciardo.team = renault._id;
 gasly.team = tororosso._id;
 kvyat.team = tororosso._id;
+
+// cars
+const ferrari_car = {
+  _id: ObjectId(),
+  name: "Ferrari SF90",
+  team: ferrari._id,
+  drivers: [vettel._id, leclerc._id],
+  engine: null,
+  fuel: "Shell V-Power",
+  weight: 743
+};
+
+ferrari.car = ferrari_car._id;
+vettel.car = ferrari_car._id;
+leclerc.car = ferrari_car._id;
+
+const mercedes_car = {
+  _id: ObjectId(),
+  name: "Mercedes W10",
+  team: mercedes._id,
+  drivers: [hamilton._id, bottas._id],
+  engine: null,
+  fuel: "Petronas Primax",
+  weight: 743
+};
+
+mercedes.car = mercedes_car._id;
+hamilton.car = mercedes_car._id;
+bottas.car = mercedes_car._id;
+
+const redbull_car = {
+  _id: ObjectId(),
+  name: "RedBull RB15",
+  team: redbull._id,
+  drivers: [verstappen._id, albon._id],
+  engine: null,
+  fuel: "Esso Synergy",
+  weight: 743
+};
+
+redbull.car = redbull_car._id;
+verstappen.car = redbull_car._id;
+albon.car = redbull_car._id;
+
+const mclaren_car = {
+  _id: ObjectId(),
+  name: "McLaren MCL34",
+  team: mclaren._id,
+  drivers: [sainz._id, norris._id],
+  engine: null,
+  fuel: "BP Ultimate",
+  weight: 743
+};
+
+mclaren.car = mclaren_car._id;
+sainz.car = mclaren_car._id;
+norris.car = mclaren_car._id;
+
+const renault_car = {
+  _id: ObjectId(),
+  name: "Renault R.S.19",
+  team: renault._id,
+  drivers: [hulkenberg._id, ricciardo._id],
+  engine: null,
+  fuel: "BP Ultimate",
+  weight: 743
+};
+
+renault.car = renault_car._id;
+hulkenberg.car = renault_car._id;
+ricciardo.car = renault_car._id;
+
+const tororosso_car = {
+  _id: ObjectId(),
+  name: "Toro Rosso STR14",
+  team: tororosso._id,
+  drivers: [gasly._id, kvyat._id],
+  engine: null,
+  fuel: "Mobil Synergy",
+  weight: 743
+};
+
+tororosso.car = tororosso_car._id;
+gasly.car = tororosso_car._id;
+kvyat.car = tororosso_car._id;
 
 // countries
 const britain = {
@@ -397,4 +472,12 @@ db.residences.insertMany([
   mclaren_residence,
   renault_residence,
   tororosso_residence
+]);
+db.cars.insertMany([
+  ferrari_car,
+  mercedes_car,
+  redbull_car,
+  mclaren_car,
+  renault_car,
+  tororosso_car
 ]);
