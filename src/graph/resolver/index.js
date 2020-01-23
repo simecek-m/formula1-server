@@ -7,17 +7,19 @@ const Driver = require("@database/model/driver/Driver");
 const Team = require("@database/model/team/Team");
 const Country = require("@database/model/location/Country");
 const Residence = require("@database/model/location/Residence");
+const Car = require("@database/model/team/Car");
 
 const resolvers = {
   Query: {
     teams: () => Team.find(),
     drivers: () => Driver.find(),
     countries: () => Country.find(),
-    residences: () => Residence.find()
+    residences: () => Residence.find(),
+    cars: () => Car.find()
   },
   Date: new GraphQLScalarType({
-    name: 'Date',
-    description: 'Date without time (YYYY-MM-DD)',
+    name: "Date",
+    description: "Date without time (YYYY-MM-DD)",
     serialize(value) {
       return moment(value).format("YYYY-MM-DD");
     }
@@ -27,7 +29,8 @@ const resolvers = {
   },
   Team: {
     drivers: ({ _id }) => Driver.find({ team: _id }),
-    residence: ({ residence }) => Residence.findOne({ _id: residence})
+    residence: ({ residence }) => Residence.findOne({ _id: residence }),
+    car: ({ car }) => Car.findOne({ _id: car })
   },
   Driver: {
     height: (obj, args) => {
@@ -49,13 +52,16 @@ const resolvers = {
       }
     },
     team: ({ _id }) => Team.findOne({ drivers: _id }),
-    country: ({ _id }) => Country.findOne({ drivers: _id })
+    country: ({ _id }) => Country.findOne({ drivers: _id }),
+    car: ({ car }) => Car.findOne({ _id: car })
   },
   Country: {
     drivers: ({ _id }) => Driver.find({ country: _id }),
-    teams: async ({ teams }) => Team.find({ _id: teams })
+    teams: ({ teams }) => Team.find({ _id: teams })
   },
   Car: {
+    team: ({ team }) => Team.findOne({ _id: team }),
+    drivers: ({ drivers }) => Driver.find({ _id: drivers }),
     weight(obj, args) {
       switch (args.unit) {
         case "POUND":
