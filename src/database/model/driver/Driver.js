@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const ObjectId = mongoose.Types.ObjectId;
 
 const driverSchema = new mongoose.Schema({
   firstname: {
@@ -22,7 +23,8 @@ const driverSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  photo: String
+  photo: String,
+  car: ObjectId
 });
 
 const Driver = mongoose.model("driver", driverSchema);

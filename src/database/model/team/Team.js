@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const ObjectId = mongoose.Types.ObjectId;
 
 const teamSchema = new mongoose.Schema({
   name: {
@@ -24,7 +25,8 @@ const teamSchema = new mongoose.Schema({
   color: {
     type: String,
     required: true
-  }
+  },
+  car: ObjectId
 });
 
 const Team = mongoose.model("team", teamSchema);
