@@ -395,6 +395,118 @@ const china = {
   flag: "/static/assets/flag/china.svg"
 };
 
+const belgium = {
+  _id: ObjectId(),
+  name: "Belgium",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/belgium.svg"
+};
+
+const poland = {
+  _id: ObjectId(),
+  name: "Poland",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/poland.svg"
+};
+
+const hungary = {
+  _id: ObjectId(),
+  name: "Hungary",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/hungary.svg"
+};
+
+const austria = {
+  _id: ObjectId(),
+  name: "Austria",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/austria.svg"
+};
+
+const canada = {
+  _id: ObjectId(),
+  name: "Canada",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/canada.svg"
+};
+
+const azerbaijan = {
+  _id: ObjectId(),
+  name: "Azerbaijan",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/azerbaijan.svg"
+};
+
+const usa = {
+  _id: ObjectId(),
+  name: "USA",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/usa.svg"
+};
+
+const brazil = {
+  _id: ObjectId(),
+  name: "Brazil",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/brazil.svg"
+};
+
+const japan = {
+  _id: ObjectId(),
+  name: "Japan",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/japan.svg"
+};
+
+const singapore = {
+  _id: ObjectId(),
+  name: "Singapore",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/singapore.svg"
+};
+
+const mexico = {
+  _id: ObjectId(),
+  name: "Mexico",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/mexico.svg"
+};
+
+const emirates = {
+  _id: ObjectId(),
+  name: "United Arab Emirates",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/emirates.svg"
+};
+
+const vietnam = {
+  _id: ObjectId(),
+  name: "Vietnam",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/vietnam.svg"
+};
+
+const denmark = {
+  _id: ObjectId(),
+  name: "Denmark",
+  drivers: [],
+  circuits: [],
+  flag: "/static/assets/flag/denmark.svg"
+};
+
 hamilton.country = britain._id;
 bottas.country = finland._id;
 vettel.country = germany._id;
@@ -548,7 +660,20 @@ db.countries.insertMany([
   france,
   russia,
   bahrain,
-  china
+  china,
+  austria,
+  azerbaijan,
+  belgium,
+  brazil,
+  canada,
+  hungary,
+  japan,
+  mexico,
+  poland,
+  singapore,
+  usa,
+  vietnam,
+  denmark
 ]);
 db.residences.insertMany([
   mercedes_residence,
