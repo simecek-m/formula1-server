@@ -197,7 +197,7 @@ const renault = {
 const toroRosso = {
   _id: ObjectId(),
   name: "Toro Rosso",
-  principal: "",
+  principal: "Franz Tost",
   drivers: [gasly._id, kvyat._id],
   position: 6,
   points: 85,
