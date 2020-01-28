@@ -163,6 +163,26 @@ const giovinazzi = {
   position: 17
 };
 
+const magnussen = {
+  _id: ObjectId(),
+  firstname: "Kevin",
+  lastname: "Magnussen",
+  height: 1.74,
+  birthday: new Date("1992-10-05"),
+  points: 20,
+  position: 16
+};
+
+const grosjean = {
+  _id: ObjectId(),
+  firstname: "Romain",
+  lastname: "Grosjean",
+  height: 1.8,
+  birthday: new Date("1986-04-17"),
+  points: 8,
+  position: 18
+};
+
 // teams
 const mercedes = {
   _id: ObjectId(),
@@ -244,6 +264,16 @@ const alfaRomeo = {
   color: "#9B0000"
 };
 
+const haas = {
+  _id: ObjectId(),
+  name: "Haas",
+  principal: "Gene Haas",
+  drivers: [magnussen._id, grosjean._id],
+  position: 9,
+  points: 28,
+  color: "#BD9E57"
+};
+
 hamilton.team = mercedes._id;
 bottas.team = mercedes._id;
 vettel.team = ferrari._id;
@@ -260,6 +290,8 @@ perez.team = racingPoint._id;
 stroll.team = racingPoint._id;
 raikkonen.team = alfaRomeo._id;
 giovinazzi.team = alfaRomeo._id;
+magnussen.team = haas._id;
+grosjean.team = haas._id;
 
 // cars
 const ferrari_car = {
@@ -374,6 +406,20 @@ alfaRomeo.car = alfaRomeo_car._id;
 raikkonen.car = alfaRomeo_car._id;
 giovinazzi.car = alfaRomeo_car._id;
 
+const haas_car = {
+  _id: ObjectId(),
+  name: "Haas VF-19",
+  team: haas._id,
+  drivers: [magnussen._id, grosjean._id],
+  engine: null,
+  fuel: "Shell V-Power",
+  weight: 743
+};
+
+haas.car = haas_car._id;
+magnussen.car = alfaRomeo_car._id;
+grosjean.car = alfaRomeo_car._id;
+
 // countries
 const britain = {
   _id: ObjectId(),
@@ -459,7 +505,7 @@ const australia = {
 const france = {
   _id: ObjectId(),
   name: "France",
-  drivers: [gasly._id],
+  drivers: [gasly._id, grosjean._id],
   teams: [],
   circuits: [],
   flag: "/static/assets/flag/france.svg"
@@ -612,7 +658,7 @@ const vietnam = {
 const denmark = {
   _id: ObjectId(),
   name: "Denmark",
-  drivers: [],
+  drivers: [magnussen._id],
   teams: [],
   circuits: [],
   flag: "/static/assets/flag/denmark.svg"
@@ -643,6 +689,8 @@ perez.country = mexico._id;
 stroll.country = canada._id;
 raikkonen.country = finland._id;
 giovinazzi.country = italy._id;
+magnussen.country = denmark._id;
+grosjean.country = france._id;
 
 // residences
 const mercedes_residence = {
@@ -693,6 +741,12 @@ const alfaRomeo_residence = {
   city: "Zürich"
 };
 
+const haas_residence = {
+  _id: ObjectId(),
+  country: usa._id,
+  city: "Kannapolis"
+};
+
 mercedes.residence = mercedes_residence._id;
 ferrari.residence = ferrari_residence._id;
 redbull.residence = redbull_residence._id;
@@ -700,6 +754,7 @@ mclaren.residence = mclaren_residence._id;
 renault.residence = renault_residence._id;
 toroRosso.residence = toroRosso_residence._id;
 racingPoint.residence = racingPoint_residence._id;
+haas.residence = haas_residence._id;
 
 // circuits
 const melbourne = {
@@ -784,7 +839,9 @@ db.drivers.insertMany([
   perez,
   stroll,
   raikkonen,
-  giovinazzi
+  giovinazzi,
+  magnussen,
+  grosjean
 ]);
 db.teams.insertMany([
   mercedes,
@@ -794,7 +851,8 @@ db.teams.insertMany([
   renault,
   toroRosso,
   racingPoint,
-  alfaRomeo
+  alfaRomeo,
+  haas
 ]);
 db.countries.insertMany([
   britain,
@@ -833,7 +891,8 @@ db.residences.insertMany([
   renault_residence,
   toroRosso_residence,
   racingPoint_residence,
-  alfaRomeo_residence
+  alfaRomeo_residence,
+  haas_residence
 ]);
 db.circuits.insertMany([melbourne, bahrain_circuit, shanghai, imola, monza]);
 db.cars.insertMany([
@@ -844,5 +903,6 @@ db.cars.insertMany([
   renault_car,
   toroRosso_car,
   racingPoint_car,
-  alfaRomeo_car
+  alfaRomeo_car,
+  haas_car
 ]);
