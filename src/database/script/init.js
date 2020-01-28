@@ -754,6 +754,7 @@ mclaren.residence = mclaren_residence._id;
 renault.residence = renault_residence._id;
 toroRosso.residence = toroRosso_residence._id;
 racingPoint.residence = racingPoint_residence._id;
+alfaRomeo.residence = alfaRomeo_residence._id;
 haas.residence = haas_residence._id;
 
 // circuits
