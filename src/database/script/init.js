@@ -856,6 +856,90 @@ const shanghai = {
   map: null
 };
 
+const hanoi = {
+  _id: ObjectId(),
+  name: "Hanoi Circuit",
+  city: "Hanoi",
+  country: vietnam._id,
+  opened: new Date("2019-03-21"),
+  corners: [],
+  length: 5607,
+  active: false,
+  map: null
+};
+
+const zandvoort = {
+  _id: ObjectId(),
+  name: "Circuit Zandvoort",
+  city: "Zandvoort",
+  country: netherlands._id,
+  opened: new Date("1948-08-07"),
+  corners: [],
+  length: 4252,
+  active: false,
+  map: null
+};
+
+const barcelona = {
+  _id: ObjectId(),
+  name: "Circuit de Barcelona-Catalunya",
+  city: "Barcelona",
+  country: spain._id,
+  opened: new Date("1991-09-10"),
+  corners: [],
+  length: 4655,
+  active: true,
+  map: null
+};
+
+const monaco_circuit = {
+  _id: ObjectId(),
+  name: "Circuit de Monaco",
+  city: "Monaco",
+  country: monaco._id,
+  opened: new Date("1929-04-14"),
+  corners: [],
+  length: 3337,
+  active: true,
+  map: null
+};
+
+const baku = {
+  _id: ObjectId(),
+  name: "Baku City Circuit",
+  city: "Baku",
+  country: azerbaijan._id,
+  opened: new Date("2017-06-25"),
+  corners: [],
+  length: 6003,
+  active: true,
+  map: null
+};
+
+const canada_circuit = {
+  _id: ObjectId(),
+  name: "Circuit Gilles-Villeneuve",
+  city: "Montreal",
+  country: canada._id,
+  opened: new Date("1978-09-24"),
+  corners: [],
+  length: 4361,
+  active: true,
+  map: null
+};
+
+const france_circuit = {
+  _id: ObjectId(),
+  name: "Circuit Paul Ricard",
+  city: "Marseille",
+  country: france._id,
+  opened: new Date("1970-04-19"),
+  corners: [],
+  length: 5842,
+  active: true,
+  map: null
+};
+
 const imola = {
   _id: ObjectId(),
   name: "Autodromo Enzo e Dino Ferrari",
@@ -884,6 +968,13 @@ australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
 italy.circuits = [imola._id, monza._id];
+vietnam.circuits = [hanoi._id];
+netherlands.circuits = [zandvoort._id];
+spain.circuits = [barcelona._id];
+monaco.circuits = [monaco_circuit._id];
+azerbaijan.circuits = [baku._id];
+canada.circuits = [canada_circuit._id];
+france.circuits = [france_circuit._id];
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -961,7 +1052,20 @@ db.residences.insertMany([
   haas_residence,
   williams_residence
 ]);
-db.circuits.insertMany([melbourne, bahrain_circuit, shanghai, imola, monza]);
+db.circuits.insertMany([
+  melbourne,
+  bahrain_circuit,
+  shanghai,
+  hanoi,
+  zandvoort,
+  barcelona,
+  monaco_circuit,
+  baku,
+  canada_circuit,
+  france_circuit,
+  imola,
+  monza
+]);
 db.cars.insertMany([
   ferrari_car,
   mercedes_car,
