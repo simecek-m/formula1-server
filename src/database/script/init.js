@@ -462,6 +462,10 @@ const williams_car = {
   weight: 743
 };
 
+williams.car = williams_car._id;
+kubica.car = williams_car._id;
+russell.car = williams_car._id;
+
 // countries
 const britain = {
   _id: ObjectId(),
@@ -740,8 +744,8 @@ raikkonen.country = finland._id;
 giovinazzi.country = italy._id;
 magnussen.country = denmark._id;
 grosjean.country = france._id;
-russell.country = britain._id;
 kubica.country = poland._id;
+russell.country = britain._id;
 
 // residences
 const mercedes_residence = {
