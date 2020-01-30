@@ -4,6 +4,7 @@ const { ApolloServer } = require("apollo-server-express");
 const path = require("path");
 const { loadFiles } = require("@graphql-toolkit/file-loading");
 const mongoose = require("mongoose");
+const cors = require("cors");
 require("module-alias/register");
 
 // constants
@@ -19,6 +20,9 @@ const MONGOOSE_CONFIGURATION = {
 
 // express app
 const app = express();
+
+// enable all CORS requests
+app.use(cors());
 
 // middleware
 app.use("/static", express.static("static"));
