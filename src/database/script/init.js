@@ -976,6 +976,18 @@ const hungaroring = {
   map: null
 };
 
+const spa = {
+  _id: ObjectId(),
+  name: "Circuit de Spa-Francorchamps",
+  city: "Francorchamps",
+  country: belgium._id,
+  opened: new Date("1921-08-01"),
+  corners: [],
+  length: 7004,
+  active: true,
+  map: null
+};
+
 const imola = {
   _id: ObjectId(),
   name: "Autodromo Enzo e Dino Ferrari",
@@ -1102,6 +1114,7 @@ db.circuits.insertMany([
   austria_circuit,
   silverstone,
   hungaroring,
+  spa,
   imola,
   monza
 ]);
