@@ -1012,6 +1012,18 @@ const monza = {
   map: null
 };
 
+const singapore_circuit = {
+  _id: ObjectId(),
+  name: "Marina Bay Street Circuit",
+  city: "Singapore",
+  country: singapore._id,
+  opened: new Date("2008-08-31"),
+  corners: [],
+  length: 5063,
+  active: true,
+  map: null
+};
+
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
@@ -1116,7 +1128,8 @@ db.circuits.insertMany([
   hungaroring,
   spa,
   imola,
-  monza
+  monza,
+  singapore_circuit
 ]);
 db.cars.insertMany([
   ferrari_car,
