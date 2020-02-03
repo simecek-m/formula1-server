@@ -952,6 +952,18 @@ const austria_circuit = {
   map: null
 };
 
+const silverstone = {
+  _id: ObjectId(),
+  name: "Silverstone Circuit",
+  city: "Silverstone",
+  country: britain._id,
+  opened: new Date("1947-09-01"),
+  corners: [],
+  length: 5891,
+  active: true,
+  map: null
+};
+
 const imola = {
   _id: ObjectId(),
   name: "Autodromo Enzo e Dino Ferrari",
@@ -1076,6 +1088,7 @@ db.circuits.insertMany([
   canada_circuit,
   france_circuit,
   austria_circuit,
+  silverstone,
   imola,
   monza
 ]);
