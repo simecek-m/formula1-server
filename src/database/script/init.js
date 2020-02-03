@@ -844,18 +844,6 @@ const bahrain_circuit = {
   map: null
 };
 
-const shanghai = {
-  _id: ObjectId(),
-  name: "Shangai International Circuit",
-  city: "Shangai",
-  country: china._id,
-  opened: new Date("2004-06-06"),
-  corners: [],
-  length: 5451,
-  active: true,
-  map: null
-};
-
 const hanoi = {
   _id: ObjectId(),
   name: "Hanoi Circuit",
@@ -865,6 +853,18 @@ const hanoi = {
   corners: [],
   length: 5607,
   active: false,
+  map: null
+};
+
+const shanghai = {
+  _id: ObjectId(),
+  name: "Shangai International Circuit",
+  city: "Shangai",
+  country: china._id,
+  opened: new Date("2004-06-06"),
+  corners: [],
+  length: 5451,
+  active: true,
   map: null
 };
 
@@ -936,6 +936,18 @@ const france_circuit = {
   opened: new Date("1970-04-19"),
   corners: [],
   length: 5842,
+  active: true,
+  map: null
+};
+
+const austria_circuit = {
+  _id: ObjectId(),
+  name: "Red Bull Ring",
+  city: "Spielberg",
+  country: austria._id,
+  opened: new Date("1969-07-27"),
+  corners: [],
+  length: 4318,
   active: true,
   map: null
 };
@@ -1063,6 +1075,7 @@ db.circuits.insertMany([
   baku,
   canada_circuit,
   france_circuit,
+  austria_circuit,
   imola,
   monza
 ]);
