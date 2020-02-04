@@ -1072,6 +1072,18 @@ const mexico_circuit = {
   map: null
 };
 
+const brazil_circuit = {
+  _id: ObjectId(),
+  name: "Autódromo José Carlos Pace",
+  city: "Sao Paulo",
+  country: brazil._id,
+  opened: new Date("1940-05-12"),
+  corners: [],
+  length: 4309,
+  active: true,
+  map: null
+};
+
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
@@ -1092,6 +1104,7 @@ russia.circuits = [sochi._id];
 japan.circuits = [suzuka._id];
 usa.circuits = [usa_circuit._id];
 mexico.circuits = [mexico_circuit._id];
+brazil.circuits = [brazil_circuit._id];
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -1190,7 +1203,8 @@ db.circuits.insertMany([
   sochi,
   suzuka,
   usa_circuit,
-  mexico_circuit
+  mexico_circuit,
+  brazil_circuit
 ]);
 db.cars.insertMany([
   ferrari_car,
