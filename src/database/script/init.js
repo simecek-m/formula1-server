@@ -1024,6 +1024,18 @@ const singapore_circuit = {
   map: null
 };
 
+const sochi = {
+  _id: ObjectId(),
+  name: "Sochi Autodrom",
+  city: "Sochi",
+  country: russia._id,
+  opened: new Date("2014-09-21"),
+  corners: [],
+  length: 5848,
+  active: true,
+  map: null
+};
+
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
@@ -1035,6 +1047,12 @@ monaco.circuits = [monaco_circuit._id];
 azerbaijan.circuits = [baku._id];
 canada.circuits = [canada_circuit._id];
 france.circuits = [france_circuit._id];
+austria.circuits = [austria_circuit._id];
+britain.circuits = [silverstone._id];
+hungary.circuits = [hungaroring._id];
+belgium.circuits = [spa._id];
+singapore.circuits = [singapore_circuit._id];
+russia.circuits = [sochi._id];
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -1129,7 +1147,8 @@ db.circuits.insertMany([
   spa,
   imola,
   monza,
-  singapore_circuit
+  singapore_circuit,
+  sochi
 ]);
 db.cars.insertMany([
   ferrari_car,
