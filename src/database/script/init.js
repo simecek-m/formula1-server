@@ -1036,6 +1036,18 @@ const sochi = {
   map: null
 };
 
+const suzuka = {
+  _id: ObjectId(),
+  name: "Suzuka International Racing Course",
+  city: "Suzuka",
+  country: japan._id,
+  opened: new Date("1962-09-20"),
+  corners: [],
+  length: 5807,
+  active: true,
+  map: null
+};
+
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
@@ -1053,6 +1065,7 @@ hungary.circuits = [hungaroring._id];
 belgium.circuits = [spa._id];
 singapore.circuits = [singapore_circuit._id];
 russia.circuits = [sochi._id];
+japan.circuits = [suzuka._id];
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -1148,7 +1161,8 @@ db.circuits.insertMany([
   imola,
   monza,
   singapore_circuit,
-  sochi
+  sochi,
+  suzuka
 ]);
 db.cars.insertMany([
   ferrari_car,
