@@ -1048,6 +1048,18 @@ const suzuka = {
   map: null
 };
 
+const usa_circuit = {
+  _id: ObjectId(),
+  name: "Circuit of The Americas",
+  city: "Austin",
+  country: usa._id,
+  opened: new Date("2012-10-21"),
+  corners: [],
+  length: 5513,
+  active: true,
+  map: null
+};
+
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
@@ -1066,6 +1078,7 @@ belgium.circuits = [spa._id];
 singapore.circuits = [singapore_circuit._id];
 russia.circuits = [sochi._id];
 japan.circuits = [suzuka._id];
+usa.circuits = [usa_circuit._id];
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -1162,7 +1175,8 @@ db.circuits.insertMany([
   monza,
   singapore_circuit,
   sochi,
-  suzuka
+  suzuka,
+  usa_circuit
 ]);
 db.cars.insertMany([
   ferrari_car,
