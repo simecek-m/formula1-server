@@ -1060,6 +1060,18 @@ const usa_circuit = {
   map: null
 };
 
+const mexico_circuit = {
+  _id: ObjectId(),
+  name: "Autódromo Hermanos Rodríguez",
+  city: "Mexico City",
+  country: mexico._id,
+  opened: new Date("1962-11-04"),
+  corners: [],
+  length: 4304,
+  active: true,
+  map: null
+};
+
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
@@ -1079,6 +1091,7 @@ singapore.circuits = [singapore_circuit._id];
 russia.circuits = [sochi._id];
 japan.circuits = [suzuka._id];
 usa.circuits = [usa_circuit._id];
+mexico.circuits = [mexico_circuit._id];
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -1176,7 +1189,8 @@ db.circuits.insertMany([
   singapore_circuit,
   sochi,
   suzuka,
-  usa_circuit
+  usa_circuit,
+  mexico_circuit
 ]);
 db.cars.insertMany([
   ferrari_car,
