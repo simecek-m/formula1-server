@@ -1084,6 +1084,18 @@ const brazil_circuit = {
   map: null
 };
 
+const emirates_circuit = {
+  _id: ObjectId(),
+  name: "Yas Marina Circuit",
+  city: "Abu Dhabi",
+  country: emirates._id,
+  opened: new Date("2009-10-07"),
+  corners: [],
+  length: 5554,
+  active: true,
+  map: null
+};
+
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
@@ -1105,6 +1117,7 @@ japan.circuits = [suzuka._id];
 usa.circuits = [usa_circuit._id];
 mexico.circuits = [mexico_circuit._id];
 brazil.circuits = [brazil_circuit._id];
+emirates.circuits = [emirates_circuit._id];
 
 // insert documents into DB
 db.drivers.insertMany([
@@ -1204,7 +1217,8 @@ db.circuits.insertMany([
   suzuka,
   usa_circuit,
   mexico_circuit,
-  brazil_circuit
+  brazil_circuit,
+  emirates_circuit
 ]);
 db.cars.insertMany([
   ferrari_car,
