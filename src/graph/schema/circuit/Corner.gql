@@ -1,5 +1,0 @@
-type Corner {
-  type: CornerType!
-  name: String!
-  circuit: Circuit
-}

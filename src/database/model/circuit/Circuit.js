@@ -18,9 +18,6 @@ const circuitSchema = new mongoose.Schema({
     type: Date,
     required: true
   },
-  corners: {
-    type: Array
-  },
   length: {
     type: Number,
     required: true

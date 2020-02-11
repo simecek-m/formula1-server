@@ -3,6 +3,5 @@ type Circuit {
   city: String!
   country: Country!
   opened: Date!
-  corners: [Corner]!
   length(unit: LengthUnit = KILOMETER): Float!
 }

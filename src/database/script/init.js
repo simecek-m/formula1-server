@@ -826,7 +826,6 @@ const melbourne = {
   city: "Melbourne",
   country: australia._id,
   opened: new Date("1953-11-20"),
-  corners: [],
   length: 5303,
   active: true,
   map: null
@@ -838,7 +837,6 @@ const bahrain_circuit = {
   city: "Sakhir",
   country: bahrain._id,
   opened: new Date("2004-03-17"),
-  corners: [],
   length: 5412,
   active: true,
   map: null
@@ -850,7 +848,6 @@ const hanoi = {
   city: "Hanoi",
   country: vietnam._id,
   opened: new Date("2019-03-21"),
-  corners: [],
   length: 5607,
   active: false,
   map: null
@@ -862,7 +859,6 @@ const shanghai = {
   city: "Shangai",
   country: china._id,
   opened: new Date("2004-06-06"),
-  corners: [],
   length: 5451,
   active: true,
   map: null
@@ -874,7 +870,6 @@ const zandvoort = {
   city: "Zandvoort",
   country: netherlands._id,
   opened: new Date("1948-08-07"),
-  corners: [],
   length: 4252,
   active: false,
   map: null
@@ -886,7 +881,6 @@ const barcelona = {
   city: "Barcelona",
   country: spain._id,
   opened: new Date("1991-09-10"),
-  corners: [],
   length: 4655,
   active: true,
   map: null
@@ -898,7 +892,6 @@ const monaco_circuit = {
   city: "Monaco",
   country: monaco._id,
   opened: new Date("1929-04-14"),
-  corners: [],
   length: 3337,
   active: true,
   map: null
@@ -910,7 +903,6 @@ const baku = {
   city: "Baku",
   country: azerbaijan._id,
   opened: new Date("2017-06-25"),
-  corners: [],
   length: 6003,
   active: true,
   map: null
@@ -922,7 +914,6 @@ const canada_circuit = {
   city: "Montreal",
   country: canada._id,
   opened: new Date("1978-09-24"),
-  corners: [],
   length: 4361,
   active: true,
   map: null
@@ -934,7 +925,6 @@ const france_circuit = {
   city: "Marseille",
   country: france._id,
   opened: new Date("1970-04-19"),
-  corners: [],
   length: 5842,
   active: true,
   map: null
@@ -946,7 +936,6 @@ const austria_circuit = {
   city: "Spielberg",
   country: austria._id,
   opened: new Date("1969-07-27"),
-  corners: [],
   length: 4318,
   active: true,
   map: null
@@ -958,7 +947,6 @@ const silverstone = {
   city: "Silverstone",
   country: britain._id,
   opened: new Date("1947-09-01"),
-  corners: [],
   length: 5891,
   active: true,
   map: null
@@ -970,7 +958,6 @@ const hungaroring = {
   city: "Mogyoród",
   country: hungary._id,
   opened: new Date("1986-03-24"),
-  corners: [],
   length: 4381,
   active: true,
   map: null
@@ -982,7 +969,6 @@ const spa = {
   city: "Francorchamps",
   country: belgium._id,
   opened: new Date("1921-08-01"),
-  corners: [],
   length: 7004,
   active: true,
   map: null
@@ -994,7 +980,6 @@ const imola = {
   city: "Imola",
   country: italy._id,
   opened: new Date("1952-10-19"),
-  corners: [],
   length: 4909,
   active: false,
   map: null
@@ -1006,7 +991,6 @@ const monza = {
   city: "Monza",
   country: italy._id,
   opened: new Date("1922-09-03"),
-  corners: [],
   length: 5793,
   active: true,
   map: null
@@ -1018,7 +1002,6 @@ const singapore_circuit = {
   city: "Singapore",
   country: singapore._id,
   opened: new Date("2008-08-31"),
-  corners: [],
   length: 5063,
   active: true,
   map: null
@@ -1030,7 +1013,6 @@ const sochi = {
   city: "Sochi",
   country: russia._id,
   opened: new Date("2014-09-21"),
-  corners: [],
   length: 5848,
   active: true,
   map: null
@@ -1042,7 +1024,6 @@ const suzuka = {
   city: "Suzuka",
   country: japan._id,
   opened: new Date("1962-09-20"),
-  corners: [],
   length: 5807,
   active: true,
   map: null
@@ -1054,7 +1035,6 @@ const usa_circuit = {
   city: "Austin",
   country: usa._id,
   opened: new Date("2012-10-21"),
-  corners: [],
   length: 5513,
   active: true,
   map: null
@@ -1066,7 +1046,6 @@ const mexico_circuit = {
   city: "Mexico City",
   country: mexico._id,
   opened: new Date("1962-11-04"),
-  corners: [],
   length: 4304,
   active: true,
   map: null
@@ -1078,7 +1057,6 @@ const brazil_circuit = {
   city: "Sao Paulo",
   country: brazil._id,
   opened: new Date("1940-05-12"),
-  corners: [],
   length: 4309,
   active: true,
   map: null
@@ -1090,7 +1068,6 @@ const emirates_circuit = {
   city: "Abu Dhabi",
   country: emirates._id,
   opened: new Date("2009-10-07"),
-  corners: [],
   length: 5554,
   active: true,
   map: null

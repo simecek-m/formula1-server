@@ -1,4 +1,0 @@
-enum CornerType {
-  LEFT
-  RIGHT
-}

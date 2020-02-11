@@ -5,5 +5,4 @@ type Query {
   residences: [Residence]
   cars: [Car]
   circuits: [Circuit]
-  corners: [Corner]
 }
