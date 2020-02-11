@@ -828,7 +828,7 @@ const melbourne = {
   opened: new Date("1953-11-20"),
   length: 5303,
   active: true,
-  map: null
+  map: "/static/assets/circuit/melbourne.png"
 };
 
 const bahrain_circuit = {
@@ -839,7 +839,7 @@ const bahrain_circuit = {
   opened: new Date("2004-03-17"),
   length: 5412,
   active: true,
-  map: null
+  map: "/static/assets/circuit/bahrain.png"
 };
 
 const hanoi = {
@@ -850,18 +850,18 @@ const hanoi = {
   opened: new Date("2019-03-21"),
   length: 5607,
   active: false,
-  map: null
+  map: "/static/assets/circuit/hanoi.png"
 };
 
 const shanghai = {
   _id: ObjectId(),
-  name: "Shangai International Circuit",
-  city: "Shangai",
+  name: "Shanghai International Circuit",
+  city: "Shanghai",
   country: china._id,
   opened: new Date("2004-06-06"),
   length: 5451,
   active: true,
-  map: null
+  map: "/static/assets/circuit/shanghai.png"
 };
 
 const zandvoort = {
@@ -872,7 +872,7 @@ const zandvoort = {
   opened: new Date("1948-08-07"),
   length: 4252,
   active: false,
-  map: null
+  map: "/static/assets/circuit/netherlands.png"
 };
 
 const barcelona = {
@@ -883,7 +883,7 @@ const barcelona = {
   opened: new Date("1991-09-10"),
   length: 4655,
   active: true,
-  map: null
+  map: "/static/assets/circuit/spain.png"
 };
 
 const monaco_circuit = {
@@ -894,7 +894,7 @@ const monaco_circuit = {
   opened: new Date("1929-04-14"),
   length: 3337,
   active: true,
-  map: null
+  map: "/static/assets/circuit/monaco.png"
 };
 
 const baku = {
@@ -905,7 +905,7 @@ const baku = {
   opened: new Date("2017-06-25"),
   length: 6003,
   active: true,
-  map: null
+  map: "/static/assets/circuit/baku.png"
 };
 
 const canada_circuit = {
@@ -916,7 +916,7 @@ const canada_circuit = {
   opened: new Date("1978-09-24"),
   length: 4361,
   active: true,
-  map: null
+  map: "/static/assets/circuit/canada.png"
 };
 
 const france_circuit = {
@@ -927,7 +927,7 @@ const france_circuit = {
   opened: new Date("1970-04-19"),
   length: 5842,
   active: true,
-  map: null
+  map: "/static/assets/circuit/france.png"
 };
 
 const austria_circuit = {
@@ -938,7 +938,7 @@ const austria_circuit = {
   opened: new Date("1969-07-27"),
   length: 4318,
   active: true,
-  map: null
+  map: "/static/assets/circuit/austria.png"
 };
 
 const silverstone = {
@@ -949,7 +949,7 @@ const silverstone = {
   opened: new Date("1947-09-01"),
   length: 5891,
   active: true,
-  map: null
+  map: "/static/assets/circuit/silverstone.png"
 };
 
 const hungaroring = {
@@ -960,7 +960,7 @@ const hungaroring = {
   opened: new Date("1986-03-24"),
   length: 4381,
   active: true,
-  map: null
+  map: "/static/assets/circuit/hungaroring.png"
 };
 
 const spa = {
@@ -971,18 +971,7 @@ const spa = {
   opened: new Date("1921-08-01"),
   length: 7004,
   active: true,
-  map: null
-};
-
-const imola = {
-  _id: ObjectId(),
-  name: "Autodromo Enzo e Dino Ferrari",
-  city: "Imola",
-  country: italy._id,
-  opened: new Date("1952-10-19"),
-  length: 4909,
-  active: false,
-  map: null
+  map: "/static/assets/circuit/spa.png"
 };
 
 const monza = {
@@ -993,7 +982,7 @@ const monza = {
   opened: new Date("1922-09-03"),
   length: 5793,
   active: true,
-  map: null
+  map: "/static/assets/circuit/monza.png"
 };
 
 const singapore_circuit = {
@@ -1004,7 +993,7 @@ const singapore_circuit = {
   opened: new Date("2008-08-31"),
   length: 5063,
   active: true,
-  map: null
+  map: "/static/assets/circuit/singapore.png"
 };
 
 const sochi = {
@@ -1015,7 +1004,7 @@ const sochi = {
   opened: new Date("2014-09-21"),
   length: 5848,
   active: true,
-  map: null
+  map: "/static/assets/circuit/sochi.png"
 };
 
 const suzuka = {
@@ -1026,7 +1015,7 @@ const suzuka = {
   opened: new Date("1962-09-20"),
   length: 5807,
   active: true,
-  map: null
+  map: "/static/assets/circuit/suzuka.png"
 };
 
 const usa_circuit = {
@@ -1037,7 +1026,7 @@ const usa_circuit = {
   opened: new Date("2012-10-21"),
   length: 5513,
   active: true,
-  map: null
+  map: "/static/assets/circuit/usa.png"
 };
 
 const mexico_circuit = {
@@ -1048,7 +1037,7 @@ const mexico_circuit = {
   opened: new Date("1962-11-04"),
   length: 4304,
   active: true,
-  map: null
+  map: "/static/assets/circuit/mexico.png"
 };
 
 const brazil_circuit = {
@@ -1059,7 +1048,7 @@ const brazil_circuit = {
   opened: new Date("1940-05-12"),
   length: 4309,
   active: true,
-  map: null
+  map: "/static/assets/circuit/brazil.png"
 };
 
 const emirates_circuit = {
@@ -1070,13 +1059,13 @@ const emirates_circuit = {
   opened: new Date("2009-10-07"),
   length: 5554,
   active: true,
-  map: null
+  map: "/static/assets/circuit/emirates.png"
 };
 
 australia.circuits = [melbourne._id];
 bahrain.circuits = [bahrain_circuit._id];
 china.circuits = [shanghai._id];
-italy.circuits = [imola._id, monza._id];
+italy.circuits = [monza._id];
 vietnam.circuits = [hanoi._id];
 netherlands.circuits = [zandvoort._id];
 spain.circuits = [barcelona._id];
@@ -1187,7 +1176,6 @@ db.circuits.insertMany([
   silverstone,
   hungaroring,
   spa,
-  imola,
   monza,
   singapore_circuit,
   sochi,
