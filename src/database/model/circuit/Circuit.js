@@ -21,7 +21,8 @@ const circuitSchema = new mongoose.Schema({
   length: {
     type: Number,
     required: true
-  }
+  },
+  map: String
 });
 
 const Circuit = mongoose.model("circuit", circuitSchema);
