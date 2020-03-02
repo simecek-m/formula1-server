@@ -8,10 +8,11 @@ const cors = require("cors");
 require("module-alias/register");
 
 // constants
+const PORT = 8080;
+const HOST = "localhost";
 const GRAPH_SCHEMA_PATH = "src/graph/schema/**/*.gql";
 const GRAPH_RESOLVER_PATH = "src/graph/resolver/**/*.js";
 const GRAPH_API_PATH = "/graphql";
-const PORT = 8080;
 const MONGOOSE_CONNECTION = "mongodb://localhost/formula1";
 const MONGOOSE_CONFIGURATION = {
   useNewUrlParser: true,
@@ -47,8 +48,6 @@ mongoose
   });
 
 // run express app
-app.listen({ port: PORT }, () => {
-  console.log(
-    `Apollo server is running on http://localhost:${PORT}${GRAPH_API_PATH}`
-  );
+app.listen({ port: PORT, host: HOST }, () => {
+  console.log(`Apollo server is running on ${HOST}:${PORT}${GRAPH_API_PATH}`);
 });
