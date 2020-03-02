@@ -10,7 +10,9 @@ const hamilton = {
   height: 1.74,
   birthday: new Date("1985-01-07"),
   points: 413,
-  position: 1
+  position: 1,
+  picture: "/static/assets/drivers/hamilton.jpg",
+  number: 44
 };
 
 const bottas = {
@@ -20,7 +22,9 @@ const bottas = {
   height: 1.73,
   birthday: new Date("1989-08-28"),
   points: 326,
-  position: 2
+  position: 2,
+  picture: "/static/assets/drivers/bottas.jpg",
+  number: 77
 };
 
 const vettel = {
@@ -30,7 +34,9 @@ const vettel = {
   height: 1.75,
   birthday: new Date("1987-07-03"),
   points: 240,
-  position: 5
+  position: 5,
+  picture: "/static/assets/drivers/vettel.jpg",
+  number: 5
 };
 
 const leclerc = {
@@ -40,7 +46,9 @@ const leclerc = {
   height: 1.8,
   birthday: new Date("1997-10-16"),
   points: 264,
-  position: 4
+  position: 4,
+  picture: "/static/assets/drivers/leclerc.jpg",
+  number: 16
 };
 
 const verstappen = {
@@ -50,7 +58,9 @@ const verstappen = {
   height: 1.8,
   birthday: new Date("1997-09-30"),
   points: 278,
-  position: 3
+  position: 3,
+  picture: "/static/assets/drivers/verstappen.jpg",
+  number: 33
 };
 
 const albon = {
@@ -60,7 +70,9 @@ const albon = {
   height: 1.86,
   birthday: new Date("1996-03-23"),
   points: 92,
-  position: 8
+  position: 8,
+  picture: "/static/assets/drivers/albon.jpg",
+  number: 23
 };
 
 const sainz = {
@@ -70,7 +82,9 @@ const sainz = {
   height: 1.78,
   birthday: new Date("1994-09-01"),
   points: 96,
-  position: 6
+  position: 6,
+  picture: "/static/assets/drivers/sainz.jpg",
+  number: 55
 };
 
 const norris = {
@@ -80,7 +94,9 @@ const norris = {
   height: 1.7,
   birthday: new Date("1999-11-13"),
   points: 49,
-  position: 11
+  position: 11,
+  picture: "/static/assets/drivers/norris.jpg",
+  number: 4
 };
 
 const hulkenberg = {
@@ -90,7 +106,9 @@ const hulkenberg = {
   height: 1.84,
   birthday: new Date("1987-08-19"),
   points: 37,
-  position: 14
+  position: 14,
+  picture: "/static/assets/drivers/hulkenberg.jpg",
+  number: 27
 };
 
 const ricciardo = {
@@ -100,7 +118,9 @@ const ricciardo = {
   height: 1.78,
   birthday: new Date("1989-07-01"),
   points: 54,
-  position: 9
+  position: 9,
+  picture: "/static/assets/drivers/ricciardo.jpg",
+  number: 3
 };
 
 const gasly = {
@@ -110,17 +130,21 @@ const gasly = {
   height: 1.77,
   birthday: new Date("1996-02-07"),
   points: 95,
-  position: 7
+  position: 7,
+  picture: "/static/assets/drivers/gasly.jpg",
+  number: 10
 };
 
 const kvyat = {
   _id: ObjectId(),
-  firstname: "Daniel",
+  firstname: "Daniil",
   lastname: "Kvyat",
   height: 1.82,
   birthday: new Date("1994-04-26"),
   points: 37,
-  position: 13
+  position: 13,
+  picture: "/static/assets/drivers/kvyat.jpg",
+  number: 26
 };
 
 const perez = {
@@ -130,7 +154,9 @@ const perez = {
   height: 1.73,
   birthday: new Date("1990-01-26"),
   points: 52,
-  position: 10
+  position: 10,
+  picture: "/static/assets/drivers/perez.jpg",
+  number: 11
 };
 
 const stroll = {
@@ -140,7 +166,9 @@ const stroll = {
   height: 1.73,
   birthday: new Date("1990-01-26"),
   points: 21,
-  position: 15
+  position: 15,
+  picture: "/static/assets/drivers/stroll.jpg",
+  number: 18
 };
 
 const raikkonen = {
@@ -150,7 +178,9 @@ const raikkonen = {
   height: 1.75,
   birthday: new Date("1979-10-17"),
   points: 43,
-  position: 12
+  position: 12,
+  picture: "/static/assets/drivers/raikkonen.jpg",
+  number: 7
 };
 
 const giovinazzi = {
@@ -160,7 +190,9 @@ const giovinazzi = {
   height: 1.85,
   birthday: new Date("1993-12-14"),
   points: 14,
-  position: 17
+  position: 17,
+  picture: "/static/assets/drivers/giovinazzi.jpg",
+  number: 99
 };
 
 const magnussen = {
@@ -170,7 +202,9 @@ const magnussen = {
   height: 1.74,
   birthday: new Date("1992-10-05"),
   points: 20,
-  position: 16
+  position: 16,
+  picture: "/static/assets/drivers/magnussen.jpg",
+  number: 20
 };
 
 const grosjean = {
@@ -180,7 +214,9 @@ const grosjean = {
   height: 1.8,
   birthday: new Date("1986-04-17"),
   points: 8,
-  position: 18
+  position: 18,
+  picture: "/static/assets/drivers/grosjean.jpg",
+  number: 8
 };
 
 const kubica = {
@@ -190,7 +226,9 @@ const kubica = {
   height: 1.84,
   birthday: new Date("1984-12-07"),
   points: 1,
-  position: 19
+  position: 19,
+  picture: "/static/assets/drivers/kubica.jpg",
+  number: 88
 };
 
 const russell = {
@@ -200,7 +238,9 @@ const russell = {
   height: 1.85,
   birthday: new Date("1998-02-15"),
   points: 0,
-  position: 20
+  position: 20,
+  picture: "/static/assets/drivers/russell.jpg",
+  number: 63
 };
 
 // teams
