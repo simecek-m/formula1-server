@@ -23,8 +23,15 @@ const driverSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  photo: String,
-  car: ObjectId
+  picture: {
+    type: String,
+    required: true
+  },
+  car: ObjectId,
+  number: {
+    type: Number,
+    required: true
+  }
 });
 
 const Driver = mongoose.model("driver", driverSchema);

@@ -5,5 +5,5 @@ type Car {
   engine: Engine
   fuel: String!
   weight(unit: WeightUnit = KILOGRAM): Float
-  photo: String
+  picture: String
 }
