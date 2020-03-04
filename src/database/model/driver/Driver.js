@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 const ObjectId = mongoose.Types.ObjectId;
 
 const driverSchema = new mongoose.Schema({
+  _id: {
+    type: ObjectId,
+    required: true
+  },
   firstname: {
     type: String,
     required: true

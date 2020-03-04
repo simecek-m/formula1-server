@@ -1,4 +1,5 @@
 type Driver {
+  _id: String
   firstname: String!
   lastname: String!
   height(unit: LengthUnit = METER): Float!

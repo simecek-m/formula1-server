@@ -1,6 +1,7 @@
 type Query {
   teams: [Team]
   drivers: [Driver]
+  driver(id: String!): Driver
   countries: [Country]
   residences: [Residence]
   cars: [Car]

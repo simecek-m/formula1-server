@@ -14,6 +14,7 @@ const resolvers = {
   Query: {
     teams: () => Team.find(),
     drivers: () => Driver.find(),
+    driver: (_, args) => Driver.findOne({ _id: args.id }),
     countries: () => Country.find(),
     residences: () => Residence.find(),
     cars: () => Car.find(),
