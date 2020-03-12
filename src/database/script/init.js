@@ -12,7 +12,12 @@ const hamilton = {
   points: 413,
   position: 1,
   picture: "/static/assets/drivers/hamilton.jpg",
-  number: 44
+  number: 44,
+  links: {
+    web: "https://www.lewishamilton.com/",
+    instagram: "https://www.instagram.com/lewishamilton/",
+    facebook: "https://www.facebook.com/LewisHamilton/"
+  }
 };
 
 const bottas = {
@@ -24,7 +29,12 @@ const bottas = {
   points: 326,
   position: 2,
   picture: "/static/assets/drivers/bottas.jpg",
-  number: 77
+  number: 77,
+  links: {
+    web: "http://valtteribottas.com/",
+    instagram: "https://www.instagram.com/valtteribottas/",
+    facebook: "https://www.facebook.com/ValtteriBottas/"
+  }
 };
 
 const vettel = {
@@ -36,7 +46,12 @@ const vettel = {
   points: 240,
   position: 5,
   picture: "/static/assets/drivers/vettel.jpg",
-  number: 5
+  number: 5,
+  links: {
+    web: "https://www.sebastianvettel.de/",
+    instagram: null,
+    facebook: null
+  }
 };
 
 const leclerc = {
@@ -48,7 +63,12 @@ const leclerc = {
   points: 264,
   position: 4,
   picture: "/static/assets/drivers/leclerc.jpg",
-  number: 16
+  number: 16,
+  links: {
+    web: "https://www.charlesleclerc.com/",
+    instagram: "https://www.instagram.com/charles_leclerc/",
+    facebook: "https://www.facebook.com/CharlesLeclercOfficiel/"
+  }
 };
 
 const verstappen = {
@@ -60,7 +80,12 @@ const verstappen = {
   points: 278,
   position: 3,
   picture: "/static/assets/drivers/verstappen.jpg",
-  number: 33
+  number: 33,
+  links: {
+    web: "https://www.verstappen.nl/en",
+    instagram: "https://www.instagram.com/maxverstappen1/",
+    facebook: "https://www.facebook.com/MaxVerstappen/"
+  }
 };
 
 const albon = {
@@ -72,7 +97,12 @@ const albon = {
   points: 92,
   position: 8,
   picture: "/static/assets/drivers/albon.jpg",
-  number: 23
+  number: 23,
+  links: {
+    web: "https://www.alexalbon.com/",
+    instagram: "https://www.instagram.com/alex_albon/",
+    facebook: "https://www.facebook.com/alexalbonofficial/"
+  }
 };
 
 const sainz = {
@@ -84,7 +114,12 @@ const sainz = {
   points: 96,
   position: 6,
   picture: "/static/assets/drivers/sainz.jpg",
-  number: 55
+  number: 55,
+  links: {
+    web: "https://www.carlossainz.es/",
+    instagram: "https://www.instagram.com/carlossainz55/",
+    facebook: "https://www.facebook.com/Carlossainz55/"
+  }
 };
 
 const norris = {
@@ -96,7 +131,12 @@ const norris = {
   points: 49,
   position: 11,
   picture: "/static/assets/drivers/norris.jpg",
-  number: 4
+  number: 4,
+  links: {
+    web: "https://landonorris.com/",
+    instagram: "https://www.instagram.com/landonorris/",
+    facebook: "https://www.facebook.com/landonorris1/"
+  }
 };
 
 const hulkenberg = {
@@ -108,7 +148,12 @@ const hulkenberg = {
   points: 37,
   position: 14,
   picture: "/static/assets/drivers/hulkenberg.jpg",
-  number: 27
+  number: 27,
+  links: {
+    web: "https://www.nicohulkenberg.net/",
+    instagram: "https://www.instagram.com/hulkhulkenberg/",
+    facebook: "https://facebook.com/NicoHulkenberg.official/"
+  }
 };
 
 const ricciardo = {
@@ -120,7 +165,12 @@ const ricciardo = {
   points: 54,
   position: 9,
   picture: "/static/assets/drivers/ricciardo.jpg",
-  number: 3
+  number: 3,
+  links: {
+    web: "https://danielricciardo.com/",
+    instagram: "https://www.instagram.com/danielricciardo/",
+    facebook: "https://facebook.com/DanielRicciardo/"
+  }
 };
 
 const gasly = {
@@ -132,7 +182,12 @@ const gasly = {
   points: 95,
   position: 7,
   picture: "/static/assets/drivers/gasly.jpg",
-  number: 10
+  number: 10,
+  links: {
+    web: "https://www.pierregasly.com/",
+    instagram: "https://www.instagram.com/pierregasly/",
+    facebook: "https://facebook.com/PierreGasly/"
+  }
 };
 
 const kvyat = {
@@ -144,7 +199,12 @@ const kvyat = {
   points: 37,
   position: 13,
   picture: "/static/assets/drivers/kvyat.jpg",
-  number: 26
+  number: 26,
+  links: {
+    web: "http://en.kvyat.com/",
+    instagram: "https://www.instagram.com/danydk1/",
+    facebook: null
+  }
 };
 
 const perez = {
@@ -156,7 +216,12 @@ const perez = {
   points: 52,
   position: 10,
   picture: "/static/assets/drivers/perez.jpg",
-  number: 11
+  number: 11,
+  links: {
+    web: "https://sergioperez.mx/",
+    instagram: "https://www.instagram.com/schecoperez/",
+    facebook: "https://www.facebook.com/sergioperezf1/"
+  }
 };
 
 const stroll = {
@@ -168,7 +233,12 @@ const stroll = {
   points: 21,
   position: 15,
   picture: "/static/assets/drivers/stroll.jpg",
-  number: 18
+  number: 18,
+  links: {
+    web: "https://www.lancestroll.com/",
+    instagram: "https://www.instagram.com/lance_stroll/",
+    facebook: "https://www.facebook.com/stroll.lance/"
+  }
 };
 
 const raikkonen = {
@@ -180,7 +250,12 @@ const raikkonen = {
   points: 43,
   position: 12,
   picture: "/static/assets/drivers/raikkonen.jpg",
-  number: 7
+  number: 7,
+  links: {
+    web: "https://www.kimiraikkonen.com/",
+    instagram: "https://www.instagram.com/kimimatiasraikkonen/",
+    facebook: null
+  }
 };
 
 const giovinazzi = {
@@ -192,7 +267,12 @@ const giovinazzi = {
   points: 14,
   position: 17,
   picture: "/static/assets/drivers/giovinazzi.jpg",
-  number: 99
+  number: 99,
+  links: {
+    web: "http://antoniogiovinazzi.com/",
+    instagram: "https://www.instagram.com/antogiovinazzi99/",
+    facebook: null
+  }
 };
 
 const magnussen = {
@@ -204,7 +284,12 @@ const magnussen = {
   points: 20,
   position: 16,
   picture: "/static/assets/drivers/magnussen.jpg",
-  number: 20
+  number: 20,
+  links: {
+    web: "https://kevinmagnussen.com/",
+    instagram: "https://www.instagram.com/kevinmagnussen/",
+    facebook: "https://facebook.com/KevinMagnussen/"
+  }
 };
 
 const grosjean = {
@@ -216,7 +301,12 @@ const grosjean = {
   points: 8,
   position: 18,
   picture: "/static/assets/drivers/grosjean.jpg",
-  number: 8
+  number: 8,
+  links: {
+    web: "https://www.romaingrosjean.com/en/home/",
+    instagram: "https://www.instagram.com/grosjeanromain/",
+    facebook: "https://www.facebook.com/grosjeanromain/"
+  }
 };
 
 const kubica = {
@@ -228,7 +318,12 @@ const kubica = {
   points: 1,
   position: 19,
   picture: "/static/assets/drivers/kubica.jpg",
-  number: 88
+  number: 88,
+  links: {
+    web: null,
+    instagram: "https://www.instagram.com/robertkubica_real/",
+    facebook: "https://www.facebook.com/KubicaOfficial/"
+  }
 };
 
 const russell = {
@@ -240,7 +335,12 @@ const russell = {
   points: 0,
   position: 20,
   picture: "/static/assets/drivers/russell.jpg",
-  number: 63
+  number: 63,
+  links: {
+    web: "https://www.georgerussell63.com/",
+    instagram: "https://www.instagram.com/georgerussell63/",
+    facebook: "https://www.facebook.com/GeorgeRussell63/"
+  }
 };
 
 // teams
