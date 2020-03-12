@@ -35,6 +35,11 @@ const driverSchema = new mongoose.Schema({
   number: {
     type: Number,
     required: true
+  },
+  links: {
+    web: String,
+    instagram: String,
+    facebook: String
   }
 });
 

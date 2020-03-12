@@ -1,0 +1,5 @@
+type Links {
+  web: String
+  instagram: String
+  facebook: String
+}

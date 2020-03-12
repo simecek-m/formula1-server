@@ -12,4 +12,5 @@ type Driver {
   career: Career
   picture: String
   number: Int!
+  links: Links
 }
