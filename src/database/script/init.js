@@ -9,15 +9,6 @@ load("./documents/countries.js");
 load("./documents/factories.js");
 load("./documents/circuits.js");
 
-// TODO: races documents
-// load("./documents/races.js");
-
-// TODO: driver seasons documents
-// load("./documents/driverSeasons.js");
-
-// TODO: team seasons documents
-// load("./documents/teamSeasons.js");
-
 // -------------------------- RELATIONSHIPS --------------------------
 
 // DRIVER - DRIVER_SEASONS
@@ -28,6 +19,7 @@ load("./documents/circuits.js");
 
 // CAR - DRIVERS
 // CAR - TEAM
+// CAR - SEASON
 
 // COUNTRY - DRIVERS
 // COUNTRY - FACTORY
@@ -39,23 +31,38 @@ load("./documents/circuits.js");
 // CIRCUIT - RACES
 // CIRCUIT - COUNTRIES
 
+// RACE - SEASON
 // RACE - CIRCUIT
-// RACE - QUALIFYING - DRIVER
-// RACE - QUALIFYING - TEAM
-// RACE - FASTEST_LAP - DRIVER
-// RACE - FASTEST_LAP - TEAM
-// RACE - RESULT - DRIVER
-// RACE - RESULT - TEAM
+// RACE - QUALIFYING
+// RACE - FASTEST_LAP
+// RACE - RESULT
 
 // DRIVER_SEASON - DRIVER
 // DRIVER_SEASON - TEAMS
 // DRIVER_SEASON - CARS
 // DRIVER_SEASON - RACES
+// DRIVER_SEASON - SEASON
 
 // TEAM_SEASON - TEAM
 // TEAM_SEASON - DRIVERS
 // TEAM_SEASON - CARS
 // TEAM_SEASON - RACES
+// TEAM_SEASON - SEASON
+
+// QUALIFYING - DRIVER
+// QUALIFYING - TEAM
+
+// FASTEST_LAP - DRIVER
+// FASTEST_LAP - TEAM
+
+// RESULT - DRIVER
+// RESULT - TEAM
+
+// SEASON - DRIVERS
+// SEASON - TEAMS
+// SEASON - RACES
+// SEASON - CARS
+
 
 // -------------------------- RELATIONSHIPS --------------------------
 
