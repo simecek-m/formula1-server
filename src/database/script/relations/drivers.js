@@ -1,0 +1,21 @@
+// DRIVER -> COUNRTY
+hamilton.country = britain._id
+bottas.country = finland._id
+vettel.country = germany._id
+leclerc.country = monaco._id
+verstappen.country = netherlands._id
+albon.country = thailand._id
+sainz.country = spain._id
+norris.country = britain._id
+hulkenberg.country = germany._id
+ricciardo.country = australia._id
+gasly.country = france._id
+kvyat.country = russia._id
+perez.country = mexico._id
+stroll.country = canada._id
+raikkonen.country = finland._id
+giovinazzi.country = italy._id
+magnussen.country = denmark._id
+grosjean.country = france._id
+kubica.country = poland._id
+russell.country = britain._id
