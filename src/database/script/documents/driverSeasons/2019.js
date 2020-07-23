@@ -75,7 +75,7 @@ const norris2019 = {
   position: 11
 };
 
-const raikonnen2019 = {
+const raikkonen2019 = {
   _id: ObjectId(),
   number: 7,
   points: 43,
