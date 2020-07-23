@@ -13,11 +13,11 @@ load("./documents/driverSeasons/2019.js");
 load("./documents/teamSeasons/2019.js");
 
 // -------------------------- RELATIONSHIPS --------------------------
+
 load("./relations/drivers.js");
 
-
 // TEAM - TEAM_SEASONS
-// TEAM - FACTORY
+load("./relations/teams.js");
 
 // CAR - DRIVERS
 // CAR - TEAM
