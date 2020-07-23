@@ -13,9 +13,8 @@ load("./documents/driverSeasons/2019.js");
 load("./documents/teamSeasons/2019.js");
 
 // -------------------------- RELATIONSHIPS --------------------------
-
-// DRIVER - DRIVER_SEASONS
 load("./relations/drivers.js");
+
 
 // TEAM - TEAM_SEASONS
 // TEAM - FACTORY

@@ -19,3 +19,25 @@ magnussen.country = denmark._id
 grosjean.country = france._id
 kubica.country = poland._id
 russell.country = britain._id
+
+// DRIVER -> DRIVER_SEASONS
+hamilton.seasons = hamilton2019._id
+bottas.seasons = bottas2019._id
+vettel.seasons = vettel2019._id
+leclerc.seasons = leclerc2019._id
+verstappen.seasons = verstappen2019._id
+albon.seasons = albon2019._id
+sainz.seasons = sainz2019._id
+norris.seasons = norris2019._id
+hulkenberg.seasons = hulkenberg2019._id
+ricciardo.seasons = ricciardo2019._id
+gasly.seasons = gasly2019._id
+kvyat.seasons = kvyat2019._id
+perez.seasons = perez2019._id
+stroll.seasons = stroll2019._id
+raikkonen.seasons = raikkonen2019._id
+giovinazzi.seasons = giovinazzi2019._id
+magnussen.seasons = magnussen2019._id
+grosjean.seasons = grosjean2019._id
+kubica.seasons = kubica2019._id
+russell.seasons = russell2019._id
