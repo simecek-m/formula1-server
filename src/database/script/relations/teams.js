@@ -1,11 +1,11 @@
 // TEAM -> FACTORY
-mercedes = mercedesFactory._id
-ferrari = ferrariFactory._id
-redbull = redbullFactory._id
-mclaren = mclarenFactory._id
-renault = renaultFactory._id
-toroRosso = toroRossoFactory._id
-racingPoint = racingPointFactory._id
-alfaRomeo = alfaRomeoFactory._id
-haas = haasFactory._id
-williams = williamsFactory._id
+mercedes.factory = mercedesFactory._id
+ferrari.factory = ferrariFactory._id
+redbull.factory = redbullFactory._id
+mclaren.factory = mclarenFactory._id
+renault.factory = renaultFactory._id
+toroRosso.factory = toroRossoFactory._id
+racingPoint.factory = racingPointFactory._id
+alfaRomeo.factory = alfaRomeoFactory._id
+haas.factory = haasFactory._id
+williams.factory = williamsFactory._id
