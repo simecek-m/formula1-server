@@ -18,13 +18,7 @@ load("./relations/drivers.js");
 load("./relations/teams.js");
 load("./relations/cars.js");
 load("./relations/countries.js");
-
-// COUNTRY - DRIVERS
-// COUNTRY - FACTORY
-// COUNTRY - CIRCUITS
-
-// FACTORY - COUNTRY
-// FACTORY - TEAM
+load("./relations/factories.js");
 
 // CIRCUIT - RACES
 // CIRCUIT - COUNTRIES
