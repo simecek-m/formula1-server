@@ -16,6 +16,7 @@ load("./documents/teamSeasons/2019.js");
 
 load("./relations/drivers.js");
 load("./relations/teams.js");
+load("./relations/cars.js");
 
 // CAR - DRIVERS
 // CAR - TEAM

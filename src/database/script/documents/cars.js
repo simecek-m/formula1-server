@@ -1,12 +1,4 @@
-const ferrariCar = {
-  _id: ObjectId(),
-  name: "Ferrari SF90",
-  engine: null,
-  fuel: "Shell V-Power",
-  weight: 743
-};
-
-const mercedesCar = {
+const mercedes2019Car = {
   _id: ObjectId(),
   name: "Mercedes W10",
   engine: null,
@@ -14,7 +6,15 @@ const mercedesCar = {
   weight: 743
 };
 
-const redbullCar = {
+const ferrari2019Car = {
+  _id: ObjectId(),
+  name: "Ferrari SF90",
+  engine: null,
+  fuel: "Shell V-Power",
+  weight: 743
+};
+
+const redbull2019Car = {
   _id: ObjectId(),
   name: "RedBull RB15",
   engine: null,
@@ -22,7 +22,7 @@ const redbullCar = {
   weight: 743
 };
 
-const mclarenCar = {
+const mclaren2019Car = {
   _id: ObjectId(),
   name: "McLaren MCL34",
   engine: null,
@@ -30,7 +30,7 @@ const mclarenCar = {
   weight: 743
 };
 
-const renaultCar = {
+const renault2019Car = {
   _id: ObjectId(),
   name: "Renault R.S.19",
   engine: null,
@@ -38,7 +38,7 @@ const renaultCar = {
   weight: 743
 };
 
-const toroRossoCar = {
+const toroRosso2019Car = {
   _id: ObjectId(),
   name: "Toro Rosso STR14",
   engine: null,
@@ -46,7 +46,7 @@ const toroRossoCar = {
   weight: 743
 };
 
-const racingPointCar = {
+const racingPoint2019Car = {
   _id: ObjectId(),
   name: "Racing Point RP19",
   engine: null,
@@ -54,7 +54,7 @@ const racingPointCar = {
   weight: 743
 };
 
-const alfaRomeoCar = {
+const alfaRomeo2019Car = {
   _id: ObjectId(),
   name: "Alfa Romeo Racing C38",
   engine: null,
@@ -62,7 +62,7 @@ const alfaRomeoCar = {
   weight: 743
 };
 
-const haasCar = {
+const haas2019Car = {
   _id: ObjectId(),
   name: "Haas VF-19",
   engine: null,
@@ -70,7 +70,7 @@ const haasCar = {
   weight: 743
 };
 
-const williamsCar = {
+const williams2019Car = {
   _id: ObjectId(),
   name: "Williams FW42",
   engine: null,
