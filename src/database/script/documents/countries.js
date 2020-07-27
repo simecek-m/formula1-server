@@ -157,7 +157,6 @@ const vietnam = {
 const denmark = {
   _id: ObjectId(),
   name: "Denmark",
-
   flag: "/static/assets/flag/denmark.svg"
 };
 
