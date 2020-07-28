@@ -11,6 +11,7 @@ load("./documents/circuits.js");
 load("./documents/seasons.js");
 load("./documents/driverSeasons/2019.js");
 load("./documents/teamSeasons/2019.js");
+load("./documents/grandsPrix/2019/races.js")
 
 // -------------------------- RELATIONSHIPS --------------------------
 
