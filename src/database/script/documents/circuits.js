@@ -217,3 +217,13 @@ const emiratesCircuit = {
   active: true,
   map: "/static/assets/circuit/emirates.png"
 };
+
+const hockenheimCircuit = {
+  _id: ObjectId(),
+  name: "Hockenheimring",
+  city: "Hockenheim",
+  opened: new Date("1932-05-29"),
+  length: 4574,
+  active: false,
+  map: "/static/assets/circuit/hockenheimring.png"
+};
