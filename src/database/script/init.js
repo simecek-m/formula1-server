@@ -22,18 +22,13 @@ load("./relations/countries.js");
 load("./relations/factories.js");
 load("./relations/circuits.js");
 load("./relations/driverSeasons/2019.js");
+load("./relations/teamSeasons/2019.js");
 
 // RACE - SEASON
 // RACE - CIRCUIT
 // RACE - QUALIFYING
 // RACE - FASTEST_LAP
 // RACE - RESULT
-
-// TEAM_SEASON - TEAM
-// TEAM_SEASON - DRIVERS
-// TEAM_SEASON - CARS
-// TEAM_SEASON - RACES
-// TEAM_SEASON - SEASON
 
 // QUALIFYING - DRIVER
 // QUALIFYING - TEAM
