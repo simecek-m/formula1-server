@@ -11,7 +11,7 @@ load("./documents/circuits.js");
 load("./documents/seasons.js");
 load("./documents/driverSeasons/2019.js");
 load("./documents/teamSeasons/2019.js");
-load("./documents/grandsPrix/2019/races.js")
+load("./documents/grandsPrix/2019/races.js");
 
 // -------------------------- RELATIONSHIPS --------------------------
 
@@ -21,18 +21,13 @@ load("./relations/cars.js");
 load("./relations/countries.js");
 load("./relations/factories.js");
 load("./relations/circuits.js");
+load("./relations/driverSeasons/2019.js");
 
 // RACE - SEASON
 // RACE - CIRCUIT
 // RACE - QUALIFYING
 // RACE - FASTEST_LAP
 // RACE - RESULT
-
-// DRIVER_SEASON - DRIVER
-// DRIVER_SEASON - TEAMS
-// DRIVER_SEASON - CARS
-// DRIVER_SEASON - RACES
-// DRIVER_SEASON - SEASON
 
 // TEAM_SEASON - TEAM
 // TEAM_SEASON - DRIVERS
@@ -53,6 +48,5 @@ load("./relations/circuits.js");
 // SEASON - TEAMS
 // SEASON - RACES
 // SEASON - CARS
-
 
 // -------------------------- RELATIONSHIPS --------------------------
