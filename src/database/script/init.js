@@ -20,9 +20,7 @@ load("./relations/teams.js");
 load("./relations/cars.js");
 load("./relations/countries.js");
 load("./relations/factories.js");
-
-// CIRCUIT - RACES
-// CIRCUIT - COUNTRIES
+load("./relations/circuits.js");
 
 // RACE - SEASON
 // RACE - CIRCUIT

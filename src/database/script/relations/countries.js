@@ -1,4 +1,4 @@
-// COUNTRY -> drivers
+// COUNTRY -> DRIVERS
 britain.drivers = [hamilton._id, norris._id, russell._id]
 finland.drivers = [raikkonen._id, bottas._id]
 germany.drivers = [vettel._id, hulkenberg._id]
@@ -28,7 +28,7 @@ vietnam.drivers = []
 denmark.drivers = [magnussen._id]
 switzerland.drivers = []
 
-// COUNTRY -> factories
+// COUNTRY -> FACTORIES
 britain.factories = [mercedesFactory._id, redbullFactory._id, mclarenFactory._id, renaultFactory._id, racingPointFactory._id, williamsFactory._id]
 finland.factories = []
 germany.factories = []
@@ -58,10 +58,10 @@ vietnam.factories = []
 denmark.factories = []
 switzerland.factories = [alfaRomeoFactory._id]
 
-// COUNTRY -> circuits
+// COUNTRY -> CIRCUITS
 britain.circuits = [silverstoneCircuit._id]
 finland.circuits = []
-germany.circuits = []
+germany.circuits = [hockenheimCircuit._id]
 monaco.circuits = [monacoCircuit._id]
 netherlands.circuits = [zandvoortCircuit._id]
 thailand.circuits = []
