@@ -23,6 +23,7 @@ load("./relations/factories.js");
 load("./relations/circuits.js");
 load("./relations/driverSeasons/2019.js");
 load("./relations/teamSeasons/2019.js");
+load("./relations/seasons.js");
 
 // RACE - SEASON
 // RACE - CIRCUIT
@@ -38,10 +39,5 @@ load("./relations/teamSeasons/2019.js");
 
 // RESULT - DRIVER
 // RESULT - TEAM
-
-// SEASON - DRIVERS
-// SEASON - TEAMS
-// SEASON - RACES
-// SEASON - CARS
 
 // -------------------------- RELATIONSHIPS --------------------------
