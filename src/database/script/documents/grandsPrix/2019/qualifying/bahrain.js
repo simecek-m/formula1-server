@@ -160,7 +160,7 @@ const bahrainGrandPrix2019StrollQualifying = {
   position: 18
 };
 
-const bahrainGrandPrix2019RusellQualifying = {
+const bahrainGrandPrix2019RussellQualifying = {
   _id: ObjectId(),
   q1Time: "1:31.759",
   q2Time: null,

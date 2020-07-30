@@ -142,7 +142,7 @@ const azerbaijanGrandPrix2019HulkenbergQualifying = {
   position: 16
 };
 
-const azerbaijanGrandPrix2019RusellQualifying = {
+const azerbaijanGrandPrix2019RussellQualifying = {
   _id: ObjectId(),
   q1Time: "1:45.062",
   q2Time: null,

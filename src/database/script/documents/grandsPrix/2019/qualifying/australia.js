@@ -160,7 +160,7 @@ const australiaGrandPrix2019SainzQualifying = {
   position: 18
 };
 
-const australiaGrandPrix2019RusellQualifying = {
+const australiaGrandPrix2019RussellQualifying = {
   _id: ObjectId(),
   q1Time: "1:24.360",
   q2Time: null,

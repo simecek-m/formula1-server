@@ -142,7 +142,7 @@ const chinaGrandPrix2019StrollQualifying = {
   position: 16
 };
 
-const chinaGrandPrix2019RusellQualifying = {
+const chinaGrandPrix2019RussellQualifying = {
   _id: ObjectId(),
   q1Time: "1:35.253",
   q2Time: null,
