@@ -12,3 +12,6 @@ load("./documents/grandsPrix/2019/qualifying/azerbaijan.js");
 
 // Spain
 load("./documents/grandsPrix/2019/qualifying/spain.js");
+
+// Monaco
+load("./documents/grandsPrix/2019/qualifying/monaco.js");
