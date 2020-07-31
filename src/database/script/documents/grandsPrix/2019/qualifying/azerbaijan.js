@@ -151,7 +151,7 @@ const azerbaijanGrandPrix2019RussellQualifying = {
   position: 17
 };
 
-const azerbaijanGrandPrix2019BubicaQualifying = {
+const azerbaijanGrandPrix2019KubicaQualifying = {
   _id: ObjectId(),
   q1Time: "1:45.455",
   q2Time: null,

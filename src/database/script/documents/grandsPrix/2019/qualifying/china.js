@@ -151,7 +151,7 @@ const chinaGrandPrix2019RussellQualifying = {
   position: 17
 };
 
-const chinaGrandPrix2019BubicaQualifying = {
+const chinaGrandPrix2019KubicaQualifying = {
   _id: ObjectId(),
   q1Time: "1:35.281",
   q2Time: null,

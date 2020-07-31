@@ -169,7 +169,7 @@ const australiaGrandPrix2019RussellQualifying = {
   position: 19
 };
 
-const australiaGrandPrix2019BubicaQualifying = {
+const australiaGrandPrix2019KubicaQualifying = {
   _id: ObjectId(),
   q1Time: "1:26.067",
   q2Time: null,
