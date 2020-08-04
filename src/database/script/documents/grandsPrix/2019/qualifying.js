@@ -16,5 +16,8 @@ load("./documents/grandsPrix/2019/qualifying/spain.js");
 // Monaco
 load("./documents/grandsPrix/2019/qualifying/monaco.js");
 
-// // Canada
+// Canada
 load("./documents/grandsPrix/2019/qualifying/canada.js");
+
+// France
+load("./documents/grandsPrix/2019/qualifying/france.js");
