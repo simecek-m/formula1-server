@@ -36,3 +36,6 @@ load("./documents/grandsPrix/2019/qualifying/hungary.js");
 
 // Belgium
 load("./documents/grandsPrix/2019/qualifying/belgium.js");
+
+// Italy
+load("./documents/grandsPrix/2019/qualifying/italy.js");
