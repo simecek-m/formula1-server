@@ -27,3 +27,6 @@ load("./documents/grandsPrix/2019/qualifying/austria.js");
 
 // Britain
 load("./documents/grandsPrix/2019/qualifying/britain.js");
+
+// Germany
+load("./documents/grandsPrix/2019/qualifying/germany.js");
