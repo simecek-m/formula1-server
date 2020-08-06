@@ -1,7 +1,4 @@
-const connection = new Mongo();
-const db = connection.getDB("formula1");
-db.dropDatabase();
-
+// -------------------------- LOAD DOCUMENTS --------------------------
 load("./documents/drivers.js");
 load("./documents/teams.js");
 load("./documents/cars.js");
@@ -14,7 +11,7 @@ load("./documents/teamSeasons/2019.js");
 load("./documents/grandsPrix/2019/races.js");
 load("./documents/grandsPrix/2019/qualifying.js");
 
-// -------------------------- RELATIONSHIPS --------------------------
+// -------------------------- LOAD RELATIONSHIPS --------------------------
 
 load("./relations/drivers.js");
 load("./relations/teams.js");
@@ -25,6 +22,7 @@ load("./relations/circuits.js");
 load("./relations/driverSeasons/2019.js");
 load("./relations/teamSeasons/2019.js");
 load("./relations/seasons.js");
+load("./relations/grandsPrix/2019/qualifying.js");
 
 // RACE - SEASON
 // RACE - CIRCUIT
@@ -32,13 +30,11 @@ load("./relations/seasons.js");
 // RACE - FASTEST_LAP
 // RACE - RESULT
 
-// QUALIFYING - DRIVER
-// QUALIFYING - TEAM
-
 // FASTEST_LAP - DRIVER
 // FASTEST_LAP - TEAM
 
 // RESULT - DRIVER
 // RESULT - TEAM
 
-// -------------------------- RELATIONSHIPS --------------------------
+// -------------------------- RESET/FILL DATABASE --------------------------
+load("./database.js")
