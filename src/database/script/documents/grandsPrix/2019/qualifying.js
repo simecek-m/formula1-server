@@ -42,3 +42,6 @@ load("./documents/grandsPrix/2019/qualifying/italy.js");
 
 // Singapore
 load("./documents/grandsPrix/2019/qualifying/singapore.js");
+
+// Russia
+load("./documents/grandsPrix/2019/qualifying/russia.js");
