@@ -1,0 +1,43 @@
+// QUALIFYING -> DRIVER
+azerbaijanGrandPrix2019HamiltonQualifying.driver = hamilton._id
+azerbaijanGrandPrix2019BottasQualifying.driver = bottas._id
+azerbaijanGrandPrix2019VettelQualifying.driver = vettel._id
+azerbaijanGrandPrix2019VerstappenQualifying.driver = verstappen._id
+azerbaijanGrandPrix2019LeclercQualifying.driver = leclerc._id
+azerbaijanGrandPrix2019GrosjeanQualifying.driver = grosjean._id
+azerbaijanGrandPrix2019MagnussenQualifying.driver = magnussen._id
+azerbaijanGrandPrix2019NorrisQualifying.driver = norris._id
+azerbaijanGrandPrix2019RaikkonenQualifying.driver = raikkonen._id
+azerbaijanGrandPrix2019PerezQualifying.driver = perez._id
+azerbaijanGrandPrix2019HulkenbergQualifying.driver = hulkenberg._id
+azerbaijanGrandPrix2019RicciardoQualifying.driver = ricciardo._id
+azerbaijanGrandPrix2019AlbonQualifying.driver = albon._id
+azerbaijanGrandPrix2019GiovinazziQualifying.driver = giovinazzi._id
+azerbaijanGrandPrix2019KvyatQualifying.driver = kvyat._id
+azerbaijanGrandPrix2019StrollQualifying.driver = stroll._id
+azerbaijanGrandPrix2019GaslyQualifying.driver = gasly._id
+azerbaijanGrandPrix2019SainzQualifying.driver = sainz._id
+azerbaijanGrandPrix2019RussellQualifying.driver = russell._id
+azerbaijanGrandPrix2019KubicaQualifying.driver = kubica._id
+
+// QUALIFYING -> TEAM
+azerbaijanGrandPrix2019HamiltonQualifying.team = mercedes._id
+azerbaijanGrandPrix2019BottasQualifying.team = mercedes._id
+azerbaijanGrandPrix2019VettelQualifying.team = ferrari._id
+azerbaijanGrandPrix2019VerstappenQualifying.team = redbull._id
+azerbaijanGrandPrix2019LeclercQualifying.team = ferrari._id
+azerbaijanGrandPrix2019GrosjeanQualifying.team = haas._id
+azerbaijanGrandPrix2019MagnussenQualifying.team = haas._id
+azerbaijanGrandPrix2019NorrisQualifying.team = mclaren._id
+azerbaijanGrandPrix2019RaikkonenQualifying.team = alfaRomeo._id
+azerbaijanGrandPrix2019PerezQualifying.team = racingPoint._id
+azerbaijanGrandPrix2019HulkenbergQualifying.team = renault._id
+azerbaijanGrandPrix2019RicciardoQualifying.team = renault._id
+azerbaijanGrandPrix2019AlbonQualifying.team = toroRosso._id
+azerbaijanGrandPrix2019GiovinazziQualifying.team = alfaRomeo._id
+azerbaijanGrandPrix2019KvyatQualifying.team = toroRosso._id
+azerbaijanGrandPrix2019StrollQualifying.team = racingPoint._id
+azerbaijanGrandPrix2019GaslyQualifying.team = redbull._id
+azerbaijanGrandPrix2019SainzQualifying.team = mclaren._id
+azerbaijanGrandPrix2019RussellQualifying.team = williams._id
+azerbaijanGrandPrix2019KubicaQualifying.team = williams._id

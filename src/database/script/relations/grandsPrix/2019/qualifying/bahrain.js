@@ -1,0 +1,43 @@
+// QUALIFYING -> DRIVER
+bahrainGrandPrix2019HamiltonQualifying.driver = hamilton._id
+bahrainGrandPrix2019BottasQualifying.driver = bottas._id
+bahrainGrandPrix2019VettelQualifying.driver = vettel._id
+bahrainGrandPrix2019VerstappenQualifying.driver = verstappen._id
+bahrainGrandPrix2019LeclercQualifying.driver = leclerc._id
+bahrainGrandPrix2019GrosjeanQualifying.driver = grosjean._id
+bahrainGrandPrix2019MagnussenQualifying.driver = magnussen._id
+bahrainGrandPrix2019NorrisQualifying.driver = norris._id
+bahrainGrandPrix2019RaikkonenQualifying.driver = raikkonen._id
+bahrainGrandPrix2019PerezQualifying.driver = perez._id
+bahrainGrandPrix2019HulkenbergQualifying.driver = hulkenberg._id
+bahrainGrandPrix2019RicciardoQualifying.driver = ricciardo._id
+bahrainGrandPrix2019AlbonQualifying.driver = albon._id
+bahrainGrandPrix2019GiovinazziQualifying.driver = giovinazzi._id
+bahrainGrandPrix2019KvyatQualifying.driver = kvyat._id
+bahrainGrandPrix2019StrollQualifying.driver = stroll._id
+bahrainGrandPrix2019GaslyQualifying.driver = gasly._id
+bahrainGrandPrix2019SainzQualifying.driver = sainz._id
+bahrainGrandPrix2019RussellQualifying.driver = russell._id
+bahrainGrandPrix2019KubicaQualifying.driver = kubica._id
+
+// QUALIFYING -> TEAM
+bahrainGrandPrix2019HamiltonQualifying.team = mercedes._id
+bahrainGrandPrix2019BottasQualifying.team = mercedes._id
+bahrainGrandPrix2019VettelQualifying.team = ferrari._id
+bahrainGrandPrix2019VerstappenQualifying.team = redbull._id
+bahrainGrandPrix2019LeclercQualifying.team = ferrari._id
+bahrainGrandPrix2019GrosjeanQualifying.team = haas._id
+bahrainGrandPrix2019MagnussenQualifying.team = haas._id
+bahrainGrandPrix2019NorrisQualifying.team = mclaren._id
+bahrainGrandPrix2019RaikkonenQualifying.team = alfaRomeo._id
+bahrainGrandPrix2019PerezQualifying.team = racingPoint._id
+bahrainGrandPrix2019HulkenbergQualifying.team = renault._id
+bahrainGrandPrix2019RicciardoQualifying.team = renault._id
+bahrainGrandPrix2019AlbonQualifying.team = toroRosso._id
+bahrainGrandPrix2019GiovinazziQualifying.team = alfaRomeo._id
+bahrainGrandPrix2019KvyatQualifying.team = toroRosso._id
+bahrainGrandPrix2019StrollQualifying.team = racingPoint._id
+bahrainGrandPrix2019GaslyQualifying.team = redbull._id
+bahrainGrandPrix2019SainzQualifying.team = mclaren._id
+bahrainGrandPrix2019RussellQualifying.team = williams._id
+bahrainGrandPrix2019KubicaQualifying.team = williams._id

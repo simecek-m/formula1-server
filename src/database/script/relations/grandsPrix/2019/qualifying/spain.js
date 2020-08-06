@@ -1,0 +1,43 @@
+// QUALIFYING -> DRIVER
+spainGrandPrix2019HamiltonQualifying.driver = hamilton._id
+spainGrandPrix2019BottasQualifying.driver = bottas._id
+spainGrandPrix2019VettelQualifying.driver = vettel._id
+spainGrandPrix2019VerstappenQualifying.driver = verstappen._id
+spainGrandPrix2019LeclercQualifying.driver = leclerc._id
+spainGrandPrix2019GrosjeanQualifying.driver = grosjean._id
+spainGrandPrix2019MagnussenQualifying.driver = magnussen._id
+spainGrandPrix2019NorrisQualifying.driver = norris._id
+spainGrandPrix2019RaikkonenQualifying.driver = raikkonen._id
+spainGrandPrix2019PerezQualifying.driver = perez._id
+spainGrandPrix2019HulkenbergQualifying.driver = hulkenberg._id
+spainGrandPrix2019RicciardoQualifying.driver = ricciardo._id
+spainGrandPrix2019AlbonQualifying.driver = albon._id
+spainGrandPrix2019GiovinazziQualifying.driver = giovinazzi._id
+spainGrandPrix2019KvyatQualifying.driver = kvyat._id
+spainGrandPrix2019StrollQualifying.driver = stroll._id
+spainGrandPrix2019GaslyQualifying.driver = gasly._id
+spainGrandPrix2019SainzQualifying.driver = sainz._id
+spainGrandPrix2019RussellQualifying.driver = russell._id
+spainGrandPrix2019KubicaQualifying.driver = kubica._id
+
+// QUALIFYING -> TEAM
+spainGrandPrix2019HamiltonQualifying.team = mercedes._id
+spainGrandPrix2019BottasQualifying.team = mercedes._id
+spainGrandPrix2019VettelQualifying.team = ferrari._id
+spainGrandPrix2019VerstappenQualifying.team = redbull._id
+spainGrandPrix2019LeclercQualifying.team = ferrari._id
+spainGrandPrix2019GrosjeanQualifying.team = haas._id
+spainGrandPrix2019MagnussenQualifying.team = haas._id
+spainGrandPrix2019NorrisQualifying.team = mclaren._id
+spainGrandPrix2019RaikkonenQualifying.team = alfaRomeo._id
+spainGrandPrix2019PerezQualifying.team = racingPoint._id
+spainGrandPrix2019HulkenbergQualifying.team = renault._id
+spainGrandPrix2019RicciardoQualifying.team = renault._id
+spainGrandPrix2019AlbonQualifying.team = toroRosso._id
+spainGrandPrix2019GiovinazziQualifying.team = alfaRomeo._id
+spainGrandPrix2019KvyatQualifying.team = toroRosso._id
+spainGrandPrix2019StrollQualifying.team = racingPoint._id
+spainGrandPrix2019GaslyQualifying.team = redbull._id
+spainGrandPrix2019SainzQualifying.team = mclaren._id
+spainGrandPrix2019RussellQualifying.team = williams._id
+spainGrandPrix2019KubicaQualifying.team = williams._id

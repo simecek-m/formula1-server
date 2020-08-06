@@ -1,0 +1,43 @@
+// QUALIFYING -> DRIVER
+mexicoGrandPrix2019HamiltonQualifying.driver = hamilton._id
+mexicoGrandPrix2019BottasQualifying.driver = bottas._id
+mexicoGrandPrix2019VettelQualifying.driver = vettel._id
+mexicoGrandPrix2019VerstappenQualifying.driver = verstappen._id
+mexicoGrandPrix2019LeclercQualifying.driver = leclerc._id
+mexicoGrandPrix2019GrosjeanQualifying.driver = grosjean._id
+mexicoGrandPrix2019MagnussenQualifying.driver = magnussen._id
+mexicoGrandPrix2019NorrisQualifying.driver = norris._id
+mexicoGrandPrix2019RaikkonenQualifying.driver = raikkonen._id
+mexicoGrandPrix2019PerezQualifying.driver = perez._id
+mexicoGrandPrix2019HulkenbergQualifying.driver = hulkenberg._id
+mexicoGrandPrix2019RicciardoQualifying.driver = ricciardo._id
+mexicoGrandPrix2019AlbonQualifying.driver = albon._id
+mexicoGrandPrix2019GiovinazziQualifying.driver = giovinazzi._id
+mexicoGrandPrix2019KvyatQualifying.driver = kvyat._id
+mexicoGrandPrix2019StrollQualifying.driver = stroll._id
+mexicoGrandPrix2019GaslyQualifying.driver = gasly._id
+mexicoGrandPrix2019SainzQualifying.driver = sainz._id
+mexicoGrandPrix2019RussellQualifying.driver = russell._id
+mexicoGrandPrix2019KubicaQualifying.driver = kubica._id
+
+// QUALIFYING -> TEAM
+mexicoGrandPrix2019HamiltonQualifying.team = mercedes._id
+mexicoGrandPrix2019BottasQualifying.team = mercedes._id
+mexicoGrandPrix2019VettelQualifying.team = ferrari._id
+mexicoGrandPrix2019VerstappenQualifying.team = redbull._id
+mexicoGrandPrix2019LeclercQualifying.team = ferrari._id
+mexicoGrandPrix2019GrosjeanQualifying.team = haas._id
+mexicoGrandPrix2019MagnussenQualifying.team = haas._id
+mexicoGrandPrix2019NorrisQualifying.team = mclaren._id
+mexicoGrandPrix2019RaikkonenQualifying.team = alfaRomeo._id
+mexicoGrandPrix2019PerezQualifying.team = racingPoint._id
+mexicoGrandPrix2019HulkenbergQualifying.team = renault._id
+mexicoGrandPrix2019RicciardoQualifying.team = renault._id
+mexicoGrandPrix2019AlbonQualifying.team = redbull._id
+mexicoGrandPrix2019GiovinazziQualifying.team = alfaRomeo._id
+mexicoGrandPrix2019KvyatQualifying.team = toroRosso._id
+mexicoGrandPrix2019StrollQualifying.team = racingPoint._id
+mexicoGrandPrix2019GaslyQualifying.team = toroRosso._id
+mexicoGrandPrix2019SainzQualifying.team = mclaren._id
+mexicoGrandPrix2019RussellQualifying.team = williams._id
+mexicoGrandPrix2019KubicaQualifying.team = williams._id
