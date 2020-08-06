@@ -48,3 +48,6 @@ load("./documents/grandsPrix/2019/qualifying/russia.js");
 
 // Japan
 load("./documents/grandsPrix/2019/qualifying/japan.js");
+
+// Mexico
+load("./documents/grandsPrix/2019/qualifying/mexico.js");
