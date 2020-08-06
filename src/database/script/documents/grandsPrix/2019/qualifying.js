@@ -57,3 +57,6 @@ load("./documents/grandsPrix/2019/qualifying/usa.js");
 
 // Brazil
 load("./documents/grandsPrix/2019/qualifying/brazil.js");
+
+// Emirates
+load("./documents/grandsPrix/2019/qualifying/emirates.js");
