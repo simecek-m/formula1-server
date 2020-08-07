@@ -1,6 +1,0 @@
-type DriverStanding {
-  season: Season!
-  driver: Driver!
-  position: Int!
-  points: Int!
-}

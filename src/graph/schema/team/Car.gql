@@ -1,9 +1,0 @@
-type Car {
-  name: String!
-  team: Team!
-  drivers: [Driver]!
-  engine: Engine
-  fuel: String!
-  weight(unit: WeightUnit = KILOGRAM): Float
-  picture: String
-}

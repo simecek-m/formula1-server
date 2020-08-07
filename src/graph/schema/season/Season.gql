@@ -1,6 +1,8 @@
 type Season {
+  _id: String!
+  drivers: [Driver]!
+  teams: [Team]!
+  races: [Race]!
   year: Int!
-  races: [Race]
-  driverStanding: [DriverStanding]
-  teamStanding: [TeamStanding]
+  cars: [Car]!
 }

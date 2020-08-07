@@ -1,0 +1,11 @@
+type TeamSeason {
+  _id: String!
+  team: Team!
+  principal: String!
+  points: Int!
+  position: Int!
+  races: [Race]
+  car: Car!
+  drivers: [Driver]!
+  season: Season
+}

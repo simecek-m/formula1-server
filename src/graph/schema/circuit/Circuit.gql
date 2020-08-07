@@ -1,8 +1,11 @@
 type Circuit {
+  _id: String!
+  country: Country!
   name: String!
   city: String!
-  country: Country!
   opened: Date!
   length(unit: LengthUnit = KILOMETER): Float!
+  active: Boolean
   map: String
+  races: [Race]
 }

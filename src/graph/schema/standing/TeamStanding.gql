@@ -1,6 +1,0 @@
-type TeamStanding {
-  season: Season!
-  team: Team!
-  position: Int!
-  points: Int!
-}

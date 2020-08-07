@@ -14,32 +14,30 @@ const driverSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  height: Number,
+  height: {
+    type: Number,
+    required: true
+  },
   birthday: {
     type: Date,
     required: true
   },
-  points: {
-    type: Number,
-    required: true
-  },
-  position: {
-    type: Number,
+  country: {
+    type: ObjectId,
     required: true
   },
   picture: {
     type: String,
     required: true
   },
-  car: ObjectId,
-  number: {
-    type: Number,
-    required: true
-  },
   links: {
     web: String,
     instagram: String,
     facebook: String
+  },
+  seasons: {
+    type: Array,
+    required: true
   }
 });
 

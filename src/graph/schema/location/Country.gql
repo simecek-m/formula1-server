@@ -1,7 +1,8 @@
 type Country {
-  name: String
-  drivers: [Driver]
-  teams: [Team]
-  circuits: [Circuit]
+  _id: String!
+  drivers: [Driver]!
+  name: String!
+  factories: [Factory]!
   flag: String!
+  circuits: [Circuit]!
 }

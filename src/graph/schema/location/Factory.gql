@@ -1,0 +1,6 @@
+type Factory {
+  _id: String!
+  country: Country!
+  city: String!
+  team: Team!
+}

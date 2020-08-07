@@ -1,16 +1,11 @@
 type Driver {
-  _id: String
+  _id: String!
+  country: Country!
   firstname: String!
   lastname: String!
   height(unit: LengthUnit = METER): Float!
   birthday: Date!
-  country: Country
-  team: Team
-  car: Car
-  points: Int!
-  position: Int!
-  career: Career
-  picture: String
-  number: Int!
+  picture: String!
   links: Links
+  seasons: [DriverSeason]
 }

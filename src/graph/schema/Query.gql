@@ -1,9 +1,13 @@
 type Query {
-  teams: [Team]
   drivers: [Driver]
-  driver(id: String!): Driver
+  driver(id: String): Driver
+  driverSeasons: [DriverSeason]
+  teams: [Team]
+  teamSeasons: [TeamSeason]
   countries: [Country]
-  residences: [Residence]
-  cars: [Car]
+  factories: [Factory]
   circuits: [Circuit]
+  cars: [Car]
+  seasons: [Season]
+  races: [Race]
 }

@@ -1,0 +1,10 @@
+type Race {
+  _id: String!
+  season: Season!
+  circuit: Circuit!
+  laps: Int!
+  qualifying: [Qualifying]
+  fastestLaps: [FastestLap]
+  results: [Result]
+  name: String!
+}

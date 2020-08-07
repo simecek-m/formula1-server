@@ -1,6 +1,0 @@
-type RaceResult {
-  driver: Driver!
-  position: Int!
-  points: Int!
-  time: Int!
-}

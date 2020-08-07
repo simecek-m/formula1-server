@@ -1,0 +1,9 @@
+type Result {
+  _id: String!
+  driver: Driver!
+  time: String!
+  position: Int!
+  laps: Int!
+  points: Float!
+  team: Team!
+}

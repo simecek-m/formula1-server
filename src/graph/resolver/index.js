@@ -6,19 +6,27 @@ const moment = require("moment");
 const Driver = require("@database/model/driver/Driver");
 const Team = require("@database/model/team/Team");
 const Country = require("@database/model/location/Country");
-const Residence = require("@database/model/location/Residence");
-const Car = require("@database/model/team/Car");
+const DriverSeason = require("@database/model/driver/DriverSeason");
+const TeamSeason = require("@database/model/team/TeamSeason");
+const Car = require("@database/model/car/Car");
 const Circuit = require("@database/model/circuit/Circuit");
+const Race = require("@database/model/race/Race");
+const Season = require("@database/model/season/Season");
+const Factory = require("@database/model/location/Factory");
 
 const resolvers = {
   Query: {
-    teams: () => Team.find(),
     drivers: () => Driver.find(),
-    driver: (_, args) => Driver.findOne({ _id: args.id }),
-    countries: () => Country.find(),
-    residences: () => Residence.find(),
+    driver: (_, { id }) => Driver.findById(id),
+    driverSeasons: () => DriverSeason.find(),
+    teams: () => Team.find(),
+    teamSeasons: () => TeamSeason.find(),
     cars: () => Car.find(),
-    circuits: () => Circuit.find()
+    countries: () => Country.find(),
+    factories: () => Factory.find(),
+    circuits: () => Circuit.find(),
+    seasons: () => Season.find(),
+    races: () => Race.find(),
   },
   Date: new GraphQLScalarType({
     name: "Date",
@@ -27,14 +35,6 @@ const resolvers = {
       return moment(value).format("YYYY-MM-DD");
     }
   }),
-  Residence: {
-    country: ({ country }) => Country.findOne({ _id: country })
-  },
-  Team: {
-    drivers: ({ _id }) => Driver.find({ team: _id }),
-    residence: ({ residence }) => Residence.findOne({ _id: residence }),
-    car: ({ car }) => Car.findOne({ _id: car })
-  },
   Driver: {
     height: (obj, args) => {
       switch (args.unit) {
@@ -54,31 +54,44 @@ const resolvers = {
           return obj.height;
       }
     },
-    team: ({ _id }) => Team.findOne({ drivers: _id }),
-    country: ({ _id }) => Country.findOne({ drivers: _id }),
-    car: ({ car }) => Car.findOne({ _id: car })
+    country: ({ country }) => Country.findById(country),
+    seasons: ({ seasons }) => DriverSeason.find({ _id: { $in: seasons }})
   },
-  Country: {
-    drivers: ({ _id }) => Driver.find({ country: _id }),
-    teams: ({ teams }) => Team.find({ _id: teams }),
-    circuits: ({ circuits }) => Circuit.find({ _id: circuits })
+  DriverSeason: {
+    teams: ({ teams }) => Team.find({ _id: { $in: teams }}),
+    cars: ({ cars }) => Car.find({ _id: { $in: cars }}),
+    driver: ({ driver }) => Driver.findById(driver),
+    races: ({ races }) => Race.find({ _id: { $in: races }}),
+    season: ({ season }) => Season.findById(season)
+  },
+  Team: {
+    factory: ({ factory }) => Factory.findById(factory),
+    seasons: ({ seasons }) => TeamSeason.find({ _id: { $in: seasons }})
+  },
+  TeamSeason: {
+    team: ({ team }) => Team.findById(team),
+    races: ({ races }) => Race.find({ _id: { $in: races }}),
+    car: ({ car }) => Car.findById(car),
+    drivers: ({ drivers }) => Driver.find({ _id: { $in: drivers} }),
+    season: ({ season }) => Season.findById(season)
   },
   Car: {
-    team: ({ team }) => Team.findOne({ _id: team }),
-    drivers: ({ drivers }) => Driver.find({ _id: drivers }),
-    weight: (obj, args) => {
-      switch (args.unit) {
-        case "POUND":
-          return obj.weight * 2.20462262;
-        default:
-          return obj.weight;
-      }
-    }
+    drivers: ({ drivers }) => Driver.find({ _id: { $in: drivers }}),
+    team: ({ team }) => Team.findById(team),
+    season: ({ season }) => Season.findById(season)
+  },
+  Factory: {
+    country: ({ country }) => Country.findById(country),
+    team: ({ team }) => Team.findById(team)
+  },
+  Country: {
+    drivers: ({ drivers }) => Driver.find({ _id: { $in: drivers }}),
+    factories: ({ factories }) => Factory.find({ _id: { $in: factories }}),
+    circuits: ({ circuits }) => Circuit.find({_id: { $in: circuits }})
   },
   Circuit: {
-    country: ({ country }) => Country.findOne({ _id: country }),
     length: (obj, args) => {
-      switch (args.unit) {
+      switch(args.unit){
         case "CENTIMETER":
           return obj.length * 100;
         case "KILOMETER":
@@ -94,7 +107,9 @@ const resolvers = {
         default:
           return obj.length;
       }
-    }
+    },
+    country: ({ country }) => Country.findById(country),
+    races: ({ races }) => Race.find({ _id: { $in: races }})
   }
 };
 

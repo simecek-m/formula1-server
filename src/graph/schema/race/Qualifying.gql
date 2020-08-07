@@ -1,0 +1,10 @@
+type Qualifying {
+  _id: String!
+  driver: Driver!
+  q1Time: String
+  q2Time: String
+  q3Time: String
+  position: Int!
+  note: String
+  team: Team!
+}

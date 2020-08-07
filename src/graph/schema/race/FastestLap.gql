@@ -1,0 +1,8 @@
+type FastestLap {
+  _id: String!
+  driver: Driver!
+  time: String!
+  lap: Int!
+  speed: Float!
+  team: Team!
+}

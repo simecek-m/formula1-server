@@ -1,0 +1,9 @@
+type Car {
+  _id: String!
+  drivers: [Driver]
+  team: Team!
+  season: Season!
+  name: String!
+  engine: String
+  fuel: String!
+}

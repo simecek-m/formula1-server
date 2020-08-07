@@ -1,5 +1,0 @@
-type Engine {
-  manufacturer: EngineManufacturer!
-  name: String!
-  power: Float!
-}

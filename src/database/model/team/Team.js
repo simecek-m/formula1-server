@@ -2,31 +2,26 @@ const mongoose = require("mongoose");
 const ObjectId = mongoose.Types.ObjectId;
 
 const teamSchema = new mongoose.Schema({
+  _id: {
+    type: ObjectId,
+    required: true
+  },
   name: {
     type: String,
     required: true
   },
-  principal: {
-    type: String,
-    required: true
-  },
-  residence: {
-    type: String,
-    required: true
-  },
-  position: {
-    type: Number,
-    required: true
-  },
-  points: {
-    type: Number,
+  factory: {
+    type: ObjectId,
     required: true
   },
   color: {
     type: String,
     required: true
   },
-  car: ObjectId
+  seasons: {
+    type: Array,
+    required: true
+  }
 });
 
 const Team = mongoose.model("team", teamSchema);

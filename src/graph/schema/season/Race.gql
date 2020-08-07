@@ -1,4 +1,0 @@
-type Race {
-  polePosition: PolePosition!
-  results: [RaceResult]
-}

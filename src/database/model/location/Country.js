@@ -5,10 +5,20 @@ const countrySchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  teams: Array,
-  circuits: Array,
+  factories: {
+    type: Array,
+    required: true
+  },
+  circuits: {
+    type: Array,
+    required: true
+  },
   flag: {
     type: String,
+    required: true
+  },
+  drivers: {
+    type: Array,
     required: true
   }
 });
