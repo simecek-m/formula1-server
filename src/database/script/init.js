@@ -16,18 +16,17 @@ load("./documents/season/2019/races.js");
 load("./documents/season/2019/teamSeason.js");
 
 // -------------------------- CREATE RELATIONS --------------------------
-
-load("./relations/drivers.js");
-load("./relations/teams.js");
-load("./relations/cars.js");
-load("./relations/countries.js");
-load("./relations/factories.js");
 load("./relations/circuits.js");
-load("./relations/driverSeasons/2019.js");
-load("./relations/teamSeasons/2019.js");
+load("./relations/countries.js");
+load("./relations/drivers.js");
+load("./relations/factories.js");
 load("./relations/seasons.js");
-load("./relations/grandsPrix/2019/races.js");
-load("./relations/grandsPrix/2019/qualifying.js");
+load("./relations/teams.js");
+load("./relations/season/2019/cars.js");
+load("./relations/season/2019/driverSeason.js");
+load("./relations/season/2019/qualifying.js");
+load("./relations/season/2019/races.js");
+load("./relations/season/2019/teamSeason.js");
 
 // RACE - SEASON
 // RACE - CIRCUIT
