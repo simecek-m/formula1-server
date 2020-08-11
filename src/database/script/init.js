@@ -9,6 +9,8 @@ load("./documents/drivers.js");
 load("./documents/factories.js");
 load("./documents/seasons.js");
 load("./documents/teams.js");
+
+// ^^ 2019
 load("./documents/season/2019/cars.js");
 load("./documents/season/2019/driverSeason.js");
 load("./documents/season/2019/qualifying.js");
@@ -22,6 +24,8 @@ load("./relations/drivers.js");
 load("./relations/factories.js");
 load("./relations/seasons.js");
 load("./relations/teams.js");
+
+// ^^ 2019
 load("./relations/season/2019/cars.js");
 load("./relations/season/2019/driverSeason.js");
 load("./relations/season/2019/qualifying.js");
@@ -41,14 +45,16 @@ load("./relations/season/2019/teamSeason.js");
 // RESULT - TEAM
 
 // -------------------------- SAVE TO DATABASE --------------------------
-load("./database/drivers.js");
-load("./database/teams.js");
-load("./database/cars.js");
-load("./database/countries.js");
-load("./database/factories.js");
 load("./database/circuits.js");
-load("./database/driverSeasons.js");
-load("./database/teamSeasons.js");
+load("./database/countries.js");
+load("./database/drivers.js");
+load("./database/factories.js");
 load("./database/seasons.js");
-load("./database/races.js");
-load("./database/2019/qualifying.js");
+load("./database/teams.js");
+
+// ^^ 2019
+load("./database/season/2019/cars.js");
+load("./database/season/2019/driverSeason.js");
+load("./database/season/2019/qualifying.js");
+load("./database/season/2019/races.js");
+load("./database/season/2019/teamSeason.js");
