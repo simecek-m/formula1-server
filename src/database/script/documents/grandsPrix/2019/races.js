@@ -118,7 +118,7 @@ const brazilGrandPrix2019 = {
   name: "Formula 1 Grande Prêmio Heineken do Brasil 2019"
 };
 
-const abuDhabiGrandPrix2019 = {
+const emiratesGrandPrix2019 = {
   _id: ObjectId(),
   laps: 55,
   name: "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2019"

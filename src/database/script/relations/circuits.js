@@ -20,7 +20,7 @@ suzukaCircuit.races = [japanGrandPrix2019._id]
 usaCircuit.races = [usaGrandPrix2019._id]
 mexicoCircuit.races = [mexicoGrandPrix2019._id]
 brazilCircuit.races = [brazilGrandPrix2019._id]
-emiratesCircuit.races = [abuDhabiGrandPrix2019._id]
+emiratesCircuit.races = [emiratesGrandPrix2019._id]
 hockenheimCircuit.races = [germanyGrandPrix2019._id]
 
 // CIRCUIT - COUNTRY

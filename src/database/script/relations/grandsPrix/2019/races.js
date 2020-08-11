@@ -506,7 +506,7 @@ brazilGrandPrix2019.qualifying = [
   brazilGrandPrix2019KubicaQualifying._id
 ]
 
-abuDhabiGrandPrix2019.qualifying = [
+emiratesGrandPrix2019.qualifying = [
   emiratesGrandPrix2019HamiltonQualifying._id,
   emiratesGrandPrix2019BottasQualifying._id,
   emiratesGrandPrix2019VettelQualifying._id,

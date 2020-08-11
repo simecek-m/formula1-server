@@ -620,5 +620,5 @@ db.races.insertMany([
   mexicoGrandPrix2019,
   usaGrandPrix2019,
   brazilGrandPrix2019,
-  abuDhabiGrandPrix2019
+  emiratesGrandPrix2019
 ]);
