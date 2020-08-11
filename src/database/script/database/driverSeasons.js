@@ -1,0 +1,22 @@
+db.driverSeasons.insertMany([
+  hamilton2019,
+  bottas2019,
+  vettel2019,
+  leclerc2019,
+  verstappen2019,
+  albon2019,
+  sainz2019,
+  norris2019,
+  hulkenberg2019,
+  ricciardo2019,
+  gasly2019,
+  kvyat2019,
+  perez2019,
+  stroll2019,
+  raikkonen2019,
+  giovinazzi2019,
+  magnussen2019,
+  grosjean2019,
+  kubica2019,
+  russell2019
+]);

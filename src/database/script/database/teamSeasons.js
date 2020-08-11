@@ -1,0 +1,12 @@
+db.teamSeasons.insertMany([
+  mercedes2019,
+  ferrari2019,
+  redbull2019,
+  mclaren2019,
+  renault2019,
+  toroRosso2019,
+  racingPoint2019,
+  alfaRomeo2019,
+  haas2019,
+  williams2019
+]);

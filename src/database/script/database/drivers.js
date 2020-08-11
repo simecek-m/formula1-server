@@ -1,0 +1,22 @@
+db.drivers.insertMany([
+  hamilton,
+  bottas,
+  vettel,
+  leclerc,
+  verstappen,
+  albon,
+  sainz,
+  norris,
+  hulkenberg,
+  ricciardo,
+  gasly,
+  kvyat,
+  perez,
+  stroll,
+  raikkonen,
+  giovinazzi,
+  magnussen,
+  grosjean,
+  kubica,
+  russell
+]);

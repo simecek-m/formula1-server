@@ -1,0 +1,23 @@
+db.races.insertMany([
+  australiaGrandPrix2019,
+  bahrainGrandPrix2019,
+  chinaGrandPrix2019,
+  azerbaijanGrandPrix2019,
+  spainGrandPrix2019,
+  monacoGrandPrix2019,
+  canadaGrandPrix2019,
+  franceGrandPrix2019,
+  austriaGrandPrix2019,
+  britainGrandPrix2019,
+  germanyGrandPrix2019,
+  hungaryGrandPrix2019,
+  belgiumGrandPrix2019,
+  italyGrandPrix2019,
+  singaporeGrandPrix2019,
+  russiaGrandPrix2019,
+  japanGrandPrix2019,
+  mexicoGrandPrix2019,
+  usaGrandPrix2019,
+  brazilGrandPrix2019,
+  emiratesGrandPrix2019
+]);
