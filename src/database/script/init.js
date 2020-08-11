@@ -22,6 +22,7 @@ load("./relations/circuits.js");
 load("./relations/driverSeasons/2019.js");
 load("./relations/teamSeasons/2019.js");
 load("./relations/seasons.js");
+load("./relations/grandsPrix/2019/races.js");
 load("./relations/grandsPrix/2019/qualifying.js");
 
 // RACE - SEASON
