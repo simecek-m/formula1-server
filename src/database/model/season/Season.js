@@ -21,6 +21,10 @@ const seasonSchema = new mongoose.Schema({
   cars: {
     type: Array,
     required: true
+  },
+  races: {
+    type: Array,
+    required: true
   }
 });
 
