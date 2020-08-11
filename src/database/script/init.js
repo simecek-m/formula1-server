@@ -2,20 +2,20 @@ const connection = new Mongo();
 const db = connection.getDB("formula1");
 db.dropDatabase();
 
-// -------------------------- LOAD DOCUMENTS --------------------------
-load("./documents/drivers.js");
-load("./documents/teams.js");
-load("./documents/cars.js");
-load("./documents/countries.js");
-load("./documents/factories.js");
+// -------------------------- CREATE DOCUMENTS --------------------------
 load("./documents/circuits.js");
+load("./documents/countries.js");
+load("./documents/drivers.js");
+load("./documents/factories.js");
 load("./documents/seasons.js");
-load("./documents/driverSeasons/2019.js");
-load("./documents/teamSeasons/2019.js");
-load("./documents/grandsPrix/2019/races.js");
-load("./documents/grandsPrix/2019/qualifying.js");
+load("./documents/teams.js");
+load("./documents/season/2019/cars.js");
+load("./documents/season/2019/driverSeason.js");
+load("./documents/season/2019/qualifying.js");
+load("./documents/season/2019/races.js");
+load("./documents/season/2019/teamSeason.js");
 
-// -------------------------- LOAD RELATIONSHIPS --------------------------
+// -------------------------- CREATE RELATIONS --------------------------
 
 load("./relations/drivers.js");
 load("./relations/teams.js");
@@ -41,7 +41,7 @@ load("./relations/grandsPrix/2019/qualifying.js");
 // RESULT - DRIVER
 // RESULT - TEAM
 
-// -------------------------- PERSIST TO DATABASE --------------------------
+// -------------------------- SAVE TO DATABASE --------------------------
 load("./database/drivers.js");
 load("./database/teams.js");
 load("./database/cars.js");
