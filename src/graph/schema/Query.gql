@@ -1,13 +1,12 @@
 type Query {
-  drivers: [Driver]
-  driver(id: String): Driver
+  drivers(id: String, firstname: String, lastname: String): [Driver]
   driverSeasons: [DriverSeason]
-  teams: [Team]
+  teams(name: String): [Team]
   teamSeasons: [TeamSeason]
-  countries: [Country]
+  countries(name: String): [Country]
   factories: [Factory]
-  circuits: [Circuit]
+  circuits(name: String, country: String): [Circuit]
   cars: [Car]
-  seasons: [Season]
-  races: [Race]
+  seasons(year: Int): [Season]
+  races(name: String): [Race]
 }
