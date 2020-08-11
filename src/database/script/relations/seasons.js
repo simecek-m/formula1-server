@@ -1,8 +1,8 @@
-// SEASON -> DRIVERS
-season2019.drivers = [hamilton._id, bottas._id, vettel._id, leclerc._id, verstappen._id, albon._id, sainz._id, norris._id, hulkenberg._id, ricciardo._id, gasly._id, kvyat._id, perez._id, stroll._id, raikkonen._id, giovinazzi._id, magnussen._id, grosjean._id, kubica._id, russell._id]
+// SEASON -> DRIVER_SEASONS
+season2019.drivers = [hamilton2019._id, bottas2019._id, vettel2019._id, leclerc2019._id, verstappen2019._id, albon2019._id, sainz2019._id, norris2019._id, hulkenberg2019._id, ricciardo2019._id, gasly2019._id, kvyat2019._id, perez2019._id, stroll2019._id, raikkonen2019._id, giovinazzi2019._id, magnussen2019._id, grosjean2019._id, kubica2019._id, russell2019._id]
 
-// SEASON -> TEAMS
-season2019.teams = [mercedes._id, ferrari._id, redbull._id, mclaren._id, renault._id, toroRosso._id, racingPoint._id, alfaRomeo._id, haas._id, williams._id]
+// SEASON -> TEAM_SEASONS
+season2019.teams = [mercedes2019._id, ferrari2019._id, redbull2019._id, mclaren2019._id, renault2019._id, toroRosso2019._id, racingPoint2019._id, alfaRomeo2019._id, haas2019._id, williams2019._id]
 
 // SEASON -> RACES
 season2019.races = [australiaGrandPrix2019._id, bahrainGrandPrix2019._id, chinaGrandPrix2019._id, azerbaijanGrandPrix2019._id, spainGrandPrix2019._id, monacoGrandPrix2019._id, canadaGrandPrix2019._id, franceGrandPrix2019._id, austriaGrandPrix2019._id, britainGrandPrix2019._id, germanyGrandPrix2019._id, hungaryGrandPrix2019._id, belgiumGrandPrix2019._id, italyGrandPrix2019._id, singaporeGrandPrix2019._id, russiaGrandPrix2019._id, japanGrandPrix2019._id, mexicoGrandPrix2019._id, usaGrandPrix2019._id, brazilGrandPrix2019._id, abuDhabiGrandPrix2019._id]
