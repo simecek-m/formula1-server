@@ -19,6 +19,7 @@ const FastestLap = require("@database/model/race/FastestLap");
 const resolvers = {
   Query: {
     drivers: ( _, args) => Driver.find(args),
+    driver: (_, { id }) => Driver.findById(id),
     driverSeasons: () => DriverSeason.find(),
     teams: (_, args) => Team.find(args),
     teamSeasons: () => TeamSeason.find(),

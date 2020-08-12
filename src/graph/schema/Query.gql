@@ -1,5 +1,6 @@
 type Query {
-  drivers(id: String, firstname: String, lastname: String): [Driver]
+  drivers(firstname: String, lastname: String): [Driver]
+  driver(id: String): Driver
   driverSeasons: [DriverSeason]
   teams(name: String): [Team]
   teamSeasons: [TeamSeason]
