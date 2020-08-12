@@ -27,3 +27,27 @@ chinaGrandPrix2019.qualifying = [
   chinaGrandPrix2019RussellQualifying._id,
   chinaGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+chinaGrandPrix2019.fastestLaps = [
+  chinaGrandPrix2019HamiltonFastestLap._id,
+  chinaGrandPrix2019BottasFastestLap._id,
+  chinaGrandPrix2019VettelFastestLap._id,
+  chinaGrandPrix2019VerstappenFastestLap._id,
+  chinaGrandPrix2019LeclercFastestLap._id,
+  chinaGrandPrix2019GrosjeanFastestLap._id,
+  chinaGrandPrix2019MagnussenFastestLap._id,
+  chinaGrandPrix2019NorrisFastestLap._id,
+  chinaGrandPrix2019RaikkonenFastestLap._id,
+  chinaGrandPrix2019PerezFastestLap._id,
+  chinaGrandPrix2019HulkenbergFastestLap._id,
+  chinaGrandPrix2019RicciardoFastestLap._id,
+  chinaGrandPrix2019AlbonFastestLap._id,
+  chinaGrandPrix2019GiovinazziFastestLap._id,
+  chinaGrandPrix2019KvyatFastestLap._id,
+  chinaGrandPrix2019StrollFastestLap._id,
+  chinaGrandPrix2019GaslyFastestLap._id,
+  chinaGrandPrix2019SainzFastestLap._id,
+  chinaGrandPrix2019RussellFastestLap._id,
+  chinaGrandPrix2019KubicaFastestLap._id
+]

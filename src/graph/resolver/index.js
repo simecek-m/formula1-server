@@ -14,6 +14,7 @@ const Race = require("@database/model/race/Race");
 const Season = require("@database/model/season/Season");
 const Factory = require("@database/model/location/Factory");
 const Qualifying = require("@database/model/race/Qualifying");
+const FastestLap = require("@database/model/race/FastestLap");
 
 const resolvers = {
   Query: {
@@ -120,19 +121,19 @@ const resolvers = {
   Race: {
     season: ({ season }) => Season.findById(season),
     circuit: ({ circuit }) => Circuit.findById(circuit),
-    qualifying: ({ qualifying }) => Qualifying.find({ _id: { $in: qualifying }})
-    // TODO: fastestLaps: ({ fastestLaps }) => FastestLap.find({ _id: { $in: fastestLaps }})
+    qualifying: ({ qualifying }) => Qualifying.find({ _id: { $in: qualifying }}),
+    fastestLaps: async ({ fastestLaps }) => FastestLap.find({ _id: { $in: fastestLaps }})
     // TODO: results: ({ results }) => Result.find({ _id: { $in: results }})
   },
   Qualifying: {
     driver: ({ driver }) => Driver.findById(driver),
     team: ({ team }) => Team.findById(team)
-  }
-  /* TODO: fastestLap and result resolvers
+  },
   FastestLap: {
     driver: ({ driver }) => Driver.findById(driver),
     team: ({ team }) => Team.findById(team)
   }
+  /* TODO: result resolver
   Result: {
     driver: ({ driver }) => Driver.findById(driver),
     team: ({ team }) => Team.findById(team)

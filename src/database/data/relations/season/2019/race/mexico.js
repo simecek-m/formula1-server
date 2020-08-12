@@ -27,3 +27,27 @@ mexicoGrandPrix2019.qualifying = [
   mexicoGrandPrix2019RussellQualifying._id,
   mexicoGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+mexicoGrandPrix2019.fastestLaps = [
+  mexicoGrandPrix2019HamiltonFastestLap._id,
+  mexicoGrandPrix2019BottasFastestLap._id,
+  mexicoGrandPrix2019VettelFastestLap._id,
+  mexicoGrandPrix2019VerstappenFastestLap._id,
+  mexicoGrandPrix2019LeclercFastestLap._id,
+  mexicoGrandPrix2019GrosjeanFastestLap._id,
+  mexicoGrandPrix2019MagnussenFastestLap._id,
+  mexicoGrandPrix2019NorrisFastestLap._id,
+  mexicoGrandPrix2019RaikkonenFastestLap._id,
+  mexicoGrandPrix2019PerezFastestLap._id,
+  mexicoGrandPrix2019HulkenbergFastestLap._id,
+  mexicoGrandPrix2019RicciardoFastestLap._id,
+  mexicoGrandPrix2019AlbonFastestLap._id,
+  mexicoGrandPrix2019GiovinazziFastestLap._id,
+  mexicoGrandPrix2019KvyatFastestLap._id,
+  mexicoGrandPrix2019StrollFastestLap._id,
+  mexicoGrandPrix2019GaslyFastestLap._id,
+  mexicoGrandPrix2019SainzFastestLap._id,
+  mexicoGrandPrix2019RussellFastestLap._id,
+  mexicoGrandPrix2019KubicaFastestLap._id
+]

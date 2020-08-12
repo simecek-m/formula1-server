@@ -1,0 +1,41 @@
+// FASTEST_LAPS -> DRIVER
+germanyGrandPrix2019HamiltonFastestLap.driver = hamilton._id
+germanyGrandPrix2019BottasFastestLap.driver = bottas._id
+germanyGrandPrix2019VettelFastestLap.driver = vettel._id
+germanyGrandPrix2019VerstappenFastestLap.driver = verstappen._id
+germanyGrandPrix2019LeclercFastestLap.driver = leclerc._id
+germanyGrandPrix2019GrosjeanFastestLap.driver = grosjean._id
+germanyGrandPrix2019MagnussenFastestLap.driver = magnussen._id
+germanyGrandPrix2019NorrisFastestLap.driver = norris._id
+germanyGrandPrix2019RaikkonenFastestLap.driver = raikkonen._id
+germanyGrandPrix2019HulkenbergFastestLap.driver = hulkenberg._id
+germanyGrandPrix2019RicciardoFastestLap.driver = ricciardo._id
+germanyGrandPrix2019AlbonFastestLap.driver = albon._id
+germanyGrandPrix2019GiovinazziFastestLap.driver = giovinazzi._id
+germanyGrandPrix2019KvyatFastestLap.driver = kvyat._id
+germanyGrandPrix2019StrollFastestLap.driver = stroll._id
+germanyGrandPrix2019GaslyFastestLap.driver = gasly._id
+germanyGrandPrix2019SainzFastestLap.driver = sainz._id
+germanyGrandPrix2019RussellFastestLap.driver = russell._id
+germanyGrandPrix2019KubicaFastestLap.driver = kubica._id
+
+// FASTEST_LAPS -> TEAM
+germanyGrandPrix2019HamiltonFastestLap.team = mercedes._id
+germanyGrandPrix2019BottasFastestLap.team = mercedes._id
+germanyGrandPrix2019VettelFastestLap.team = ferrari._id
+germanyGrandPrix2019VerstappenFastestLap.team = redbull._id
+germanyGrandPrix2019LeclercFastestLap.team = ferrari._id
+germanyGrandPrix2019GrosjeanFastestLap.team = haas._id
+germanyGrandPrix2019MagnussenFastestLap.team = haas._id
+germanyGrandPrix2019NorrisFastestLap.team = mclaren._id
+germanyGrandPrix2019RaikkonenFastestLap.team = alfaRomeo._id
+germanyGrandPrix2019HulkenbergFastestLap.team = renault._id
+germanyGrandPrix2019RicciardoFastestLap.team = renault._id
+germanyGrandPrix2019AlbonFastestLap.team = toroRosso._id
+germanyGrandPrix2019GiovinazziFastestLap.team = alfaRomeo._id
+germanyGrandPrix2019KvyatFastestLap.team = toroRosso._id
+germanyGrandPrix2019StrollFastestLap.team = racingPoint._id
+germanyGrandPrix2019GaslyFastestLap.team = redbull._id
+germanyGrandPrix2019SainzFastestLap.team = mclaren._id
+germanyGrandPrix2019RussellFastestLap.team = williams._id
+germanyGrandPrix2019KubicaFastestLap.team = williams._id

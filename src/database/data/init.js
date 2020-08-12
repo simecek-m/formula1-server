@@ -14,6 +14,7 @@ load("./documents/teams.js");
 load("./documents/season/2019/cars.js");
 load("./documents/season/2019/driverSeason.js");
 load("./documents/season/2019/qualifying.js");
+load("./documents/season/2019/fastestLaps.js");
 load("./documents/season/2019/races.js");
 load("./documents/season/2019/teamSeason.js");
 
@@ -29,13 +30,10 @@ load("./relations/teams.js");
 load("./relations/season/2019/cars.js");
 load("./relations/season/2019/driverSeason.js");
 load("./relations/season/2019/qualifying.js");
+load("./relations/season/2019/fastestLaps.js");
 load("./relations/season/2019/races.js");
 load("./relations/season/2019/teamSeason.js");
 
-// RACE - SEASON
-// RACE - CIRCUIT
-// RACE - QUALIFYING
-// RACE - FASTEST_LAP
 // RACE - RESULT
 
 // FASTEST_LAP - DRIVER
@@ -56,5 +54,6 @@ load("./database/teams.js");
 load("./database/season/2019/cars.js");
 load("./database/season/2019/driverSeason.js");
 load("./database/season/2019/qualifying.js");
+load("./database/season/2019/fastestLaps.js");
 load("./database/season/2019/races.js");
 load("./database/season/2019/teamSeason.js");

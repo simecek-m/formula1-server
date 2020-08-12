@@ -1,0 +1,43 @@
+// FASTEST_LAPS -> DRIVER
+hungaryGrandPrix2019HamiltonFastestLap.driver = hamilton._id
+hungaryGrandPrix2019BottasFastestLap.driver = bottas._id
+hungaryGrandPrix2019VettelFastestLap.driver = vettel._id
+hungaryGrandPrix2019VerstappenFastestLap.driver = verstappen._id
+hungaryGrandPrix2019LeclercFastestLap.driver = leclerc._id
+hungaryGrandPrix2019GrosjeanFastestLap.driver = grosjean._id
+hungaryGrandPrix2019MagnussenFastestLap.driver = magnussen._id
+hungaryGrandPrix2019NorrisFastestLap.driver = norris._id
+hungaryGrandPrix2019RaikkonenFastestLap.driver = raikkonen._id
+hungaryGrandPrix2019PerezFastestLap.driver = perez._id
+hungaryGrandPrix2019HulkenbergFastestLap.driver = hulkenberg._id
+hungaryGrandPrix2019RicciardoFastestLap.driver = ricciardo._id
+hungaryGrandPrix2019AlbonFastestLap.driver = albon._id
+hungaryGrandPrix2019GiovinazziFastestLap.driver = giovinazzi._id
+hungaryGrandPrix2019KvyatFastestLap.driver = kvyat._id
+hungaryGrandPrix2019StrollFastestLap.driver = stroll._id
+hungaryGrandPrix2019GaslyFastestLap.driver = gasly._id
+hungaryGrandPrix2019SainzFastestLap.driver = sainz._id
+hungaryGrandPrix2019RussellFastestLap.driver = russell._id
+hungaryGrandPrix2019KubicaFastestLap.driver = kubica._id
+
+// FASTEST_LAPS -> TEAM
+hungaryGrandPrix2019HamiltonFastestLap.team = mercedes._id
+hungaryGrandPrix2019BottasFastestLap.team = mercedes._id
+hungaryGrandPrix2019VettelFastestLap.team = ferrari._id
+hungaryGrandPrix2019VerstappenFastestLap.team = redbull._id
+hungaryGrandPrix2019LeclercFastestLap.team = ferrari._id
+hungaryGrandPrix2019GrosjeanFastestLap.team = haas._id
+hungaryGrandPrix2019MagnussenFastestLap.team = haas._id
+hungaryGrandPrix2019NorrisFastestLap.team = mclaren._id
+hungaryGrandPrix2019RaikkonenFastestLap.team = alfaRomeo._id
+hungaryGrandPrix2019PerezFastestLap.team = racingPoint._id
+hungaryGrandPrix2019HulkenbergFastestLap.team = renault._id
+hungaryGrandPrix2019RicciardoFastestLap.team = renault._id
+hungaryGrandPrix2019AlbonFastestLap.team = toroRosso._id
+hungaryGrandPrix2019GiovinazziFastestLap.team = alfaRomeo._id
+hungaryGrandPrix2019KvyatFastestLap.team = toroRosso._id
+hungaryGrandPrix2019StrollFastestLap.team = racingPoint._id
+hungaryGrandPrix2019GaslyFastestLap.team = redbull._id
+hungaryGrandPrix2019SainzFastestLap.team = mclaren._id
+hungaryGrandPrix2019RussellFastestLap.team = williams._id
+hungaryGrandPrix2019KubicaFastestLap.team = williams._id

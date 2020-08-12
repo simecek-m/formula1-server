@@ -27,3 +27,27 @@ brazilGrandPrix2019.qualifying = [
   brazilGrandPrix2019RussellQualifying._id,
   brazilGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+brazilGrandPrix2019.fastestLaps = [
+  brazilGrandPrix2019HamiltonFastestLap._id,
+  brazilGrandPrix2019BottasFastestLap._id,
+  brazilGrandPrix2019VettelFastestLap._id,
+  brazilGrandPrix2019VerstappenFastestLap._id,
+  brazilGrandPrix2019LeclercFastestLap._id,
+  brazilGrandPrix2019GrosjeanFastestLap._id,
+  brazilGrandPrix2019MagnussenFastestLap._id,
+  brazilGrandPrix2019NorrisFastestLap._id,
+  brazilGrandPrix2019RaikkonenFastestLap._id,
+  brazilGrandPrix2019PerezFastestLap._id,
+  brazilGrandPrix2019HulkenbergFastestLap._id,
+  brazilGrandPrix2019RicciardoFastestLap._id,
+  brazilGrandPrix2019AlbonFastestLap._id,
+  brazilGrandPrix2019GiovinazziFastestLap._id,
+  brazilGrandPrix2019KvyatFastestLap._id,
+  brazilGrandPrix2019StrollFastestLap._id,
+  brazilGrandPrix2019GaslyFastestLap._id,
+  brazilGrandPrix2019SainzFastestLap._id,
+  brazilGrandPrix2019RussellFastestLap._id,
+  brazilGrandPrix2019KubicaFastestLap._id
+]

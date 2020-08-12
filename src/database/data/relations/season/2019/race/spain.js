@@ -27,3 +27,27 @@ spainGrandPrix2019.qualifying = [
   spainGrandPrix2019RussellQualifying._id,
   spainGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+spainGrandPrix2019.fastestLaps = [
+  spainGrandPrix2019HamiltonFastestLap._id,
+  spainGrandPrix2019BottasFastestLap._id,
+  spainGrandPrix2019VettelFastestLap._id,
+  spainGrandPrix2019VerstappenFastestLap._id,
+  spainGrandPrix2019LeclercFastestLap._id,
+  spainGrandPrix2019GrosjeanFastestLap._id,
+  spainGrandPrix2019MagnussenFastestLap._id,
+  spainGrandPrix2019NorrisFastestLap._id,
+  spainGrandPrix2019RaikkonenFastestLap._id,
+  spainGrandPrix2019PerezFastestLap._id,
+  spainGrandPrix2019HulkenbergFastestLap._id,
+  spainGrandPrix2019RicciardoFastestLap._id,
+  spainGrandPrix2019AlbonFastestLap._id,
+  spainGrandPrix2019GiovinazziFastestLap._id,
+  spainGrandPrix2019KvyatFastestLap._id,
+  spainGrandPrix2019StrollFastestLap._id,
+  spainGrandPrix2019GaslyFastestLap._id,
+  spainGrandPrix2019SainzFastestLap._id,
+  spainGrandPrix2019RussellFastestLap._id,
+  spainGrandPrix2019KubicaFastestLap._id
+]

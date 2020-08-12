@@ -27,3 +27,27 @@ canadaGrandPrix2019.qualifying = [
   canadaGrandPrix2019RussellQualifying._id,
   canadaGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+canadaGrandPrix2019.fastestLaps = [
+  canadaGrandPrix2019HamiltonFastestLap._id,
+  canadaGrandPrix2019BottasFastestLap._id,
+  canadaGrandPrix2019VettelFastestLap._id,
+  canadaGrandPrix2019VerstappenFastestLap._id,
+  canadaGrandPrix2019LeclercFastestLap._id,
+  canadaGrandPrix2019GrosjeanFastestLap._id,
+  canadaGrandPrix2019MagnussenFastestLap._id,
+  canadaGrandPrix2019NorrisFastestLap._id,
+  canadaGrandPrix2019RaikkonenFastestLap._id,
+  canadaGrandPrix2019PerezFastestLap._id,
+  canadaGrandPrix2019HulkenbergFastestLap._id,
+  canadaGrandPrix2019RicciardoFastestLap._id,
+  canadaGrandPrix2019AlbonFastestLap._id,
+  canadaGrandPrix2019GiovinazziFastestLap._id,
+  canadaGrandPrix2019KvyatFastestLap._id,
+  canadaGrandPrix2019StrollFastestLap._id,
+  canadaGrandPrix2019GaslyFastestLap._id,
+  canadaGrandPrix2019SainzFastestLap._id,
+  canadaGrandPrix2019RussellFastestLap._id,
+  canadaGrandPrix2019KubicaFastestLap._id
+]

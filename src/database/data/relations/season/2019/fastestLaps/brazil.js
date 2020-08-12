@@ -1,0 +1,43 @@
+// FASTEST_LAPS -> DRIVER
+brazilGrandPrix2019HamiltonFastestLap.driver = hamilton._id
+brazilGrandPrix2019BottasFastestLap.driver = bottas._id
+brazilGrandPrix2019VettelFastestLap.driver = vettel._id
+brazilGrandPrix2019VerstappenFastestLap.driver = verstappen._id
+brazilGrandPrix2019LeclercFastestLap.driver = leclerc._id
+brazilGrandPrix2019GrosjeanFastestLap.driver = grosjean._id
+brazilGrandPrix2019MagnussenFastestLap.driver = magnussen._id
+brazilGrandPrix2019NorrisFastestLap.driver = norris._id
+brazilGrandPrix2019RaikkonenFastestLap.driver = raikkonen._id
+brazilGrandPrix2019PerezFastestLap.driver = perez._id
+brazilGrandPrix2019HulkenbergFastestLap.driver = hulkenberg._id
+brazilGrandPrix2019RicciardoFastestLap.driver = ricciardo._id
+brazilGrandPrix2019AlbonFastestLap.driver = albon._id
+brazilGrandPrix2019GiovinazziFastestLap.driver = giovinazzi._id
+brazilGrandPrix2019KvyatFastestLap.driver = kvyat._id
+brazilGrandPrix2019StrollFastestLap.driver = stroll._id
+brazilGrandPrix2019GaslyFastestLap.driver = gasly._id
+brazilGrandPrix2019SainzFastestLap.driver = sainz._id
+brazilGrandPrix2019RussellFastestLap.driver = russell._id
+brazilGrandPrix2019KubicaFastestLap.driver = kubica._id
+
+// FASTEST_LAPS -> TEAM
+brazilGrandPrix2019HamiltonFastestLap.team = mercedes._id
+brazilGrandPrix2019BottasFastestLap.team = mercedes._id
+brazilGrandPrix2019VettelFastestLap.team = ferrari._id
+brazilGrandPrix2019VerstappenFastestLap.team = redbull._id
+brazilGrandPrix2019LeclercFastestLap.team = ferrari._id
+brazilGrandPrix2019GrosjeanFastestLap.team = haas._id
+brazilGrandPrix2019MagnussenFastestLap.team = haas._id
+brazilGrandPrix2019NorrisFastestLap.team = mclaren._id
+brazilGrandPrix2019RaikkonenFastestLap.team = alfaRomeo._id
+brazilGrandPrix2019PerezFastestLap.team = racingPoint._id
+brazilGrandPrix2019HulkenbergFastestLap.team = renault._id
+brazilGrandPrix2019RicciardoFastestLap.team = renault._id
+brazilGrandPrix2019AlbonFastestLap.team = toroRosso._id
+brazilGrandPrix2019GiovinazziFastestLap.team = alfaRomeo._id
+brazilGrandPrix2019KvyatFastestLap.team = toroRosso._id
+brazilGrandPrix2019StrollFastestLap.team = racingPoint._id
+brazilGrandPrix2019GaslyFastestLap.team = redbull._id
+brazilGrandPrix2019SainzFastestLap.team = mclaren._id
+brazilGrandPrix2019RussellFastestLap.team = williams._id
+brazilGrandPrix2019KubicaFastestLap.team = williams._id

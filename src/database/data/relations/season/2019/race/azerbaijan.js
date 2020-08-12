@@ -27,3 +27,27 @@ azerbaijanGrandPrix2019.qualifying = [
   azerbaijanGrandPrix2019RussellQualifying._id,
   azerbaijanGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+azerbaijanGrandPrix2019.fastestLaps = [
+  azerbaijanGrandPrix2019HamiltonFastestLap._id,
+  azerbaijanGrandPrix2019BottasFastestLap._id,
+  azerbaijanGrandPrix2019VettelFastestLap._id,
+  azerbaijanGrandPrix2019VerstappenFastestLap._id,
+  azerbaijanGrandPrix2019LeclercFastestLap._id,
+  azerbaijanGrandPrix2019GrosjeanFastestLap._id,
+  azerbaijanGrandPrix2019MagnussenFastestLap._id,
+  azerbaijanGrandPrix2019NorrisFastestLap._id,
+  azerbaijanGrandPrix2019RaikkonenFastestLap._id,
+  azerbaijanGrandPrix2019PerezFastestLap._id,
+  azerbaijanGrandPrix2019HulkenbergFastestLap._id,
+  azerbaijanGrandPrix2019RicciardoFastestLap._id,
+  azerbaijanGrandPrix2019AlbonFastestLap._id,
+  azerbaijanGrandPrix2019GiovinazziFastestLap._id,
+  azerbaijanGrandPrix2019KvyatFastestLap._id,
+  azerbaijanGrandPrix2019StrollFastestLap._id,
+  azerbaijanGrandPrix2019GaslyFastestLap._id,
+  azerbaijanGrandPrix2019SainzFastestLap._id,
+  azerbaijanGrandPrix2019RussellFastestLap._id,
+  azerbaijanGrandPrix2019KubicaFastestLap._id
+]

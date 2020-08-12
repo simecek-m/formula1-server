@@ -27,3 +27,27 @@ bahrainGrandPrix2019.qualifying = [
   bahrainGrandPrix2019RussellQualifying._id,
   bahrainGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+bahrainGrandPrix2019.fastestLaps = [
+  bahrainGrandPrix2019HamiltonFastestLap._id,
+  bahrainGrandPrix2019BottasFastestLap._id,
+  bahrainGrandPrix2019VettelFastestLap._id,
+  bahrainGrandPrix2019VerstappenFastestLap._id,
+  bahrainGrandPrix2019LeclercFastestLap._id,
+  bahrainGrandPrix2019GrosjeanFastestLap._id,
+  bahrainGrandPrix2019MagnussenFastestLap._id,
+  bahrainGrandPrix2019NorrisFastestLap._id,
+  bahrainGrandPrix2019RaikkonenFastestLap._id,
+  bahrainGrandPrix2019PerezFastestLap._id,
+  bahrainGrandPrix2019HulkenbergFastestLap._id,
+  bahrainGrandPrix2019RicciardoFastestLap._id,
+  bahrainGrandPrix2019AlbonFastestLap._id,
+  bahrainGrandPrix2019GiovinazziFastestLap._id,
+  bahrainGrandPrix2019KvyatFastestLap._id,
+  bahrainGrandPrix2019StrollFastestLap._id,
+  bahrainGrandPrix2019GaslyFastestLap._id,
+  bahrainGrandPrix2019SainzFastestLap._id,
+  bahrainGrandPrix2019RussellFastestLap._id,
+  bahrainGrandPrix2019KubicaFastestLap._id
+]

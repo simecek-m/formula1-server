@@ -27,3 +27,27 @@ usaGrandPrix2019.qualifying = [
   usaGrandPrix2019RussellQualifying._id,
   usaGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+usaGrandPrix2019.fastestLaps = [
+  usaGrandPrix2019HamiltonFastestLap._id,
+  usaGrandPrix2019BottasFastestLap._id,
+  usaGrandPrix2019VettelFastestLap._id,
+  usaGrandPrix2019VerstappenFastestLap._id,
+  usaGrandPrix2019LeclercFastestLap._id,
+  usaGrandPrix2019GrosjeanFastestLap._id,
+  usaGrandPrix2019MagnussenFastestLap._id,
+  usaGrandPrix2019NorrisFastestLap._id,
+  usaGrandPrix2019RaikkonenFastestLap._id,
+  usaGrandPrix2019PerezFastestLap._id,
+  usaGrandPrix2019HulkenbergFastestLap._id,
+  usaGrandPrix2019RicciardoFastestLap._id,
+  usaGrandPrix2019AlbonFastestLap._id,
+  usaGrandPrix2019GiovinazziFastestLap._id,
+  usaGrandPrix2019KvyatFastestLap._id,
+  usaGrandPrix2019StrollFastestLap._id,
+  usaGrandPrix2019GaslyFastestLap._id,
+  usaGrandPrix2019SainzFastestLap._id,
+  usaGrandPrix2019RussellFastestLap._id,
+  usaGrandPrix2019KubicaFastestLap._id
+]

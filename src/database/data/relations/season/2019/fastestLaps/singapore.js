@@ -1,0 +1,43 @@
+// FASTEST_LAPS -> DRIVER
+singaporeGrandPrix2019HamiltonFastestLap.driver = hamilton._id
+singaporeGrandPrix2019BottasFastestLap.driver = bottas._id
+singaporeGrandPrix2019VettelFastestLap.driver = vettel._id
+singaporeGrandPrix2019VerstappenFastestLap.driver = verstappen._id
+singaporeGrandPrix2019LeclercFastestLap.driver = leclerc._id
+singaporeGrandPrix2019GrosjeanFastestLap.driver = grosjean._id
+singaporeGrandPrix2019MagnussenFastestLap.driver = magnussen._id
+singaporeGrandPrix2019NorrisFastestLap.driver = norris._id
+singaporeGrandPrix2019RaikkonenFastestLap.driver = raikkonen._id
+singaporeGrandPrix2019PerezFastestLap.driver = perez._id
+singaporeGrandPrix2019HulkenbergFastestLap.driver = hulkenberg._id
+singaporeGrandPrix2019RicciardoFastestLap.driver = ricciardo._id
+singaporeGrandPrix2019AlbonFastestLap.driver = albon._id
+singaporeGrandPrix2019GiovinazziFastestLap.driver = giovinazzi._id
+singaporeGrandPrix2019KvyatFastestLap.driver = kvyat._id
+singaporeGrandPrix2019StrollFastestLap.driver = stroll._id
+singaporeGrandPrix2019GaslyFastestLap.driver = gasly._id
+singaporeGrandPrix2019SainzFastestLap.driver = sainz._id
+singaporeGrandPrix2019RussellFastestLap.driver = russell._id
+singaporeGrandPrix2019KubicaFastestLap.driver = kubica._id
+
+// FASTEST_LAPS -> TEAM
+singaporeGrandPrix2019HamiltonFastestLap.team = mercedes._id
+singaporeGrandPrix2019BottasFastestLap.team = mercedes._id
+singaporeGrandPrix2019VettelFastestLap.team = ferrari._id
+singaporeGrandPrix2019VerstappenFastestLap.team = redbull._id
+singaporeGrandPrix2019LeclercFastestLap.team = ferrari._id
+singaporeGrandPrix2019GrosjeanFastestLap.team = haas._id
+singaporeGrandPrix2019MagnussenFastestLap.team = haas._id
+singaporeGrandPrix2019NorrisFastestLap.team = mclaren._id
+singaporeGrandPrix2019RaikkonenFastestLap.team = alfaRomeo._id
+singaporeGrandPrix2019PerezFastestLap.team = racingPoint._id
+singaporeGrandPrix2019HulkenbergFastestLap.team = renault._id
+singaporeGrandPrix2019RicciardoFastestLap.team = renault._id
+singaporeGrandPrix2019AlbonFastestLap.team = toroRosso._id
+singaporeGrandPrix2019GiovinazziFastestLap.team = alfaRomeo._id
+singaporeGrandPrix2019KvyatFastestLap.team = toroRosso._id
+singaporeGrandPrix2019StrollFastestLap.team = racingPoint._id
+singaporeGrandPrix2019GaslyFastestLap.team = redbull._id
+singaporeGrandPrix2019SainzFastestLap.team = mclaren._id
+singaporeGrandPrix2019RussellFastestLap.team = williams._id
+singaporeGrandPrix2019KubicaFastestLap.team = williams._id

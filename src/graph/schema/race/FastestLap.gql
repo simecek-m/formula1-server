@@ -1,6 +1,7 @@
 type FastestLap {
   _id: String!
   driver: Driver!
+  position: Int!
   time: String!
   lap: Int!
   speed: Float!

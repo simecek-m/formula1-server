@@ -27,3 +27,27 @@ japanGrandPrix2019.qualifying = [
   japanGrandPrix2019RussellQualifying._id,
   japanGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+japanGrandPrix2019.fastestLaps = [
+  japanGrandPrix2019HamiltonFastestLap._id,
+  japanGrandPrix2019BottasFastestLap._id,
+  japanGrandPrix2019VettelFastestLap._id,
+  japanGrandPrix2019VerstappenFastestLap._id,
+  japanGrandPrix2019LeclercFastestLap._id,
+  japanGrandPrix2019GrosjeanFastestLap._id,
+  japanGrandPrix2019MagnussenFastestLap._id,
+  japanGrandPrix2019NorrisFastestLap._id,
+  japanGrandPrix2019RaikkonenFastestLap._id,
+  japanGrandPrix2019PerezFastestLap._id,
+  japanGrandPrix2019HulkenbergFastestLap._id,
+  japanGrandPrix2019RicciardoFastestLap._id,
+  japanGrandPrix2019AlbonFastestLap._id,
+  japanGrandPrix2019GiovinazziFastestLap._id,
+  japanGrandPrix2019KvyatFastestLap._id,
+  japanGrandPrix2019StrollFastestLap._id,
+  japanGrandPrix2019GaslyFastestLap._id,
+  japanGrandPrix2019SainzFastestLap._id,
+  japanGrandPrix2019RussellFastestLap._id,
+  japanGrandPrix2019KubicaFastestLap._id
+]

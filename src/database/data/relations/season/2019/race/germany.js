@@ -27,3 +27,26 @@ germanyGrandPrix2019.qualifying = [
   germanyGrandPrix2019RussellQualifying._id,
   germanyGrandPrix2019KubicaQualifying._id
 ]
+
+// RACE -> FASTEST_LAPS
+germanyGrandPrix2019.fastestLaps = [
+  germanyGrandPrix2019HamiltonFastestLap._id,
+  germanyGrandPrix2019BottasFastestLap._id,
+  germanyGrandPrix2019VettelFastestLap._id,
+  germanyGrandPrix2019VerstappenFastestLap._id,
+  germanyGrandPrix2019LeclercFastestLap._id,
+  germanyGrandPrix2019GrosjeanFastestLap._id,
+  germanyGrandPrix2019MagnussenFastestLap._id,
+  germanyGrandPrix2019NorrisFastestLap._id,
+  germanyGrandPrix2019RaikkonenFastestLap._id,
+  germanyGrandPrix2019HulkenbergFastestLap._id,
+  germanyGrandPrix2019RicciardoFastestLap._id,
+  germanyGrandPrix2019AlbonFastestLap._id,
+  germanyGrandPrix2019GiovinazziFastestLap._id,
+  germanyGrandPrix2019KvyatFastestLap._id,
+  germanyGrandPrix2019StrollFastestLap._id,
+  germanyGrandPrix2019GaslyFastestLap._id,
+  germanyGrandPrix2019SainzFastestLap._id,
+  germanyGrandPrix2019RussellFastestLap._id,
+  germanyGrandPrix2019KubicaFastestLap._id
+]

@@ -1,0 +1,43 @@
+// FASTEST_LAPS -> DRIVER
+emiratesGrandPrix2019HamiltonFastestLap.driver = hamilton._id
+emiratesGrandPrix2019BottasFastestLap.driver = bottas._id
+emiratesGrandPrix2019VettelFastestLap.driver = vettel._id
+emiratesGrandPrix2019VerstappenFastestLap.driver = verstappen._id
+emiratesGrandPrix2019LeclercFastestLap.driver = leclerc._id
+emiratesGrandPrix2019GrosjeanFastestLap.driver = grosjean._id
+emiratesGrandPrix2019MagnussenFastestLap.driver = magnussen._id
+emiratesGrandPrix2019NorrisFastestLap.driver = norris._id
+emiratesGrandPrix2019RaikkonenFastestLap.driver = raikkonen._id
+emiratesGrandPrix2019PerezFastestLap.driver = perez._id
+emiratesGrandPrix2019HulkenbergFastestLap.driver = hulkenberg._id
+emiratesGrandPrix2019RicciardoFastestLap.driver = ricciardo._id
+emiratesGrandPrix2019AlbonFastestLap.driver = albon._id
+emiratesGrandPrix2019GiovinazziFastestLap.driver = giovinazzi._id
+emiratesGrandPrix2019KvyatFastestLap.driver = kvyat._id
+emiratesGrandPrix2019StrollFastestLap.driver = stroll._id
+emiratesGrandPrix2019GaslyFastestLap.driver = gasly._id
+emiratesGrandPrix2019SainzFastestLap.driver = sainz._id
+emiratesGrandPrix2019RussellFastestLap.driver = russell._id
+emiratesGrandPrix2019KubicaFastestLap.driver = kubica._id
+
+// FASTEST_LAPS -> TEAM
+emiratesGrandPrix2019HamiltonFastestLap.team = mercedes._id
+emiratesGrandPrix2019BottasFastestLap.team = mercedes._id
+emiratesGrandPrix2019VettelFastestLap.team = ferrari._id
+emiratesGrandPrix2019VerstappenFastestLap.team = redbull._id
+emiratesGrandPrix2019LeclercFastestLap.team = ferrari._id
+emiratesGrandPrix2019GrosjeanFastestLap.team = haas._id
+emiratesGrandPrix2019MagnussenFastestLap.team = haas._id
+emiratesGrandPrix2019NorrisFastestLap.team = mclaren._id
+emiratesGrandPrix2019RaikkonenFastestLap.team = alfaRomeo._id
+emiratesGrandPrix2019PerezFastestLap.team = racingPoint._id
+emiratesGrandPrix2019HulkenbergFastestLap.team = renault._id
+emiratesGrandPrix2019RicciardoFastestLap.team = renault._id
+emiratesGrandPrix2019AlbonFastestLap.team = toroRosso._id
+emiratesGrandPrix2019GiovinazziFastestLap.team = alfaRomeo._id
+emiratesGrandPrix2019KvyatFastestLap.team = toroRosso._id
+emiratesGrandPrix2019StrollFastestLap.team = racingPoint._id
+emiratesGrandPrix2019GaslyFastestLap.team = redbull._id
+emiratesGrandPrix2019SainzFastestLap.team = mclaren._id
+emiratesGrandPrix2019RussellFastestLap.team = williams._id
+emiratesGrandPrix2019KubicaFastestLap.team = williams._id
