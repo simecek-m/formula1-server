@@ -1,8 +1,8 @@
 type Country {
   _id: String!
-  drivers: [Driver]!
+  drivers(filter: DriverFilter, sort: DriverSort, limit: Int): [Driver]!
   name: String!
   factories: [Factory]!
   flag: String!
-  circuits: [Circuit]!
+  circuits(filter: CircuitFilter, sort: CircuitSort, limit: Int): [Circuit]!
 }

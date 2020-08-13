@@ -91,9 +91,9 @@ const resolvers = {
     team: ({ team }) => Team.findById(team)
   },
   Country: {
-    drivers: ({ drivers }) => Driver.find({ _id: { $in: drivers }}),
+    drivers: ({ drivers }, { filter, sort, limit}) => Driver.find({ _id: { $in: drivers }, ...filter }).sort(sort).limit(limit),
     factories: ({ factories }) => Factory.find({ _id: { $in: factories }}),
-    circuits: ({ circuits }) => Circuit.find({_id: { $in: circuits }})
+    circuits: ({ circuits }, { filter, sort, limit }) => Circuit.find({_id: { $in: circuits }, ...filter }).sort(sort).limit(limit)
   },
   Circuit: {
     length: (obj, args) => {
