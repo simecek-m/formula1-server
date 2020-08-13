@@ -27,7 +27,7 @@ const resolvers = {
     countries: (_, { filter, limit }) => Country.find(filter).limit(limit),
     factories: () => Factory.find(),
     circuits: (_, { filter, limit }) => Circuit.find(filter).limit(limit),
-    seasons: (_, args) => Season.find(args),
+    seasons: (_, { filter, limit}) => Season.find(filter).limit(limit),
     races: (_, args) => Race.find(args),
   },
   Date: new GraphQLScalarType({
