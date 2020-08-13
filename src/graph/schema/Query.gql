@@ -8,6 +8,6 @@ type Query {
   factories: [Factory]
   circuits(filter: CircuitFilter, sort: CircuitSort, limit: Int): [Circuit]
   cars(filter: CarFilter, sort: CarSort, limit: Int): [Car]
-  seasons(filter: SeasonFilter): [Season]
+  seasons(filter: SeasonFilter, sort: SeasonSort, limit: Int): [Season]
   races(filter: RaceFilter, sort: RaceSort, limit: Int): [Race]
 }
