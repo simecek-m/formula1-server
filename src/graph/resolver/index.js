@@ -18,17 +18,17 @@ const FastestLap = require("@database/model/race/FastestLap");
 
 const resolvers = {
   Query: {
-    drivers: ( _, { filter, limit, sort }) => Driver.find(filter).sort(sort).limit(limit),
+    drivers: ( _, { filter, sort, limit }) => Driver.find(filter).sort(sort).limit(limit),
     driver: (_, { id }) => Driver.findById(id),
     driverSeasons: () => DriverSeason.find(),
-    teams: (_, { filter, limit}) => Team.find(filter).limit(limit),
+    teams: (_, { filter, sort, limit }) => Team.find(filter).sort(sort).limit(limit),
     teamSeasons: () => TeamSeason.find(),
     cars: (_, { filter, limit }) => Car.find(filter).limit(limit),
     countries: (_, { filter, limit }) => Country.find(filter).limit(limit),
     factories: () => Factory.find(),
     circuits: (_, { filter, limit }) => Circuit.find(filter).limit(limit),
     seasons: (_, { filter, limit}) => Season.find(filter).limit(limit),
-    races: (_, { filter, limit, sort}) => Race.find(filter).sort(sort).limit(limit),
+    races: (_, { filter, sort, limit }) => Race.find(filter).sort(sort).limit(limit),
   },
   SortDirection: {
     ASC: 1,

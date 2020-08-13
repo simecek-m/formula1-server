@@ -2,7 +2,7 @@ type Query {
   drivers(filter: DriverFilter, limit: Int, sort: DriverSort): [Driver]
   driver(id: String): Driver
   driverSeasons: [DriverSeason]
-  teams(filter: TeamFilter, limit: Int): [Team]
+  teams(filter: TeamFilter, limit: Int, sort: TeamSort): [Team]
   teamSeasons: [TeamSeason]
   countries(filter: CountryFilter, limit: Int): [Country]
   factories: [Factory]
