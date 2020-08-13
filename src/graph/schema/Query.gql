@@ -7,7 +7,7 @@ type Query {
   countries(name: String): [Country]
   factories: [Factory]
   circuits(filter: CircuitFilter, limit: Int): [Circuit]
-  cars: [Car]
+  cars(filter: CarFilter, limit: Int): [Car]
   seasons(year: Int): [Season]
   races(name: String): [Race]
 }
