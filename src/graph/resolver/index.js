@@ -28,7 +28,7 @@ const resolvers = {
     factories: () => Factory.find(),
     circuits: (_, { filter, limit }) => Circuit.find(filter).limit(limit),
     seasons: (_, { filter, limit}) => Season.find(filter).limit(limit),
-    races: (_, args) => Race.find(args),
+    races: (_, { filter, limit, sort}) => Race.find(filter).sort(sort).limit(limit),
   },
   SortDirection: {
     ASC: 1,

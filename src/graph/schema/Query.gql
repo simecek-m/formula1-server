@@ -9,5 +9,5 @@ type Query {
   circuits(filter: CircuitFilter, limit: Int): [Circuit]
   cars(filter: CarFilter, limit: Int): [Car]
   seasons(filter: SeasonFilter): [Season]
-  races(name: String): [Race]
+  races(filter: RaceFilter, limit: Int, sort: RaceSort): [Race]
 }
