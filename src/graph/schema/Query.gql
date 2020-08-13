@@ -1,13 +1,13 @@
 type Query {
-  drivers(filter: DriverFilter, limit: Int, sort: DriverSort): [Driver]
+  drivers(filter: DriverFilter, sort: DriverSort, limit: Int): [Driver]
   driver(id: String): Driver
   driverSeasons: [DriverSeason]
-  teams(filter: TeamFilter, limit: Int, sort: TeamSort): [Team]
+  teams(filter: TeamFilter, sort: TeamSort, limit: Int): [Team]
   teamSeasons: [TeamSeason]
-  countries(filter: CountryFilter, limit: Int): [Country]
+  countries(filter: CountryFilter, sort: CountrySort,limit: Int): [Country]
   factories: [Factory]
   circuits(filter: CircuitFilter, limit: Int): [Circuit]
   cars(filter: CarFilter, limit: Int): [Car]
   seasons(filter: SeasonFilter): [Season]
-  races(filter: RaceFilter, limit: Int, sort: RaceSort): [Race]
+  races(filter: RaceFilter, sort: RaceSort, limit: Int): [Race]
 }
