@@ -126,7 +126,7 @@ const resolvers = {
   Race: {
     season: ({ season }) => Season.findById(season),
     circuit: ({ circuit }) => Circuit.findById(circuit),
-    qualifying: ({ qualifying }) => Qualifying.find({ _id: { $in: qualifying }}),
+    qualifying: ({ qualifying }, { filter, sort, limit }) => Qualifying.find({ _id: { $in: qualifying }, ...filter }).sort(sort).limit(limit),
     fastestLaps: async ({ fastestLaps }) => FastestLap.find({ _id: { $in: fastestLaps }})
     // TODO: results: ({ results }) => Result.find({ _id: { $in: results }})
   },
