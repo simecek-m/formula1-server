@@ -35,7 +35,7 @@ const driverSchema = new mongoose.Schema({
     instagram: String,
     facebook: String
   },
-  seasons: {
+  driverSeasons: {
     type: Array,
     required: true
   }

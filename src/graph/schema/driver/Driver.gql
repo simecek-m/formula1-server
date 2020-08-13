@@ -7,5 +7,5 @@ type Driver {
   birthday: Date!
   picture: String!
   links: Links
-  seasons: [DriverSeason]
+  driverSeasons: [DriverSeason]
 }

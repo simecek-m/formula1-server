@@ -61,7 +61,7 @@ const resolvers = {
       }
     },
     country: ({ country }) => Country.findById(country),
-    seasons: ({ seasons }) => DriverSeason.find({ _id: { $in: seasons }})
+    driverSeasons: ({ driverSeasons }) => DriverSeason.find({ _id: { $in: driverSeasons }})
   },
   DriverSeason: {
     teams: ({ teams }) => Team.find({ _id: { $in: teams }}),
