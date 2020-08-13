@@ -18,7 +18,7 @@ const FastestLap = require("@database/model/race/FastestLap");
 
 const resolvers = {
   Query: {
-    drivers: ( _, { filter, limit }) => Driver.find(filter).limit(limit),
+    drivers: ( _, { filter, limit, sort }) => Driver.find(filter).sort(sort).limit(limit),
     driver: (_, { id }) => Driver.findById(id),
     driverSeasons: () => DriverSeason.find(),
     teams: (_, { filter, limit}) => Team.find(filter).limit(limit),
@@ -29,6 +29,10 @@ const resolvers = {
     circuits: (_, { filter, limit }) => Circuit.find(filter).limit(limit),
     seasons: (_, { filter, limit}) => Season.find(filter).limit(limit),
     races: (_, args) => Race.find(args),
+  },
+  SortDirection: {
+    ASC: 1,
+    DESC: -1
   },
   Date: new GraphQLScalarType({
     name: "Date",

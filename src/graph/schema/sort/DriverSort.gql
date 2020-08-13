@@ -1,0 +1,6 @@
+input DriverSort {
+  firstname: SortDirection
+  lastname: SortDirection
+  height: SortDirection
+  birthday: SortDirection
+}

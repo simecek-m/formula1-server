@@ -1,5 +1,5 @@
 type Query {
-  drivers(filter: DriverFilter, limit: Int): [Driver]
+  drivers(filter: DriverFilter, limit: Int, sort: DriverSort): [Driver]
   driver(id: String): Driver
   driverSeasons: [DriverSeason]
   teams(filter: TeamFilter, limit: Int): [Team]
