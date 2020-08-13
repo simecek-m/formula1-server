@@ -1,6 +1,6 @@
 type Car {
   _id: String!
-  drivers: [Driver]
+  drivers(filter: DriverFilter, sort: DriverSort, limit: Int): [Driver]
   team: Team!
   season: Season!
   name: String!

@@ -82,7 +82,7 @@ const resolvers = {
     season: ({ season }) => Season.findById(season)
   },
   Car: {
-    drivers: ({ drivers }) => Driver.find({ _id: { $in: drivers }}),
+    drivers: ({ drivers }, { filter, sort, limit }) => Driver.find({ _id: { $in: drivers }, ...filter }).sort(sort).limit(limit),
     team: ({ team }) => Team.findById(team),
     season: ({ season }) => Season.findById(season)
   },
