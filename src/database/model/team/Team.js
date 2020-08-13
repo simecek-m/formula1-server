@@ -18,7 +18,7 @@ const teamSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  seasons: {
+  teamSeasons: {
     type: Array,
     required: true
   }

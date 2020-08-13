@@ -3,5 +3,5 @@ type Team {
   factory: Factory!
   name: String!
   color: String!
-  seasons: [TeamSeason]
+  teamSeasons: [TeamSeason]
 }

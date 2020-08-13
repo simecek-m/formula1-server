@@ -72,7 +72,7 @@ const resolvers = {
   },
   Team: {
     factory: ({ factory }) => Factory.findById(factory),
-    seasons: ({ seasons }) => TeamSeason.find({ _id: { $in: seasons }})
+    teamSeasons: ({ teamSeasons }) => TeamSeason.find({ _id: { $in: teamSeasons }})
   },
   TeamSeason: {
     team: ({ team }) => Team.findById(team),
