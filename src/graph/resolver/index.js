@@ -26,7 +26,7 @@ const resolvers = {
     cars: (_, { filter, sort, limit }) => Car.find(filter).sort(sort).limit(limit),
     countries: (_, { filter, sort, limit }) => Country.find(filter).sort(sort).limit(limit),
     factories: () => Factory.find(),
-    circuits: (_, { filter, limit }) => Circuit.find(filter).limit(limit),
+    circuits: (_, { filter, sort, limit }) => Circuit.find(filter).sort(sort).limit(limit),
     seasons: (_, { filter, limit}) => Season.find(filter).limit(limit),
     races: (_, { filter, sort, limit }) => Race.find(filter).sort(sort).limit(limit),
   },

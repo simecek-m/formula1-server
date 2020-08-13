@@ -1,0 +1,4 @@
+input CircuitSort {
+  name: SortDirection,
+  city: SortDirection
+}
