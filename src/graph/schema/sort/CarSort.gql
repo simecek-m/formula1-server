@@ -1,0 +1,5 @@
+input CarSort {
+  name: SortDirection,
+  engine: SortDirection,
+  fuel: SortDirection
+}
