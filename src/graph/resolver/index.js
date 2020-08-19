@@ -5,14 +5,14 @@ const moment = require("moment");
 // mongoose models
 const Driver = require("@database/queries/driver");
 const Team = require("@database/queries/team");
-const Country = require("@database/model/location/Country");
+const Country = require("@database/model/country/Country");
 const DriverSeason = require("@database/model/driver/DriverSeason");
 const TeamSeason = require("@database/model/team/TeamSeason");
 const Car = require("@database/model/car/Car");
 const Circuit = require("@database/model/circuit/Circuit");
 const Race = require("@database/model/race/Race");
 const Season = require("@database/model/season/Season");
-const Factory = require("@database/model/location/Factory");
+const Factory = require("@database/model/team/Factory");
 const Qualifying = require("@database/model/race/Qualifying");
 const FastestLap = require("@database/model/race/FastestLap");
 
