@@ -15,10 +15,11 @@ const Season = require("@database/model/season/Season");
 const Factory = require("@database/model/location/Factory");
 const Qualifying = require("@database/model/race/Qualifying");
 const FastestLap = require("@database/model/race/FastestLap");
+const findDriver = require("./aggregation/driver.js");
 
 const resolvers = {
   Query: {
-    drivers: ( _, { filter, sort, limit }) => Driver.find(filter).sort(sort).limit(limit),
+    drivers: ( _, { filter, sort, limit }) => findDriver(filter, sort, limit),
     driver: (_, { id }) => Driver.findById(id),
     driverSeasons: () => DriverSeason.find(),
     teams: (_, { filter, sort, limit }) => Team.find(filter).sort(sort).limit(limit),

@@ -8,7 +8,7 @@ const cors = require("cors");
 require("module-alias/register");
 
 // constants
-const PORT = 8080;
+const PORT = 8081;
 const HOST = "localhost";
 const GRAPH_SCHEMA_PATH = "src/graph/schema/**/*.gql";
 const GRAPH_RESOLVER_PATH = "src/graph/resolver/**/*.js";

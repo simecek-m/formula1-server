@@ -1,4 +1,5 @@
 input DriverFilter {
   firstname: String
   lastname: String
+  country: CountryFilter
 }
