@@ -5,7 +5,7 @@ const moment = require("moment");
 // mongoose models
 const Driver = require("@database/queries/driver");
 const Team = require("@database/queries/team");
-const Country = require("@database/model/country/Country");
+const Country = require("@database/queries/country");
 const DriverSeason = require("@database/model/driver/DriverSeason");
 const TeamSeason = require("@database/model/team/TeamSeason");
 const Car = require("@database/model/car/Car");
@@ -24,7 +24,7 @@ const resolvers = {
     teams: (_, { filter, sort, limit }) => Team.find(filter, sort, limit),
     teamSeasons: () => TeamSeason.find(),
     cars: (_, { filter, sort, limit }) => Car.find(filter).sort(sort).limit(limit),
-    countries: (_, { filter, sort, limit }) => Country.find(filter).sort(sort).limit(limit),
+    countries: (_, { filter, sort, limit }) => Country.find(filter, sort, limit),
     factories: () => Factory.find(),
     circuits: (_, { filter, sort, limit }) => Circuit.find(filter).sort(sort).limit(limit),
     seasons: (_, { filter, sort, limit}) => Season.find(filter).sort(sort).limit(limit),
