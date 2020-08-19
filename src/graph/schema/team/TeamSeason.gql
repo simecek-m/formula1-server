@@ -6,6 +6,6 @@ type TeamSeason {
   position: Int!
   races: [Race]
   car: Car!
-  drivers: [Driver]!
+  drivers(filter: DriverFilter, sort: DriverSort, limit: Int): [Driver]!
   season: Season
 }

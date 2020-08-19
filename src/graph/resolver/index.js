@@ -3,7 +3,7 @@ const { GraphQLScalarType } = require("graphql");
 const moment = require("moment");
 
 // mongoose models
-const Driver = require("@database/model/driver/Driver");
+const Driver = require("@database/queries/Driver");
 const Team = require("@database/model/team/Team");
 const Country = require("@database/model/location/Country");
 const DriverSeason = require("@database/model/driver/DriverSeason");
@@ -15,11 +15,10 @@ const Season = require("@database/model/season/Season");
 const Factory = require("@database/model/location/Factory");
 const Qualifying = require("@database/model/race/Qualifying");
 const FastestLap = require("@database/model/race/FastestLap");
-const findDriver = require("./aggregation/driver.js");
 
 const resolvers = {
   Query: {
-    drivers: ( _, { filter, sort, limit }) => findDriver(filter, sort, limit),
+    drivers: ( _, { filter, sort, limit }) => Driver.find(filter, sort, limit),
     driver: (_, { id }) => Driver.findById(id),
     driverSeasons: () => DriverSeason.find(),
     teams: (_, { filter, sort, limit }) => Team.find(filter).sort(sort).limit(limit),
@@ -79,11 +78,11 @@ const resolvers = {
     team: ({ team }) => Team.findById(team),
     races: ({ races }) => Race.find({ _id: { $in: races }}),
     car: ({ car }) => Car.findById(car),
-    drivers: ({ drivers }) => Driver.find({ _id: { $in: drivers} }),
+    drivers: ({ drivers }, { filter, sort, limit }) => Driver.find(filter, sort, limit, drivers),
     season: ({ season }) => Season.findById(season)
   },
   Car: {
-    drivers: ({ drivers }, { filter, sort, limit }) => Driver.find({ _id: { $in: drivers }, ...filter }).sort(sort).limit(limit),
+    drivers: ({ drivers }, { filter, sort, limit }) => Driver.find(filter, sort, limit, drivers),
     team: ({ team }) => Team.findById(team),
     season: ({ season }) => Season.findById(season)
   },
@@ -92,7 +91,7 @@ const resolvers = {
     team: ({ team }) => Team.findById(team)
   },
   Country: {
-    drivers: ({ drivers }, { filter, sort, limit}) => Driver.find({ _id: { $in: drivers }, ...filter }).sort(sort).limit(limit),
+    drivers: ({ drivers }, { filter, sort, limit}) => Driver.find(filter , sort, limit, drivers),
     factories: ({ factories }) => Factory.find({ _id: { $in: factories }}),
     circuits: ({ circuits }, { filter, sort, limit }) => Circuit.find({_id: { $in: circuits }, ...filter }).sort(sort).limit(limit)
   },
