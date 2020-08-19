@@ -3,8 +3,8 @@ const { GraphQLScalarType } = require("graphql");
 const moment = require("moment");
 
 // mongoose models
-const Driver = require("@database/queries/Driver");
-const Team = require("@database/model/team/Team");
+const Driver = require("@database/queries/driver");
+const Team = require("@database/queries/team");
 const Country = require("@database/model/location/Country");
 const DriverSeason = require("@database/model/driver/DriverSeason");
 const TeamSeason = require("@database/model/team/TeamSeason");
@@ -21,7 +21,7 @@ const resolvers = {
     drivers: ( _, { filter, sort, limit }) => Driver.find(filter, sort, limit),
     driver: (_, { id }) => Driver.findById(id),
     driverSeasons: () => DriverSeason.find(),
-    teams: (_, { filter, sort, limit }) => Team.find(filter).sort(sort).limit(limit),
+    teams: (_, { filter, sort, limit }) => Team.find(filter, sort, limit),
     teamSeasons: () => TeamSeason.find(),
     cars: (_, { filter, sort, limit }) => Car.find(filter).sort(sort).limit(limit),
     countries: (_, { filter, sort, limit }) => Country.find(filter).sort(sort).limit(limit),
@@ -64,7 +64,7 @@ const resolvers = {
     driverSeasons: ({ driverSeasons }) => DriverSeason.find({ _id: { $in: driverSeasons }})
   },
   DriverSeason: {
-    teams: ({ teams }) => Team.find({ _id: { $in: teams }}),
+    teams: ({ teams }, { filter, sort, limit }) => Team.find(filter, sort, limit, teams),
     cars: ({ cars }) => Car.find({ _id: { $in: cars }}),
     driver: ({ driver }) => Driver.findById(driver),
     races: ({ races }) => Race.find({ _id: { $in: races }}),

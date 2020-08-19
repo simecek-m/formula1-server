@@ -3,7 +3,7 @@ type DriverSeason {
   number: Int!
   points: Int!
   position: Int!
-  teams: [Team]
+  teams(filter: TeamFilter, sort: TeamSort, limit: Int): [Team]
   cars: [Car]
   driver: Driver!
   races: [Race]
