@@ -8,4 +8,5 @@ type TeamSeason {
   car: Car!
   drivers(filter: DriverFilter, sort: DriverSort, limit: Int): [Driver]!
   season: Season
+  fullName: String!
 }

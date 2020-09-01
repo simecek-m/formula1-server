@@ -37,6 +37,10 @@ const teamSeasonSchema = new mongoose.Schema({
   season: {
     type: ObjectId,
     required: true
+  },
+  fullName: {
+    type: String,
+    required: true
   }
 });
 
