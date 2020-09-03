@@ -25,6 +25,8 @@
   "devDependencies": {
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.3.0",
     "nodemon": "^2.0.2",
     "prettier": "2.1.1"
   },
@@ -33,5 +35,14 @@
     "@src": "src",
     "@database": "src/database",
     "@graph": "src/graph"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,gql,json,yml,yaml,md,markdown}": "prettier --write"
   }
 }
