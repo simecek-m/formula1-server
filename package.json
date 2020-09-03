@@ -18,10 +18,12 @@
     "mongoose": "5.10.0"
   },
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "yarn lint && node server",
+    "dev": "nodemon --exec \"yarn lint && node server\"",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "eslint": "^7.8.1",
     "nodemon": "^2.0.2"
   },
   "_moduleAliases": {
