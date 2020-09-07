@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-bahrainGrandPrix2019.circuit = bahrainCircuit._id
+bahrainGrandPrix2019.circuit = bahrainCircuit._id;
 
 // RACE -> SEASON
-bahrainGrandPrix2019.season = season2019._id
+bahrainGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 bahrainGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ bahrainGrandPrix2019.qualifying = [
   bahrainGrandPrix2019GaslyQualifying._id,
   bahrainGrandPrix2019SainzQualifying._id,
   bahrainGrandPrix2019RussellQualifying._id,
-  bahrainGrandPrix2019KubicaQualifying._id
-]
+  bahrainGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 bahrainGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ bahrainGrandPrix2019.fastestLaps = [
   bahrainGrandPrix2019GaslyFastestLap._id,
   bahrainGrandPrix2019SainzFastestLap._id,
   bahrainGrandPrix2019RussellFastestLap._id,
-  bahrainGrandPrix2019KubicaFastestLap._id
-]
+  bahrainGrandPrix2019KubicaFastestLap._id,
+];

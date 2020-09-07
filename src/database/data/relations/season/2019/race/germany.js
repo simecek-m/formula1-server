@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-germanyGrandPrix2019.circuit = hockenheimCircuit._id
+germanyGrandPrix2019.circuit = hockenheimCircuit._id;
 
 // RACE -> SEASON
-germanyGrandPrix2019.season = season2019._id
+germanyGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 germanyGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ germanyGrandPrix2019.qualifying = [
   germanyGrandPrix2019GaslyQualifying._id,
   germanyGrandPrix2019SainzQualifying._id,
   germanyGrandPrix2019RussellQualifying._id,
-  germanyGrandPrix2019KubicaQualifying._id
-]
+  germanyGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 germanyGrandPrix2019.fastestLaps = [
@@ -48,5 +48,5 @@ germanyGrandPrix2019.fastestLaps = [
   germanyGrandPrix2019GaslyFastestLap._id,
   germanyGrandPrix2019SainzFastestLap._id,
   germanyGrandPrix2019RussellFastestLap._id,
-  germanyGrandPrix2019KubicaFastestLap._id
-]
+  germanyGrandPrix2019KubicaFastestLap._id,
+];

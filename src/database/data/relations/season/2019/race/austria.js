@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-austriaGrandPrix2019.circuit = austriaCircuit._id
+austriaGrandPrix2019.circuit = austriaCircuit._id;
 
 // RACE -> SEASON
-austriaGrandPrix2019.season = season2019._id
+austriaGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 austriaGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ austriaGrandPrix2019.qualifying = [
   austriaGrandPrix2019GaslyQualifying._id,
   austriaGrandPrix2019SainzQualifying._id,
   austriaGrandPrix2019RussellQualifying._id,
-  austriaGrandPrix2019KubicaQualifying._id
-]
+  austriaGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 austriaGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ austriaGrandPrix2019.fastestLaps = [
   austriaGrandPrix2019GaslyFastestLap._id,
   austriaGrandPrix2019SainzFastestLap._id,
   austriaGrandPrix2019RussellFastestLap._id,
-  austriaGrandPrix2019KubicaFastestLap._id
-]
+  austriaGrandPrix2019KubicaFastestLap._id,
+];

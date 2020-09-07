@@ -18,5 +18,5 @@ db.drivers.insertMany([
   magnussen,
   grosjean,
   kubica,
-  russell
+  russell,
 ]);

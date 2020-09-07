@@ -4,7 +4,7 @@ const bahrainGrandPrix2019LeclercQualifying = {
   q2Time: "1:28.046",
   q3Time: "1:27.866",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const bahrainGrandPrix2019VettelQualifying = {
@@ -13,7 +13,7 @@ const bahrainGrandPrix2019VettelQualifying = {
   q2Time: "1:28.356",
   q3Time: "1:28.160",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const bahrainGrandPrix2019HamiltonQualifying = {
@@ -22,7 +22,7 @@ const bahrainGrandPrix2019HamiltonQualifying = {
   q2Time: "1:28.578",
   q3Time: "1:28.190",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const bahrainGrandPrix2019BottasQualifying = {
@@ -31,7 +31,7 @@ const bahrainGrandPrix2019BottasQualifying = {
   q2Time: "1:28.830",
   q3Time: "1:28.256",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const bahrainGrandPrix2019VerstappenQualifying = {
@@ -40,7 +40,7 @@ const bahrainGrandPrix2019VerstappenQualifying = {
   q2Time: "1:29.109",
   q3Time: "1:28.752",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const bahrainGrandPrix2019MagnussenQualifying = {
@@ -49,7 +49,7 @@ const bahrainGrandPrix2019MagnussenQualifying = {
   q2Time: "1:29.017",
   q3Time: "1:28.757",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const bahrainGrandPrix2019SainzQualifying = {
@@ -58,7 +58,7 @@ const bahrainGrandPrix2019SainzQualifying = {
   q2Time: "1:29.055",
   q3Time: "1:28.813",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const bahrainGrandPrix2019GrosjeanQualifying = {
@@ -67,7 +67,7 @@ const bahrainGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:29.249",
   q3Time: "1:29.015",
   note: "Penalised 3 grid places for impeding Norris during qualifying.",
-  position: 8
+  position: 8,
 };
 
 const bahrainGrandPrix2019RaikkonenQualifying = {
@@ -76,7 +76,7 @@ const bahrainGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:29.471",
   q3Time: "1:29.022",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const bahrainGrandPrix2019NorrisQualifying = {
@@ -85,7 +85,7 @@ const bahrainGrandPrix2019NorrisQualifying = {
   q2Time: "1:29.258",
   q3Time: "1:29.043",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const bahrainGrandPrix2019RicciardoQualifying = {
@@ -94,7 +94,7 @@ const bahrainGrandPrix2019RicciardoQualifying = {
   q2Time: "1:29.488",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const bahrainGrandPrix2019AlbonQualifying = {
@@ -103,7 +103,7 @@ const bahrainGrandPrix2019AlbonQualifying = {
   q2Time: "1:29.513",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const bahrainGrandPrix2019GaslyQualifying = {
@@ -112,7 +112,7 @@ const bahrainGrandPrix2019GaslyQualifying = {
   q2Time: "1:29.526",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const bahrainGrandPrix2019PerezQualifying = {
@@ -121,7 +121,7 @@ const bahrainGrandPrix2019PerezQualifying = {
   q2Time: "1:29.756",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const bahrainGrandPrix2019KvyatQualifying = {
@@ -130,7 +130,7 @@ const bahrainGrandPrix2019KvyatQualifying = {
   q2Time: "1:29.854",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const bahrainGrandPrix2019GiovinazziQualifying = {
@@ -139,7 +139,7 @@ const bahrainGrandPrix2019GiovinazziQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const bahrainGrandPrix2019HulkenbergQualifying = {
@@ -148,7 +148,7 @@ const bahrainGrandPrix2019HulkenbergQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const bahrainGrandPrix2019StrollQualifying = {
@@ -157,7 +157,7 @@ const bahrainGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const bahrainGrandPrix2019RussellQualifying = {
@@ -166,7 +166,7 @@ const bahrainGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const bahrainGrandPrix2019KubicaQualifying = {
@@ -175,5 +175,5 @@ const bahrainGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 20
+  position: 20,
 };

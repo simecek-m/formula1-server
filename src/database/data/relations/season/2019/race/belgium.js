@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-belgiumGrandPrix2019.circuit = spaCircuit._id
+belgiumGrandPrix2019.circuit = spaCircuit._id;
 
 // RACE -> SEASON
-belgiumGrandPrix2019.season = season2019._id
+belgiumGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 belgiumGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ belgiumGrandPrix2019.qualifying = [
   belgiumGrandPrix2019GaslyQualifying._id,
   belgiumGrandPrix2019SainzQualifying._id,
   belgiumGrandPrix2019RussellQualifying._id,
-  belgiumGrandPrix2019KubicaQualifying._id
-]
+  belgiumGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 belgiumGrandPrix2019.fastestLaps = [
@@ -47,5 +47,5 @@ belgiumGrandPrix2019.fastestLaps = [
   belgiumGrandPrix2019StrollFastestLap._id,
   belgiumGrandPrix2019GaslyFastestLap._id,
   belgiumGrandPrix2019RussellFastestLap._id,
-  belgiumGrandPrix2019KubicaFastestLap._id
-]
+  belgiumGrandPrix2019KubicaFastestLap._id,
+];

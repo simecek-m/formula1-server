@@ -1,4 +1,4 @@
 input CircuitFilter {
-  name: String,
+  name: String
   city: String
 }

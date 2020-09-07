@@ -1,4 +1,4 @@
 const season2019 = {
   _id: ObjectId(),
-  year: 2019
+  year: 2019,
 };

@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-singaporeGrandPrix2019.circuit = singaporeCircuit._id
+singaporeGrandPrix2019.circuit = singaporeCircuit._id;
 
 // RACE -> SEASON
-singaporeGrandPrix2019.season = season2019._id
+singaporeGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 singaporeGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ singaporeGrandPrix2019.qualifying = [
   singaporeGrandPrix2019GaslyQualifying._id,
   singaporeGrandPrix2019SainzQualifying._id,
   singaporeGrandPrix2019RussellQualifying._id,
-  singaporeGrandPrix2019KubicaQualifying._id
-]
+  singaporeGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 singaporeGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ singaporeGrandPrix2019.fastestLaps = [
   singaporeGrandPrix2019GaslyFastestLap._id,
   singaporeGrandPrix2019SainzFastestLap._id,
   singaporeGrandPrix2019RussellFastestLap._id,
-  singaporeGrandPrix2019KubicaFastestLap._id
-]
+  singaporeGrandPrix2019KubicaFastestLap._id,
+];

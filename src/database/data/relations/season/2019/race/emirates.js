@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-emiratesGrandPrix2019.circuit = emiratesCircuit._id
+emiratesGrandPrix2019.circuit = emiratesCircuit._id;
 
 // RACE -> SEASON
-emiratesGrandPrix2019.season = season2019._id
+emiratesGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 emiratesGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ emiratesGrandPrix2019.qualifying = [
   emiratesGrandPrix2019GaslyQualifying._id,
   emiratesGrandPrix2019SainzQualifying._id,
   emiratesGrandPrix2019RussellQualifying._id,
-  emiratesGrandPrix2019KubicaQualifying._id
-]
+  emiratesGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 emiratesGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ emiratesGrandPrix2019.fastestLaps = [
   emiratesGrandPrix2019GaslyFastestLap._id,
   emiratesGrandPrix2019SainzFastestLap._id,
   emiratesGrandPrix2019RussellFastestLap._id,
-  emiratesGrandPrix2019KubicaFastestLap._id
-]
+  emiratesGrandPrix2019KubicaFastestLap._id,
+];

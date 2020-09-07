@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-azerbaijanGrandPrix2019.circuit = bakuCircuit._id
+azerbaijanGrandPrix2019.circuit = bakuCircuit._id;
 
 // RACE -> SEASON
-azerbaijanGrandPrix2019.season = season2019._id
+azerbaijanGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 azerbaijanGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ azerbaijanGrandPrix2019.qualifying = [
   azerbaijanGrandPrix2019GaslyQualifying._id,
   azerbaijanGrandPrix2019SainzQualifying._id,
   azerbaijanGrandPrix2019RussellQualifying._id,
-  azerbaijanGrandPrix2019KubicaQualifying._id
-]
+  azerbaijanGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 azerbaijanGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ azerbaijanGrandPrix2019.fastestLaps = [
   azerbaijanGrandPrix2019GaslyFastestLap._id,
   azerbaijanGrandPrix2019SainzFastestLap._id,
   azerbaijanGrandPrix2019RussellFastestLap._id,
-  azerbaijanGrandPrix2019KubicaFastestLap._id
-]
+  azerbaijanGrandPrix2019KubicaFastestLap._id,
+];

@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-italyGrandPrix2019.circuit = monzaCircuit._id
+italyGrandPrix2019.circuit = monzaCircuit._id;
 
 // RACE -> SEASON
-italyGrandPrix2019.season = season2019._id
+italyGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 italyGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ italyGrandPrix2019.qualifying = [
   italyGrandPrix2019GaslyQualifying._id,
   italyGrandPrix2019SainzQualifying._id,
   italyGrandPrix2019RussellQualifying._id,
-  italyGrandPrix2019KubicaQualifying._id
-]
+  italyGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 italyGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ italyGrandPrix2019.fastestLaps = [
   italyGrandPrix2019GaslyFastestLap._id,
   italyGrandPrix2019SainzFastestLap._id,
   italyGrandPrix2019RussellFastestLap._id,
-  italyGrandPrix2019KubicaFastestLap._id
-]
+  italyGrandPrix2019KubicaFastestLap._id,
+];

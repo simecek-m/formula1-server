@@ -26,5 +26,5 @@ db.countries.insertMany([
   emirates,
   vietnam,
   denmark,
-  switzerland
+  switzerland,
 ]);

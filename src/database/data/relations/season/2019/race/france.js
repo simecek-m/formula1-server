@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-franceGrandPrix2019.circuit = franceCircuit._id
+franceGrandPrix2019.circuit = franceCircuit._id;
 
 // RACE -> SEASON
-franceGrandPrix2019.season = season2019._id
+franceGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 franceGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ franceGrandPrix2019.qualifying = [
   franceGrandPrix2019GaslyQualifying._id,
   franceGrandPrix2019SainzQualifying._id,
   franceGrandPrix2019RussellQualifying._id,
-  franceGrandPrix2019KubicaQualifying._id
-]
+  franceGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 franceGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ franceGrandPrix2019.fastestLaps = [
   franceGrandPrix2019GaslyFastestLap._id,
   franceGrandPrix2019SainzFastestLap._id,
   franceGrandPrix2019RussellFastestLap._id,
-  franceGrandPrix2019KubicaFastestLap._id
-]
+  franceGrandPrix2019KubicaFastestLap._id,
+];

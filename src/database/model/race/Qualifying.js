@@ -4,33 +4,33 @@ const ObjectId = mongoose.Schema.ObjectId;
 const qualifyingSchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   driver: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   q1Time: {
     type: String,
-    required: true
+    required: true,
   },
   q2Time: {
     type: String,
-    required: true
+    required: true,
   },
   q3Time: {
     type: String,
-    required: true
+    required: true,
   },
   position: {
     type: Number,
-    required: true
+    required: true,
   },
   note: String,
   team: {
     type: ObjectId,
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Qualifying = mongoose.model("qualifying", qualifyingSchema, "qualifying");

@@ -4,7 +4,7 @@ const italyGrandPrix2019LeclercQualifying = {
   q2Time: "1:19.553",
   q3Time: "1:19.307",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const italyGrandPrix2019HamiltonQualifying = {
@@ -13,7 +13,7 @@ const italyGrandPrix2019HamiltonQualifying = {
   q2Time: "1:19.464",
   q3Time: "1:19.346",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const italyGrandPrix2019BottasQualifying = {
@@ -22,7 +22,7 @@ const italyGrandPrix2019BottasQualifying = {
   q2Time: "1:20.018",
   q3Time: "1:19.354",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const italyGrandPrix2019VettelQualifying = {
@@ -31,7 +31,7 @@ const italyGrandPrix2019VettelQualifying = {
   q2Time: "1:19.715",
   q3Time: "1:19.457",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const italyGrandPrix2019RicciardoQualifying = {
@@ -40,7 +40,7 @@ const italyGrandPrix2019RicciardoQualifying = {
   q2Time: "1:19.833",
   q3Time: "1:19.839",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const italyGrandPrix2019HulkenbergQualifying = {
@@ -49,7 +49,7 @@ const italyGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:20.275",
   q3Time: "1:20.049",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const italyGrandPrix2019SainzQualifying = {
@@ -58,7 +58,7 @@ const italyGrandPrix2019SainzQualifying = {
   q2Time: "1:20.202",
   q3Time: "1:20.455",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const italyGrandPrix2019AlbonQualifying = {
@@ -67,7 +67,7 @@ const italyGrandPrix2019AlbonQualifying = {
   q2Time: "1:20.021",
   q3Time: null,
   note: null,
-  position: 8
+  position: 8,
 };
 
 const italyGrandPrix2019StrollQualifying = {
@@ -76,7 +76,7 @@ const italyGrandPrix2019StrollQualifying = {
   q2Time: "1:20.498",
   q3Time: null,
   note: null,
-  position: 9
+  position: 9,
 };
 
 const italyGrandPrix2019RaikkonenQualifying = {
@@ -85,7 +85,7 @@ const italyGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:20.515",
   q3Time: null,
   note: null,
-  position: 10
+  position: 10,
 };
 
 const italyGrandPrix2019GiovinazziQualifying = {
@@ -94,7 +94,7 @@ const italyGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:20.517",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const italyGrandPrix2019MagnussenQualifying = {
@@ -103,7 +103,7 @@ const italyGrandPrix2019MagnussenQualifying = {
   q2Time: "1:20.615",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const italyGrandPrix2019KvyatQualifying = {
@@ -112,7 +112,7 @@ const italyGrandPrix2019KvyatQualifying = {
   q2Time: "1:20.630",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const italyGrandPrix2019NorrisQualifying = {
@@ -120,8 +120,9 @@ const italyGrandPrix2019NorrisQualifying = {
   q1Time: "1:20.646",
   q2Time: "1:21.068",
   q3Time: null,
-  note: "To start from back of grid due to multiple power unit element changes.",
-  position: 14
+  note:
+    "To start from back of grid due to multiple power unit element changes.",
+  position: 14,
 };
 
 const italyGrandPrix2019GaslyQualifying = {
@@ -129,8 +130,9 @@ const italyGrandPrix2019GaslyQualifying = {
   q1Time: "1:20.508",
   q2Time: "1:21.125",
   q3Time: null,
-  note: "To start from back of grid due to multiple power unit element changes.",
-  position: 15
+  note:
+    "To start from back of grid due to multiple power unit element changes.",
+  position: 15,
 };
 
 const italyGrandPrix2019GrosjeanQualifying = {
@@ -139,7 +141,7 @@ const italyGrandPrix2019GrosjeanQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const italyGrandPrix2019PerezQualifying = {
@@ -148,7 +150,7 @@ const italyGrandPrix2019PerezQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const italyGrandPrix2019RussellQualifying = {
@@ -157,7 +159,7 @@ const italyGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const italyGrandPrix2019KubicaQualifying = {
@@ -166,7 +168,7 @@ const italyGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const italyGrandPrix2019VerstappenQualifying = {
@@ -174,6 +176,7 @@ const italyGrandPrix2019VerstappenQualifying = {
   q1Time: null,
   q2Time: null,
   q3Time: null,
-  note: "To start from back of grid due to multiple power unit element changes.",
-  position: 20
+  note:
+    "To start from back of grid due to multiple power unit element changes.",
+  position: 20,
 };

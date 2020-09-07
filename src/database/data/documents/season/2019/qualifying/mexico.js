@@ -4,7 +4,7 @@ const mexicoGrandPrix2019VerstappenQualifying = {
   q2Time: "1:16.136",
   q3Time: "1:14.758",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const mexicoGrandPrix2019LeclercQualifying = {
@@ -13,7 +13,7 @@ const mexicoGrandPrix2019LeclercQualifying = {
   q2Time: "1:16.219",
   q3Time: "1:15.024",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const mexicoGrandPrix2019VettelQualifying = {
@@ -22,7 +22,7 @@ const mexicoGrandPrix2019VettelQualifying = {
   q2Time: "1:15.914",
   q3Time: "1:15.170",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const mexicoGrandPrix2019HamiltonQualifying = {
@@ -31,7 +31,7 @@ const mexicoGrandPrix2019HamiltonQualifying = {
   q2Time: "1:15.721",
   q3Time: "1:15.262",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const mexicoGrandPrix2019AlbonQualifying = {
@@ -40,7 +40,7 @@ const mexicoGrandPrix2019AlbonQualifying = {
   q2Time: "1:16.574",
   q3Time: "1:15.336",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const mexicoGrandPrix2019BottasQualifying = {
@@ -49,7 +49,7 @@ const mexicoGrandPrix2019BottasQualifying = {
   q2Time: "1:15.852",
   q3Time: "1:15.338",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const mexicoGrandPrix2019SainzQualifying = {
@@ -58,7 +58,7 @@ const mexicoGrandPrix2019SainzQualifying = {
   q2Time: "1:16.267",
   q3Time: "1:16.014",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const mexicoGrandPrix2019NorrisQualifying = {
@@ -67,7 +67,7 @@ const mexicoGrandPrix2019NorrisQualifying = {
   q2Time: "1:16.447",
   q3Time: "1:16.322",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const mexicoGrandPrix2019KvyatQualifying = {
@@ -76,7 +76,7 @@ const mexicoGrandPrix2019KvyatQualifying = {
   q2Time: "1:16.657",
   q3Time: "1:16.469",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const mexicoGrandPrix2019GaslyQualifying = {
@@ -85,7 +85,7 @@ const mexicoGrandPrix2019GaslyQualifying = {
   q2Time: "1:16.679",
   q3Time: "1:16.586",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const mexicoGrandPrix2019PerezQualifying = {
@@ -94,7 +94,7 @@ const mexicoGrandPrix2019PerezQualifying = {
   q2Time: "1:16.687",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const mexicoGrandPrix2019HulkenbergQualifying = {
@@ -103,7 +103,7 @@ const mexicoGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:16.885",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const mexicoGrandPrix2019RicciardoQualifying = {
@@ -112,7 +112,7 @@ const mexicoGrandPrix2019RicciardoQualifying = {
   q2Time: "1:16.933",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const mexicoGrandPrix2019RaikkonenQualifying = {
@@ -121,7 +121,7 @@ const mexicoGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:16.967",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const mexicoGrandPrix2019GiovinazziQualifying = {
@@ -130,7 +130,7 @@ const mexicoGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:17.269",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const mexicoGrandPrix2019StrollQualifying = {
@@ -139,7 +139,7 @@ const mexicoGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const mexicoGrandPrix2019MagnussenQualifying = {
@@ -148,7 +148,7 @@ const mexicoGrandPrix2019MagnussenQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const mexicoGrandPrix2019GrosjeanQualifying = {
@@ -157,7 +157,7 @@ const mexicoGrandPrix2019GrosjeanQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const mexicoGrandPrix2019RussellQualifying = {
@@ -166,7 +166,7 @@ const mexicoGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const mexicoGrandPrix2019KubicaQualifying = {
@@ -175,5 +175,5 @@ const mexicoGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 20
+  position: 20,
 };

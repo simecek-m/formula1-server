@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-monacoGrandPrix2019.circuit = monacoCircuit._id
+monacoGrandPrix2019.circuit = monacoCircuit._id;
 
 // RACE -> SEASON
-monacoGrandPrix2019.season = season2019._id
+monacoGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 monacoGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ monacoGrandPrix2019.qualifying = [
   monacoGrandPrix2019GaslyQualifying._id,
   monacoGrandPrix2019SainzQualifying._id,
   monacoGrandPrix2019RussellQualifying._id,
-  monacoGrandPrix2019KubicaQualifying._id
-]
+  monacoGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 monacoGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ monacoGrandPrix2019.fastestLaps = [
   monacoGrandPrix2019GaslyFastestLap._id,
   monacoGrandPrix2019SainzFastestLap._id,
   monacoGrandPrix2019RussellFastestLap._id,
-  monacoGrandPrix2019KubicaFastestLap._id
-]
+  monacoGrandPrix2019KubicaFastestLap._id,
+];

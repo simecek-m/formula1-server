@@ -4,34 +4,38 @@ const ObjectId = mongoose.Schema.ObjectId;
 const fastestLapSchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   driver: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   position: {
     type: Number,
-    required: true
+    required: true,
   },
   time: {
     type: String,
-    required: true
+    required: true,
   },
   lap: {
     type: Number,
-    required: true
+    required: true,
   },
   speed: {
     type: Number,
-    required: true
+    required: true,
   },
   team: {
     type: ObjectId,
-    required: true
-  }
+    required: true,
+  },
 });
 
-const FastestLap = mongoose.model("fastestLap", fastestLapSchema, "fastestLaps");
+const FastestLap = mongoose.model(
+  "fastestLap",
+  fastestLapSchema,
+  "fastestLaps"
+);
 
 module.exports = FastestLap;

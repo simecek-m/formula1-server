@@ -4,7 +4,7 @@ const brazilGrandPrix2019VerstappenQualifying = {
   q2Time: "1:07.503",
   q3Time: "1:07.508",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const brazilGrandPrix2019VettelQualifying = {
@@ -13,7 +13,7 @@ const brazilGrandPrix2019VettelQualifying = {
   q2Time: "1:08.050",
   q3Time: "1:07.631",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const brazilGrandPrix2019HamiltonQualifying = {
@@ -22,7 +22,7 @@ const brazilGrandPrix2019HamiltonQualifying = {
   q2Time: "1:08.088",
   q3Time: "1:07.699",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const brazilGrandPrix2019LeclercQualifying = {
@@ -31,7 +31,7 @@ const brazilGrandPrix2019LeclercQualifying = {
   q2Time: "1:07.888",
   q3Time: "1:07.728",
   note: "Drops 10 grid places for use of additional power unit element.",
-  position: 4
+  position: 4,
 };
 
 const brazilGrandPrix2019BottasQualifying = {
@@ -40,7 +40,7 @@ const brazilGrandPrix2019BottasQualifying = {
   q2Time: "1:08.232",
   q3Time: "1:07.874",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const brazilGrandPrix2019AlbonQualifying = {
@@ -49,7 +49,7 @@ const brazilGrandPrix2019AlbonQualifying = {
   q2Time: "1:08.117",
   q3Time: "1:07.935",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const brazilGrandPrix2019GaslyQualifying = {
@@ -58,7 +58,7 @@ const brazilGrandPrix2019GaslyQualifying = {
   q2Time: "1:08.770",
   q3Time: "1:08.837",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const brazilGrandPrix2019GrosjeanQualifying = {
@@ -67,7 +67,7 @@ const brazilGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:08.705",
   q3Time: "1:08.854",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const brazilGrandPrix2019RaikkonenQualifying = {
@@ -76,7 +76,7 @@ const brazilGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:08.858",
   q3Time: "1:08.984",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const brazilGrandPrix2019MagnussenQualifying = {
@@ -85,7 +85,7 @@ const brazilGrandPrix2019MagnussenQualifying = {
   q2Time: "1:08.803",
   q3Time: "1:09.037",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const brazilGrandPrix2019NorrisQualifying = {
@@ -94,7 +94,7 @@ const brazilGrandPrix2019NorrisQualifying = {
   q2Time: "1:08.868",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const brazilGrandPrix2019RicciardoQualifying = {
@@ -103,7 +103,7 @@ const brazilGrandPrix2019RicciardoQualifying = {
   q2Time: "1:08.903",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const brazilGrandPrix2019GiovinazziQualifying = {
@@ -112,7 +112,7 @@ const brazilGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:08.919",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const brazilGrandPrix2019HulkenbergQualifying = {
@@ -121,7 +121,7 @@ const brazilGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:08.921",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const brazilGrandPrix2019PerezQualifying = {
@@ -130,7 +130,7 @@ const brazilGrandPrix2019PerezQualifying = {
   q2Time: "1:09.035",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const brazilGrandPrix2019KvyatQualifying = {
@@ -139,7 +139,7 @@ const brazilGrandPrix2019KvyatQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const brazilGrandPrix2019StrollQualifying = {
@@ -148,7 +148,7 @@ const brazilGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const brazilGrandPrix2019RussellQualifying = {
@@ -157,7 +157,7 @@ const brazilGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const brazilGrandPrix2019KubicaQualifying = {
@@ -166,7 +166,7 @@ const brazilGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const brazilGrandPrix2019SainzQualifying = {
@@ -175,5 +175,5 @@ const brazilGrandPrix2019SainzQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Races at stewards' discretion after failing to set a qualifying time.",
-  position: 20
+  position: 20,
 };

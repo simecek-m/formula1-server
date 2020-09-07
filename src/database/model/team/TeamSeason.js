@@ -4,46 +4,50 @@ const ObjectId = mongoose.Types.ObjectId;
 const teamSeasonSchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   team: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   principal: {
     type: String,
-    required: true
+    required: true,
   },
   points: {
     type: Number,
-    required: true
+    required: true,
   },
   position: {
     type: Number,
-    required: true
+    required: true,
   },
   races: {
     type: Array,
-    required: true
+    required: true,
   },
   car: {
     type: Array,
-    required: true
+    required: true,
   },
   drivers: {
     type: Array,
-    required: true
+    required: true,
   },
   season: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   fullName: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 });
 
-const teamSeason = mongoose.model("teamSeason", teamSeasonSchema, "teamSeasons");
+const teamSeason = mongoose.model(
+  "teamSeason",
+  teamSeasonSchema,
+  "teamSeasons"
+);
 
 module.exports = teamSeason;

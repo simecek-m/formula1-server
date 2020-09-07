@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-chinaGrandPrix2019.circuit = shanghaiCircuit._id
+chinaGrandPrix2019.circuit = shanghaiCircuit._id;
 
 // RACE -> SEASON
-chinaGrandPrix2019.season = season2019._id
+chinaGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 chinaGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ chinaGrandPrix2019.qualifying = [
   chinaGrandPrix2019GaslyQualifying._id,
   chinaGrandPrix2019SainzQualifying._id,
   chinaGrandPrix2019RussellQualifying._id,
-  chinaGrandPrix2019KubicaQualifying._id
-]
+  chinaGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 chinaGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ chinaGrandPrix2019.fastestLaps = [
   chinaGrandPrix2019GaslyFastestLap._id,
   chinaGrandPrix2019SainzFastestLap._id,
   chinaGrandPrix2019RussellFastestLap._id,
-  chinaGrandPrix2019KubicaFastestLap._id
-]
+  chinaGrandPrix2019KubicaFastestLap._id,
+];

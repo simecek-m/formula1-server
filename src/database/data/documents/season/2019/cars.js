@@ -3,7 +3,7 @@ const mercedes2019Car = {
   name: "Mercedes W10",
   engine: null,
   fuel: "Petronas Primax",
-  weight: 743
+  weight: 743,
 };
 
 const ferrari2019Car = {
@@ -11,7 +11,7 @@ const ferrari2019Car = {
   name: "Ferrari SF90",
   engine: null,
   fuel: "Shell V-Power",
-  weight: 743
+  weight: 743,
 };
 
 const redbull2019Car = {
@@ -19,7 +19,7 @@ const redbull2019Car = {
   name: "RedBull RB15",
   engine: null,
   fuel: "Esso Synergy",
-  weight: 743
+  weight: 743,
 };
 
 const mclaren2019Car = {
@@ -27,7 +27,7 @@ const mclaren2019Car = {
   name: "McLaren MCL34",
   engine: null,
   fuel: "BP Ultimate",
-  weight: 743
+  weight: 743,
 };
 
 const renault2019Car = {
@@ -35,7 +35,7 @@ const renault2019Car = {
   name: "Renault R.S.19",
   engine: null,
   fuel: "BP Ultimate",
-  weight: 743
+  weight: 743,
 };
 
 const toroRosso2019Car = {
@@ -43,7 +43,7 @@ const toroRosso2019Car = {
   name: "Toro Rosso STR14",
   engine: null,
   fuel: "Mobil Synergy",
-  weight: 743
+  weight: 743,
 };
 
 const racingPoint2019Car = {
@@ -51,7 +51,7 @@ const racingPoint2019Car = {
   name: "Racing Point RP19",
   engine: null,
   fuel: "Petronas Primax",
-  weight: 743
+  weight: 743,
 };
 
 const alfaRomeo2019Car = {
@@ -59,7 +59,7 @@ const alfaRomeo2019Car = {
   name: "Alfa Romeo Racing C38",
   engine: null,
   fuel: "Shell V-Power",
-  weight: 743
+  weight: 743,
 };
 
 const haas2019Car = {
@@ -67,7 +67,7 @@ const haas2019Car = {
   name: "Haas VF-19",
   engine: null,
   fuel: "Shell V-Power",
-  weight: 743
+  weight: 743,
 };
 
 const williams2019Car = {
@@ -75,5 +75,5 @@ const williams2019Car = {
   name: "Williams FW42",
   engine: null,
   fuel: "Petronas Primax",
-  weight: 743
+  weight: 743,
 };

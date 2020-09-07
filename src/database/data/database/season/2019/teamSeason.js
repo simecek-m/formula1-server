@@ -8,5 +8,5 @@ db.teamSeasons.insertMany([
   racingPoint2019,
   alfaRomeo2019,
   haas2019,
-  williams2019
+  williams2019,
 ]);

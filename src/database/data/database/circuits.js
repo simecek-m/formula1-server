@@ -21,5 +21,5 @@ db.circuits.insertMany([
   mexicoCircuit,
   brazilCircuit,
   emiratesCircuit,
-  hockenheimCircuit
+  hockenheimCircuit,
 ]);

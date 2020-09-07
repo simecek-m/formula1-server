@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-brazilGrandPrix2019.circuit = brazilCircuit._id
+brazilGrandPrix2019.circuit = brazilCircuit._id;
 
 // RACE -> SEASON
-brazilGrandPrix2019.season = season2019._id
+brazilGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 brazilGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ brazilGrandPrix2019.qualifying = [
   brazilGrandPrix2019GaslyQualifying._id,
   brazilGrandPrix2019SainzQualifying._id,
   brazilGrandPrix2019RussellQualifying._id,
-  brazilGrandPrix2019KubicaQualifying._id
-]
+  brazilGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 brazilGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ brazilGrandPrix2019.fastestLaps = [
   brazilGrandPrix2019GaslyFastestLap._id,
   brazilGrandPrix2019SainzFastestLap._id,
   brazilGrandPrix2019RussellFastestLap._id,
-  brazilGrandPrix2019KubicaFastestLap._id
-]
+  brazilGrandPrix2019KubicaFastestLap._id,
+];

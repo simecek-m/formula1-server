@@ -4,7 +4,7 @@ const germanyGrandPrix2019HamiltonQualifying = {
   q2Time: "1:12.149",
   q3Time: "1:11.767",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const germanyGrandPrix2019VerstappenQualifying = {
@@ -13,7 +13,7 @@ const germanyGrandPrix2019VerstappenQualifying = {
   q2Time: "1:12.427",
   q3Time: "1:12.113",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const germanyGrandPrix2019BottasQualifying = {
@@ -22,7 +22,7 @@ const germanyGrandPrix2019BottasQualifying = {
   q2Time: "1:12.424",
   q3Time: "1:12.129",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const germanyGrandPrix2019GaslyQualifying = {
@@ -31,7 +31,7 @@ const germanyGrandPrix2019GaslyQualifying = {
   q2Time: "1:12.385",
   q3Time: "1:12.522",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const germanyGrandPrix2019RaikkonenQualifying = {
@@ -40,7 +40,7 @@ const germanyGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:12.519",
   q3Time: "1:12.538",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const germanyGrandPrix2019GrosjeanQualifying = {
@@ -49,7 +49,7 @@ const germanyGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:12.769",
   q3Time: "1:12.851",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const germanyGrandPrix2019SainzQualifying = {
@@ -58,7 +58,7 @@ const germanyGrandPrix2019SainzQualifying = {
   q2Time: "1:12.632",
   q3Time: "1:12.897",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const germanyGrandPrix2019PerezQualifying = {
@@ -67,7 +67,7 @@ const germanyGrandPrix2019PerezQualifying = {
   q2Time: "1:12.776",
   q3Time: "1:13.065",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const germanyGrandPrix2019HulkenbergQualifying = {
@@ -76,7 +76,7 @@ const germanyGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:12.766",
   q3Time: "1:13.126",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const germanyGrandPrix2019LeclercQualifying = {
@@ -85,7 +85,7 @@ const germanyGrandPrix2019LeclercQualifying = {
   q2Time: "1:12.344",
   q3Time: null,
   note: null,
-  position: 10
+  position: 10,
 };
 
 const germanyGrandPrix2019GiovinazziQualifying = {
@@ -94,7 +94,7 @@ const germanyGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:12.786",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const germanyGrandPrix2019MagnussenQualifying = {
@@ -103,7 +103,7 @@ const germanyGrandPrix2019MagnussenQualifying = {
   q2Time: "1:12.789",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const germanyGrandPrix2019RicciardoQualifying = {
@@ -112,7 +112,7 @@ const germanyGrandPrix2019RicciardoQualifying = {
   q2Time: "1:12.799",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const germanyGrandPrix2019KvyatQualifying = {
@@ -121,7 +121,7 @@ const germanyGrandPrix2019KvyatQualifying = {
   q2Time: "1:13.135",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const germanyGrandPrix2019StrollQualifying = {
@@ -130,7 +130,7 @@ const germanyGrandPrix2019StrollQualifying = {
   q2Time: "1:13.450",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const germanyGrandPrix2019NorrisQualifying = {
@@ -139,7 +139,7 @@ const germanyGrandPrix2019NorrisQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const germanyGrandPrix2019AlbonQualifying = {
@@ -148,7 +148,7 @@ const germanyGrandPrix2019AlbonQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const germanyGrandPrix2019RussellQualifying = {
@@ -157,7 +157,7 @@ const germanyGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const germanyGrandPrix2019KubicaQualifying = {
@@ -166,7 +166,7 @@ const germanyGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const germanyGrandPrix2019VettelQualifying = {
@@ -175,5 +175,5 @@ const germanyGrandPrix2019VettelQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Races at stewards' discretion after failing to set a time in Q1.",
-  position: 20
+  position: 20,
 };

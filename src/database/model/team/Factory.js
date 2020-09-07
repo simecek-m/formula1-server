@@ -4,7 +4,7 @@ const ObjectId = mongoose.Schema.ObjectId;
 const factorySchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   country: {
     type: ObjectId,
@@ -12,12 +12,12 @@ const factorySchema = new mongoose.Schema({
   },
   city: {
     type: String,
-    required: true
+    required: true,
   },
   team: {
     type: ObjectId,
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Factory = mongoose.model("factory", factorySchema);

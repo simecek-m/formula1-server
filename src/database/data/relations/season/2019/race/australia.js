@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-australiaGrandPrix2019.circuit = melbourneCircuit._id
+australiaGrandPrix2019.circuit = melbourneCircuit._id;
 
 // RACE -> SEASON
-australiaGrandPrix2019.season = season2019._id
+australiaGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 australiaGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ australiaGrandPrix2019.qualifying = [
   australiaGrandPrix2019GaslyQualifying._id,
   australiaGrandPrix2019SainzQualifying._id,
   australiaGrandPrix2019RussellQualifying._id,
-  australiaGrandPrix2019KubicaQualifying._id
-]
+  australiaGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 australiaGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ australiaGrandPrix2019.fastestLaps = [
   australiaGrandPrix2019GaslyFastestLap._id,
   australiaGrandPrix2019SainzFastestLap._id,
   australiaGrandPrix2019RussellFastestLap._id,
-  australiaGrandPrix2019KubicaFastestLap._id
-]
+  australiaGrandPrix2019KubicaFastestLap._id,
+];

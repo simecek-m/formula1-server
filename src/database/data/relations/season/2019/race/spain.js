@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-spainGrandPrix2019.circuit = barcelonaCircuit._id
+spainGrandPrix2019.circuit = barcelonaCircuit._id;
 
 // RACE -> SEASON
-spainGrandPrix2019.season = season2019._id
+spainGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 spainGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ spainGrandPrix2019.qualifying = [
   spainGrandPrix2019GaslyQualifying._id,
   spainGrandPrix2019SainzQualifying._id,
   spainGrandPrix2019RussellQualifying._id,
-  spainGrandPrix2019KubicaQualifying._id
-]
+  spainGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 spainGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ spainGrandPrix2019.fastestLaps = [
   spainGrandPrix2019GaslyFastestLap._id,
   spainGrandPrix2019SainzFastestLap._id,
   spainGrandPrix2019RussellFastestLap._id,
-  spainGrandPrix2019KubicaFastestLap._id
-]
+  spainGrandPrix2019KubicaFastestLap._id,
+];

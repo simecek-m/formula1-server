@@ -4,36 +4,36 @@ const ObjectId = mongoose.Schema.ObjectId;
 const raceSchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   season: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   circuit: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   laps: {
     type: Number,
-    required: true
+    required: true,
   },
   qualifying: {
     type: Array,
-    required: true
+    required: true,
   },
   fastestLaps: {
     type: Array,
-    required: true
+    required: true,
   },
   results: {
     type: Array,
-    required: true
+    required: true,
   },
   name: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Race = mongoose.model("race", raceSchema);

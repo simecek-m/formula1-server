@@ -4,7 +4,7 @@ const usaGrandPrix2019BottasQualifying = {
   q2Time: "1:33.160",
   q3Time: "1:32.029",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const usaGrandPrix2019VettelQualifying = {
@@ -13,7 +13,7 @@ const usaGrandPrix2019VettelQualifying = {
   q2Time: "1:32.782",
   q3Time: "1:32.041",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const usaGrandPrix2019VerstappenQualifying = {
@@ -22,7 +22,7 @@ const usaGrandPrix2019VerstappenQualifying = {
   q2Time: "1:33.120",
   q3Time: "1:32.096",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const usaGrandPrix2019LeclercQualifying = {
@@ -31,7 +31,7 @@ const usaGrandPrix2019LeclercQualifying = {
   q2Time: "1:32.760",
   q3Time: "1:32.137",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const usaGrandPrix2019HamiltonQualifying = {
@@ -40,7 +40,7 @@ const usaGrandPrix2019HamiltonQualifying = {
   q2Time: "1:33.045",
   q3Time: "1:32.321",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const usaGrandPrix2019AlbonQualifying = {
@@ -49,7 +49,7 @@ const usaGrandPrix2019AlbonQualifying = {
   q2Time: "1:32.898",
   q3Time: "1:32.548",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const usaGrandPrix2019SainzQualifying = {
@@ -58,7 +58,7 @@ const usaGrandPrix2019SainzQualifying = {
   q2Time: "1:33.422",
   q3Time: "1:32.847",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const usaGrandPrix2019NorrisQualifying = {
@@ -67,7 +67,7 @@ const usaGrandPrix2019NorrisQualifying = {
   q2Time: "1:33.316",
   q3Time: "1:33.175",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const usaGrandPrix2019RicciardoQualifying = {
@@ -76,7 +76,7 @@ const usaGrandPrix2019RicciardoQualifying = {
   q2Time: "1:33.608",
   q3Time: "1:33.488",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const usaGrandPrix2019GaslyQualifying = {
@@ -85,7 +85,7 @@ const usaGrandPrix2019GaslyQualifying = {
   q2Time: "1:33.715",
   q3Time: "1:33.601",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const usaGrandPrix2019HulkenbergQualifying = {
@@ -94,7 +94,7 @@ const usaGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:33.815",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const usaGrandPrix2019MagnussenQualifying = {
@@ -103,7 +103,7 @@ const usaGrandPrix2019MagnussenQualifying = {
   q2Time: "1:33.979",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const usaGrandPrix2019KvyatQualifying = {
@@ -112,7 +112,7 @@ const usaGrandPrix2019KvyatQualifying = {
   q2Time: "1:33.989",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const usaGrandPrix2019StrollQualifying = {
@@ -121,9 +121,8 @@ const usaGrandPrix2019StrollQualifying = {
   q2Time: "1:34.100",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
-
 
 const usaGrandPrix2019GrosjeanQualifying = {
   _id: ObjectId(),
@@ -131,7 +130,7 @@ const usaGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:34.158",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const usaGrandPrix2019GiovinazziQualifying = {
@@ -140,7 +139,7 @@ const usaGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:17.269",
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const usaGrandPrix2019RaikkonenQualifying = {
@@ -149,7 +148,7 @@ const usaGrandPrix2019RaikkonenQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const usaGrandPrix2019RussellQualifying = {
@@ -158,7 +157,7 @@ const usaGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const usaGrandPrix2019PerezQualifying = {
@@ -166,8 +165,9 @@ const usaGrandPrix2019PerezQualifying = {
   q1Time: "1:35.808",
   q2Time: null,
   q3Time: null,
-  note: "Required to start the race from the pit lane for ignoring a weighbridge call during practice.",
-  position: 19
+  note:
+    "Required to start the race from the pit lane for ignoring a weighbridge call during practice.",
+  position: 19,
 };
 
 const usaGrandPrix2019KubicaQualifying = {
@@ -176,5 +176,5 @@ const usaGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 20
+  position: 20,
 };

@@ -1,49 +1,49 @@
 const mercedesFactory = {
   _id: ObjectId(),
-  city: "Brackley"
+  city: "Brackley",
 };
 
 const ferrariFactory = {
   _id: ObjectId(),
-  city: "Maranello"
+  city: "Maranello",
 };
 
 const redbullFactory = {
   _id: ObjectId(),
-  city: "Milton Keynes"
+  city: "Milton Keynes",
 };
 
 const mclarenFactory = {
   _id: ObjectId(),
-  city: "Woking"
+  city: "Woking",
 };
 
 const renaultFactory = {
   _id: ObjectId(),
-  city: "Enstone"
+  city: "Enstone",
 };
 
 const toroRossoFactory = {
   _id: ObjectId(),
-  city: "Faenza"
+  city: "Faenza",
 };
 
 const racingPointFactory = {
   _id: ObjectId(),
-  city: "Silverstone"
+  city: "Silverstone",
 };
 
 const alfaRomeoFactory = {
   _id: ObjectId(),
-  city: "Zürich"
+  city: "Zürich",
 };
 
 const haasFactory = {
   _id: ObjectId(),
-  city: "Kannapolis"
+  city: "Kannapolis",
 };
 
 const williamsFactory = {
   _id: ObjectId(),
-  city: "Wantage"
+  city: "Wantage",
 };

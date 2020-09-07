@@ -18,5 +18,5 @@ db.driverSeasons.insertMany([
   magnussen2019,
   grosjean2019,
   kubica2019,
-  russell2019
+  russell2019,
 ]);

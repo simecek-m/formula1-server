@@ -4,41 +4,41 @@ const ObjectId = mongoose.Types.ObjectId;
 const driverSchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   firstname: {
     type: String,
-    required: true
+    required: true,
   },
   lastname: {
     type: String,
-    required: true
+    required: true,
   },
   height: {
     type: Number,
-    required: true
+    required: true,
   },
   birthday: {
     type: Date,
-    required: true
+    required: true,
   },
   country: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   picture: {
     type: String,
-    required: true
+    required: true,
   },
   links: {
     web: String,
     instagram: String,
-    facebook: String
+    facebook: String,
   },
   driverSeasons: {
     type: Array,
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Driver = mongoose.model("driver", driverSchema);

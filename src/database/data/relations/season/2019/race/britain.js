@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-britainGrandPrix2019.circuit = silverstoneCircuit._id
+britainGrandPrix2019.circuit = silverstoneCircuit._id;
 
 // RACE -> SEASON
-britainGrandPrix2019.season = season2019._id
+britainGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 britainGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ britainGrandPrix2019.qualifying = [
   britainGrandPrix2019GaslyQualifying._id,
   britainGrandPrix2019SainzQualifying._id,
   britainGrandPrix2019RussellQualifying._id,
-  britainGrandPrix2019KubicaQualifying._id
-]
+  britainGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 britainGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ britainGrandPrix2019.fastestLaps = [
   britainGrandPrix2019GaslyFastestLap._id,
   britainGrandPrix2019SainzFastestLap._id,
   britainGrandPrix2019RussellFastestLap._id,
-  britainGrandPrix2019KubicaFastestLap._id
-]
+  britainGrandPrix2019KubicaFastestLap._id,
+];

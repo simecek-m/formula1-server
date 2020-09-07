@@ -1,5 +1,5 @@
 input CarFilter {
-  name: String,
-  engine: String,
+  name: String
+  engine: String
   fuel: String
 }

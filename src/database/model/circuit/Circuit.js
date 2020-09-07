@@ -4,25 +4,25 @@ const ObjectId = mongoose.Types.ObjectId;
 const circuitSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true
+    required: true,
   },
   city: {
     type: String,
-    required: true
+    required: true,
   },
   country: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   opened: {
     type: Date,
-    required: true
+    required: true,
   },
   length: {
     type: Number,
-    required: true
+    required: true,
   },
-  map: String
+  map: String,
 });
 
 const Circuit = mongoose.model("circuit", circuitSchema);

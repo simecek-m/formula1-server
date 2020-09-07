@@ -4,28 +4,28 @@ const ObjectId = mongoose.Schema.ObjectId;
 const seasonSchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   teams: {
     type: Array,
-    required: true
+    required: true,
   },
   drivers: {
     type: Array,
-    required: true
+    required: true,
   },
   year: {
     type: Number,
-    required: true
+    required: true,
   },
   cars: {
     type: Array,
-    required: true
+    required: true,
   },
   races: {
     type: Array,
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Season = mongoose.model("season", seasonSchema);

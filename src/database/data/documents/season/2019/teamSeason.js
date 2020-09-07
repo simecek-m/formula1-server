@@ -3,7 +3,7 @@ const mercedes2019 = {
   principal: "Toto Wolff",
   points: 739,
   position: 1,
-  fullName: "Mercedes-AMG Petronas Motorsport"
+  fullName: "Mercedes-AMG Petronas Motorsport",
 };
 
 const ferrari2019 = {
@@ -11,7 +11,7 @@ const ferrari2019 = {
   principal: "Mattia Binotto",
   points: 504,
   position: 2,
-  fullName: "Scuderia Ferrari Mission Winnow"
+  fullName: "Scuderia Ferrari Mission Winnow",
 };
 
 const redbull2019 = {
@@ -19,7 +19,7 @@ const redbull2019 = {
   principal: "Christian Horner",
   points: 417,
   position: 3,
-  fullName: "Aston Martin Red Bull Racing"
+  fullName: "Aston Martin Red Bull Racing",
 };
 
 const mclaren2019 = {
@@ -27,7 +27,7 @@ const mclaren2019 = {
   principal: "Andreas Seidl",
   points: 145,
   position: 4,
-  fullName: "McLaren F1 Team"
+  fullName: "McLaren F1 Team",
 };
 
 const renault2019 = {
@@ -35,7 +35,7 @@ const renault2019 = {
   principal: "Cyril Abiteboul",
   points: 91,
   position: 5,
-  fullName: "Renault F1 Team"
+  fullName: "Renault F1 Team",
 };
 
 const toroRosso2019 = {
@@ -43,7 +43,7 @@ const toroRosso2019 = {
   principal: "Franz Tost",
   points: 85,
   position: 6,
-  fullName: "Red Bull Toro Rosso Honda"
+  fullName: "Red Bull Toro Rosso Honda",
 };
 
 const racingPoint2019 = {
@@ -51,7 +51,7 @@ const racingPoint2019 = {
   principal: "Otmar Szafnaue",
   points: 73,
   position: 7,
-  fullName: "Racing Point F1 Team"
+  fullName: "Racing Point F1 Team",
 };
 
 const alfaRomeo2019 = {
@@ -59,7 +59,7 @@ const alfaRomeo2019 = {
   principal: "Frédéric Vasseur",
   points: 57,
   position: 8,
-  fullName: "Alfa Romeo Racing"
+  fullName: "Alfa Romeo Racing",
 };
 
 const haas2019 = {
@@ -67,7 +67,7 @@ const haas2019 = {
   principal: "Gene Haas",
   points: 28,
   position: 9,
-  fullName: "Rich Energy Haas F1 Team"
+  fullName: "Rich Energy Haas F1 Team",
 };
 
 const williams2019 = {
@@ -75,5 +75,5 @@ const williams2019 = {
   principal: "Frank Williams",
   points: 1,
   position: 10,
-  fullName: "Williams Racing"
+  fullName: "Williams Racing",
 };

@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-usaGrandPrix2019.circuit = usaCircuit._id
+usaGrandPrix2019.circuit = usaCircuit._id;
 
 // RACE -> SEASON
-usaGrandPrix2019.season = season2019._id
+usaGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 usaGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ usaGrandPrix2019.qualifying = [
   usaGrandPrix2019GaslyQualifying._id,
   usaGrandPrix2019SainzQualifying._id,
   usaGrandPrix2019RussellQualifying._id,
-  usaGrandPrix2019KubicaQualifying._id
-]
+  usaGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 usaGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ usaGrandPrix2019.fastestLaps = [
   usaGrandPrix2019GaslyFastestLap._id,
   usaGrandPrix2019SainzFastestLap._id,
   usaGrandPrix2019RussellFastestLap._id,
-  usaGrandPrix2019KubicaFastestLap._id
-]
+  usaGrandPrix2019KubicaFastestLap._id,
+];

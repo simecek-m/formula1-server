@@ -4,7 +4,7 @@ const azerbaijanGrandPrix2019BottasQualifying = {
   q2Time: "1:41.500",
   q3Time: "1:40.495",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const azerbaijanGrandPrix2019HamiltonQualifying = {
@@ -13,7 +13,7 @@ const azerbaijanGrandPrix2019HamiltonQualifying = {
   q2Time: "1:41.580",
   q3Time: "1:40.554",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const azerbaijanGrandPrix2019VettelQualifying = {
@@ -22,7 +22,7 @@ const azerbaijanGrandPrix2019VettelQualifying = {
   q2Time: "1:41.889",
   q3Time: "1:40.797",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const azerbaijanGrandPrix2019VerstappenQualifying = {
@@ -31,7 +31,7 @@ const azerbaijanGrandPrix2019VerstappenQualifying = {
   q2Time: "1:41.388",
   q3Time: "1:41.069",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const azerbaijanGrandPrix2019PerezQualifying = {
@@ -40,7 +40,7 @@ const azerbaijanGrandPrix2019PerezQualifying = {
   q2Time: "1:41.870",
   q3Time: "1:41.593",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const azerbaijanGrandPrix2019KvyatQualifying = {
@@ -49,7 +49,7 @@ const azerbaijanGrandPrix2019KvyatQualifying = {
   q2Time: "1:42.221",
   q3Time: "1:41.681",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const azerbaijanGrandPrix2019NorrisQualifying = {
@@ -58,7 +58,7 @@ const azerbaijanGrandPrix2019NorrisQualifying = {
   q2Time: "1:42.084",
   q3Time: "1:41.886",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const azerbaijanGrandPrix2019GiovinazziQualifying = {
@@ -67,7 +67,7 @@ const azerbaijanGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:42.381",
   q3Time: "1:42.424",
   note: "Drops 10 places grid note for use of additional power unit element.",
-  position: 8
+  position: 8,
 };
 
 const azerbaijanGrandPrix2019LeclercQualifying = {
@@ -76,7 +76,7 @@ const azerbaijanGrandPrix2019LeclercQualifying = {
   q2Time: "1:41.995",
   q3Time: null,
   note: null,
-  position: 9
+  position: 9,
 };
 
 const azerbaijanGrandPrix2019SainzQualifying = {
@@ -85,7 +85,7 @@ const azerbaijanGrandPrix2019SainzQualifying = {
   q2Time: "1:42.398",
   q3Time: null,
   note: null,
-  position: 10
+  position: 10,
 };
 
 const azerbaijanGrandPrix2019RicciardoQualifying = {
@@ -94,7 +94,7 @@ const azerbaijanGrandPrix2019RicciardoQualifying = {
   q2Time: "1:42.477",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const azerbaijanGrandPrix2019AlbonQualifying = {
@@ -103,7 +103,7 @@ const azerbaijanGrandPrix2019AlbonQualifying = {
   q2Time: "1:42.494",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const azerbaijanGrandPrix2019MagnussenQualifying = {
@@ -112,7 +112,7 @@ const azerbaijanGrandPrix2019MagnussenQualifying = {
   q2Time: "1:42.699",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const azerbaijanGrandPrix2019StrollQualifying = {
@@ -121,7 +121,7 @@ const azerbaijanGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const azerbaijanGrandPrix2019GrosjeanQualifying = {
@@ -130,7 +130,7 @@ const azerbaijanGrandPrix2019GrosjeanQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const azerbaijanGrandPrix2019HulkenbergQualifying = {
@@ -139,7 +139,7 @@ const azerbaijanGrandPrix2019HulkenbergQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const azerbaijanGrandPrix2019RussellQualifying = {
@@ -148,7 +148,7 @@ const azerbaijanGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const azerbaijanGrandPrix2019KubicaQualifying = {
@@ -157,7 +157,7 @@ const azerbaijanGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const azerbaijanGrandPrix2019RaikkonenQualifying = {
@@ -166,7 +166,7 @@ const azerbaijanGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:42.082",
   q3Time: "1:43.068",
   note: "Disqualified for his car failing a front wing deflection test",
-  position: 19
+  position: 19,
 };
 
 const azerbaijanGrandPrix2019GaslyQualifying = {
@@ -175,5 +175,5 @@ const azerbaijanGrandPrix2019GaslyQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Disqualified for his car exceeding the permitted fuel flow rate.",
-  position: 20
+  position: 20,
 };

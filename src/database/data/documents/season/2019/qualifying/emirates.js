@@ -4,7 +4,7 @@ const emiratesGrandPrix2019HamiltonQualifying = {
   q2Time: "1:35.634",
   q3Time: "1:34.779",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const emiratesGrandPrix2019BottasQualifying = {
@@ -12,8 +12,9 @@ const emiratesGrandPrix2019BottasQualifying = {
   q1Time: "1:36.200",
   q2Time: "1:35.674",
   q3Time: "1:34.973",
-  note: "Starts from the back of the grid due to use of additional power unit elements.",
-  position: 2
+  note:
+    "Starts from the back of the grid due to use of additional power unit elements.",
+  position: 2,
 };
 
 const emiratesGrandPrix2019VerstappenQualifying = {
@@ -22,7 +23,7 @@ const emiratesGrandPrix2019VerstappenQualifying = {
   q2Time: "1:36.275",
   q3Time: "1:35.139",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const emiratesGrandPrix2019LeclercQualifying = {
@@ -31,7 +32,7 @@ const emiratesGrandPrix2019LeclercQualifying = {
   q2Time: "1:35.543",
   q3Time: "1:35.219",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const emiratesGrandPrix2019VettelQualifying = {
@@ -40,7 +41,7 @@ const emiratesGrandPrix2019VettelQualifying = {
   q2Time: "1:35.786",
   q3Time: "1:35.339",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const emiratesGrandPrix2019AlbonQualifying = {
@@ -49,7 +50,7 @@ const emiratesGrandPrix2019AlbonQualifying = {
   q2Time: "1:36.718",
   q3Time: "1:35.682",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const emiratesGrandPrix2019NorrisQualifying = {
@@ -58,7 +59,7 @@ const emiratesGrandPrix2019NorrisQualifying = {
   q2Time: "1:36.764",
   q3Time: "1:36.436",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const emiratesGrandPrix2019RicciardoQualifying = {
@@ -67,7 +68,7 @@ const emiratesGrandPrix2019RicciardoQualifying = {
   q2Time: "1:36.785",
   q3Time: "1:36.456",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const emiratesGrandPrix2019SainzQualifying = {
@@ -76,7 +77,7 @@ const emiratesGrandPrix2019SainzQualifying = {
   q2Time: "1:36.308",
   q3Time: "1:36.459",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const emiratesGrandPrix2019HulkenbergQualifying = {
@@ -85,7 +86,7 @@ const emiratesGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:36.859",
   q3Time: "1:36.710",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const emiratesGrandPrix2019PerezQualifying = {
@@ -94,7 +95,7 @@ const emiratesGrandPrix2019PerezQualifying = {
   q2Time: "1:37.055",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const emiratesGrandPrix2019GaslyQualifying = {
@@ -103,7 +104,7 @@ const emiratesGrandPrix2019GaslyQualifying = {
   q2Time: "1:37.089",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const emiratesGrandPrix2019StrollQualifying = {
@@ -112,7 +113,7 @@ const emiratesGrandPrix2019StrollQualifying = {
   q2Time: "1:37.103",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const emiratesGrandPrix2019KvyatQualifying = {
@@ -121,7 +122,7 @@ const emiratesGrandPrix2019KvyatQualifying = {
   q2Time: "1:37.141",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const emiratesGrandPrix2019MagnussenQualifying = {
@@ -130,7 +131,7 @@ const emiratesGrandPrix2019MagnussenQualifying = {
   q2Time: "1:37.254",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const emiratesGrandPrix2019GrosjeanQualifying = {
@@ -139,7 +140,7 @@ const emiratesGrandPrix2019GrosjeanQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const emiratesGrandPrix2019GiovinazziQualifying = {
@@ -148,7 +149,7 @@ const emiratesGrandPrix2019GiovinazziQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const emiratesGrandPrix2019RaikkonenQualifying = {
@@ -157,7 +158,7 @@ const emiratesGrandPrix2019RaikkonenQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const emiratesGrandPrix2019RussellQualifying = {
@@ -166,7 +167,7 @@ const emiratesGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const emiratesGrandPrix2019KubicaQualifying = {
@@ -175,5 +176,5 @@ const emiratesGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 20
+  position: 20,
 };

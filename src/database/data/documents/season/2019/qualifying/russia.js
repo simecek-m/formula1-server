@@ -4,7 +4,7 @@ const russiaGrandPrix2019LeclercQualifying = {
   q2Time: "1:32.434",
   q3Time: "1:31.628",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const russiaGrandPrix2019HamiltonQualifying = {
@@ -13,7 +13,7 @@ const russiaGrandPrix2019HamiltonQualifying = {
   q2Time: "1:33.134",
   q3Time: "1:32.030",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const russiaGrandPrix2019VettelQualifying = {
@@ -22,7 +22,7 @@ const russiaGrandPrix2019VettelQualifying = {
   q2Time: "1:32.536",
   q3Time: "1:32.053",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const russiaGrandPrix2019VerstappenQualifying = {
@@ -31,7 +31,7 @@ const russiaGrandPrix2019VerstappenQualifying = {
   q2Time: "1:32.634",
   q3Time: "1:32.310",
   note: "Penalised 5 grid places for use of additional power unit elements.",
-  position: 4
+  position: 4,
 };
 
 const russiaGrandPrix2019BottasQualifying = {
@@ -40,7 +40,7 @@ const russiaGrandPrix2019BottasQualifying = {
   q2Time: "1:33.281",
   q3Time: "1:32.632",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const russiaGrandPrix2019SainzQualifying = {
@@ -49,7 +49,7 @@ const russiaGrandPrix2019SainzQualifying = {
   q2Time: "1:33.807",
   q3Time: "1:33.222",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const russiaGrandPrix2019HulkenbergQualifying = {
@@ -58,7 +58,7 @@ const russiaGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:33.898",
   q3Time: "1:33.289",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const russiaGrandPrix2019NorrisQualifying = {
@@ -67,7 +67,7 @@ const russiaGrandPrix2019NorrisQualifying = {
   q2Time: "1:33.725",
   q3Time: "1:33.301",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const russiaGrandPrix2019GrosjeanQualifying = {
@@ -76,7 +76,7 @@ const russiaGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:33.643",
   q3Time: "1:33.517",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const russiaGrandPrix2019RicciardoQualifying = {
@@ -85,7 +85,7 @@ const russiaGrandPrix2019RicciardoQualifying = {
   q2Time: "1:33.862",
   q3Time: "1:33.661",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const russiaGrandPrix2019GaslyQualifying = {
@@ -94,7 +94,7 @@ const russiaGrandPrix2019GaslyQualifying = {
   q2Time: "1:33.950",
   q3Time: null,
   note: "Penalised 5 grid places for use of additional power unit elements.",
-  position: 11
+  position: 11,
 };
 
 const russiaGrandPrix2019PerezQualifying = {
@@ -103,7 +103,7 @@ const russiaGrandPrix2019PerezQualifying = {
   q2Time: "1:33.958",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const russiaGrandPrix2019GiovinazziQualifying = {
@@ -112,7 +112,7 @@ const russiaGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:34.037",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const russiaGrandPrix2019MagnussenQualifying = {
@@ -121,7 +121,7 @@ const russiaGrandPrix2019MagnussenQualifying = {
   q2Time: "1:34.082",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const russiaGrandPrix2019StrollQualifying = {
@@ -130,7 +130,7 @@ const russiaGrandPrix2019StrollQualifying = {
   q2Time: "1:34.233",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const russiaGrandPrix2019RaikkonenQualifying = {
@@ -139,7 +139,7 @@ const russiaGrandPrix2019RaikkonenQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const russiaGrandPrix2019RussellQualifying = {
@@ -148,7 +148,7 @@ const russiaGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const russiaGrandPrix2019KubicaQualifying = {
@@ -157,7 +157,7 @@ const russiaGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 28
+  position: 28,
 };
 
 const russiaGrandPrix2019AlbonQualifying = {
@@ -166,7 +166,7 @@ const russiaGrandPrix2019AlbonQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Penalised 5 grid places for use of additional power unit elements.",
-  position: 19
+  position: 19,
 };
 
 const russiaGrandPrix2019KvyatQualifying = {
@@ -174,6 +174,7 @@ const russiaGrandPrix2019KvyatQualifying = {
   q1Time: null,
   q2Time: null,
   q3Time: null,
-  note: "Required to start race from back of grid due to multiple power unit element changes and races at stewards' discretion after failing to set a qualifying time.",
-  position: 20
+  note:
+    "Required to start race from back of grid due to multiple power unit element changes and races at stewards' discretion after failing to set a qualifying time.",
+  position: 20,
 };

@@ -4,7 +4,7 @@ type Query {
   driverSeasons: [DriverSeason]
   teams(filter: TeamFilter, sort: TeamSort, limit: Int): [Team]
   teamSeasons: [TeamSeason]
-  countries(filter: CountryFilter, sort: CountrySort,limit: Int): [Country]
+  countries(filter: CountryFilter, sort: CountrySort, limit: Int): [Country]
   factories: [Factory]
   circuits(filter: CircuitFilter, sort: CircuitSort, limit: Int): [Circuit]
   cars(filter: CarFilter, sort: CarSort, limit: Int): [Car]

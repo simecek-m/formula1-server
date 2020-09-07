@@ -8,8 +8,8 @@ const hamilton = {
   links: {
     web: "https://www.lewishamilton.com/",
     instagram: "https://www.instagram.com/lewishamilton/",
-    facebook: "https://www.facebook.com/LewisHamilton/"
-  }
+    facebook: "https://www.facebook.com/LewisHamilton/",
+  },
 };
 
 const bottas = {
@@ -22,8 +22,8 @@ const bottas = {
   links: {
     web: "http://valtteribottas.com/",
     instagram: "https://www.instagram.com/valtteribottas/",
-    facebook: "https://www.facebook.com/ValtteriBottas/"
-  }
+    facebook: "https://www.facebook.com/ValtteriBottas/",
+  },
 };
 
 const vettel = {
@@ -36,8 +36,8 @@ const vettel = {
   links: {
     web: "https://www.sebastianvettel.de/",
     instagram: null,
-    facebook: null
-  }
+    facebook: null,
+  },
 };
 
 const leclerc = {
@@ -50,8 +50,8 @@ const leclerc = {
   links: {
     web: "https://www.charlesleclerc.com/",
     instagram: "https://www.instagram.com/charles_leclerc/",
-    facebook: "https://www.facebook.com/CharlesLeclercOfficiel/"
-  }
+    facebook: "https://www.facebook.com/CharlesLeclercOfficiel/",
+  },
 };
 
 const verstappen = {
@@ -64,8 +64,8 @@ const verstappen = {
   links: {
     web: "https://www.verstappen.nl/en",
     instagram: "https://www.instagram.com/maxverstappen1/",
-    facebook: "https://www.facebook.com/MaxVerstappen/"
-  }
+    facebook: "https://www.facebook.com/MaxVerstappen/",
+  },
 };
 
 const albon = {
@@ -78,8 +78,8 @@ const albon = {
   links: {
     web: "https://www.alexalbon.com/",
     instagram: "https://www.instagram.com/alex_albon/",
-    facebook: "https://www.facebook.com/alexalbonofficial/"
-  }
+    facebook: "https://www.facebook.com/alexalbonofficial/",
+  },
 };
 
 const sainz = {
@@ -92,8 +92,8 @@ const sainz = {
   links: {
     web: "https://www.carlossainz.es/",
     instagram: "https://www.instagram.com/carlossainz55/",
-    facebook: "https://www.facebook.com/Carlossainz55/"
-  }
+    facebook: "https://www.facebook.com/Carlossainz55/",
+  },
 };
 
 const norris = {
@@ -106,8 +106,8 @@ const norris = {
   links: {
     web: "https://landonorris.com/",
     instagram: "https://www.instagram.com/landonorris/",
-    facebook: "https://www.facebook.com/landonorris1/"
-  }
+    facebook: "https://www.facebook.com/landonorris1/",
+  },
 };
 
 const hulkenberg = {
@@ -120,8 +120,8 @@ const hulkenberg = {
   links: {
     web: "https://www.nicohulkenberg.net/",
     instagram: "https://www.instagram.com/hulkhulkenberg/",
-    facebook: "https://facebook.com/NicoHulkenberg.official/"
-  }
+    facebook: "https://facebook.com/NicoHulkenberg.official/",
+  },
 };
 
 const ricciardo = {
@@ -134,8 +134,8 @@ const ricciardo = {
   links: {
     web: "https://danielricciardo.com/",
     instagram: "https://www.instagram.com/danielricciardo/",
-    facebook: "https://facebook.com/DanielRicciardo/"
-  }
+    facebook: "https://facebook.com/DanielRicciardo/",
+  },
 };
 
 const gasly = {
@@ -148,8 +148,8 @@ const gasly = {
   links: {
     web: "https://www.pierregasly.com/",
     instagram: "https://www.instagram.com/pierregasly/",
-    facebook: "https://facebook.com/PierreGasly/"
-  }
+    facebook: "https://facebook.com/PierreGasly/",
+  },
 };
 
 const kvyat = {
@@ -162,8 +162,8 @@ const kvyat = {
   links: {
     web: "http://en.kvyat.com/",
     instagram: "https://www.instagram.com/danydk1/",
-    facebook: null
-  }
+    facebook: null,
+  },
 };
 
 const perez = {
@@ -176,8 +176,8 @@ const perez = {
   links: {
     web: "https://sergioperez.mx/",
     instagram: "https://www.instagram.com/schecoperez/",
-    facebook: "https://www.facebook.com/sergioperezf1/"
-  }
+    facebook: "https://www.facebook.com/sergioperezf1/",
+  },
 };
 
 const stroll = {
@@ -190,8 +190,8 @@ const stroll = {
   links: {
     web: "https://www.lancestroll.com/",
     instagram: "https://www.instagram.com/lance_stroll/",
-    facebook: "https://www.facebook.com/stroll.lance/"
-  }
+    facebook: "https://www.facebook.com/stroll.lance/",
+  },
 };
 
 const raikkonen = {
@@ -204,8 +204,8 @@ const raikkonen = {
   links: {
     web: "https://www.kimiraikkonen.com/",
     instagram: "https://www.instagram.com/kimimatiasraikkonen/",
-    facebook: null
-  }
+    facebook: null,
+  },
 };
 
 const giovinazzi = {
@@ -218,8 +218,8 @@ const giovinazzi = {
   links: {
     web: "http://antoniogiovinazzi.com/",
     instagram: "https://www.instagram.com/antogiovinazzi99/",
-    facebook: null
-  }
+    facebook: null,
+  },
 };
 
 const magnussen = {
@@ -232,8 +232,8 @@ const magnussen = {
   links: {
     web: "https://kevinmagnussen.com/",
     instagram: "https://www.instagram.com/kevinmagnussen/",
-    facebook: "https://facebook.com/KevinMagnussen/"
-  }
+    facebook: "https://facebook.com/KevinMagnussen/",
+  },
 };
 
 const grosjean = {
@@ -246,8 +246,8 @@ const grosjean = {
   links: {
     web: "https://www.romaingrosjean.com/en/home/",
     instagram: "https://www.instagram.com/grosjeanromain/",
-    facebook: "https://www.facebook.com/grosjeanromain/"
-  }
+    facebook: "https://www.facebook.com/grosjeanromain/",
+  },
 };
 
 const kubica = {
@@ -260,8 +260,8 @@ const kubica = {
   links: {
     web: null,
     instagram: "https://www.instagram.com/robertkubica_real/",
-    facebook: "https://www.facebook.com/KubicaOfficial/"
-  }
+    facebook: "https://www.facebook.com/KubicaOfficial/",
+  },
 };
 
 const russell = {
@@ -274,6 +274,6 @@ const russell = {
   links: {
     web: "https://www.georgerussell63.com/",
     instagram: "https://www.instagram.com/georgerussell63/",
-    facebook: "https://www.facebook.com/GeorgeRussell63/"
-  }
+    facebook: "https://www.facebook.com/GeorgeRussell63/",
+  },
 };

@@ -4,7 +4,7 @@ const singaporeGrandPrix2019LeclercQualifying = {
   q2Time: "1:36.650",
   q3Time: "1:36.217",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const singaporeGrandPrix2019HamiltonQualifying = {
@@ -13,9 +13,8 @@ const singaporeGrandPrix2019HamiltonQualifying = {
   q2Time: "1:36.933",
   q3Time: "1:36.408",
   note: null,
-  position: 2
+  position: 2,
 };
-
 
 const singaporeGrandPrix2019VettelQualifying = {
   _id: ObjectId(),
@@ -23,7 +22,7 @@ const singaporeGrandPrix2019VettelQualifying = {
   q2Time: "1:36.720",
   q3Time: "1:36.437",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const singaporeGrandPrix2019VerstappenQualifying = {
@@ -32,7 +31,7 @@ const singaporeGrandPrix2019VerstappenQualifying = {
   q2Time: "1:37.089",
   q3Time: "1:36.813",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const singaporeGrandPrix2019BottasQualifying = {
@@ -41,7 +40,7 @@ const singaporeGrandPrix2019BottasQualifying = {
   q2Time: "1:37.142",
   q3Time: "1:37.146",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const singaporeGrandPrix2019AlbonQualifying = {
@@ -50,7 +49,7 @@ const singaporeGrandPrix2019AlbonQualifying = {
   q2Time: "1:37.865",
   q3Time: "1:37.411",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const singaporeGrandPrix2019SainzQualifying = {
@@ -59,7 +58,7 @@ const singaporeGrandPrix2019SainzQualifying = {
   q2Time: "1:37.982",
   q3Time: "1:37.818",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const singaporeGrandPrix2019HulkenbergQualifying = {
@@ -68,7 +67,7 @@ const singaporeGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:38.580",
   q3Time: "1:38.264",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const singaporeGrandPrix2019NorrisQualifying = {
@@ -77,7 +76,7 @@ const singaporeGrandPrix2019NorrisQualifying = {
   q2Time: "1:37.572",
   q3Time: "1:38.329",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const singaporeGrandPrix2019PerezQualifying = {
@@ -86,7 +85,7 @@ const singaporeGrandPrix2019PerezQualifying = {
   q2Time: "1:38.620",
   q3Time: null,
   note: "Drops five grid places for an unscheduled gearbox change.",
-  position: 10
+  position: 10,
 };
 
 const singaporeGrandPrix2019GiovinazziQualifying = {
@@ -95,7 +94,7 @@ const singaporeGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:38.697",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const singaporeGrandPrix2019GaslyQualifying = {
@@ -104,7 +103,7 @@ const singaporeGrandPrix2019GaslyQualifying = {
   q2Time: "1:38.699",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const singaporeGrandPrix2019RaikkonenQualifying = {
@@ -113,7 +112,7 @@ const singaporeGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:38.858",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const singaporeGrandPrix2019MagnussenQualifying = {
@@ -122,7 +121,7 @@ const singaporeGrandPrix2019MagnussenQualifying = {
   q2Time: "1:39.650",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const singaporeGrandPrix2019KvyatQualifying = {
@@ -131,7 +130,7 @@ const singaporeGrandPrix2019KvyatQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const singaporeGrandPrix2019StrollQualifying = {
@@ -140,7 +139,7 @@ const singaporeGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const singaporeGrandPrix2019GrosjeanQualifying = {
@@ -149,7 +148,7 @@ const singaporeGrandPrix2019GrosjeanQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const singaporeGrandPrix2019RussellQualifying = {
@@ -158,7 +157,7 @@ const singaporeGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const singaporeGrandPrix2019KubicaQualifying = {
@@ -167,7 +166,7 @@ const singaporeGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const singaporeGrandPrix2019RicciardoQualifying = {
@@ -176,5 +175,5 @@ const singaporeGrandPrix2019RicciardoQualifying = {
   q2Time: "1:22.570",
   q3Time: null,
   note: "Disqualified for his car exceeding the MGU-K power limit.",
-  position: 20
+  position: 20,
 };

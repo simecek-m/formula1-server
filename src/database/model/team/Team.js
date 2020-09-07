@@ -4,24 +4,24 @@ const ObjectId = mongoose.Types.ObjectId;
 const teamSchema = new mongoose.Schema({
   _id: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   name: {
     type: String,
-    required: true
+    required: true,
   },
   factory: {
     type: ObjectId,
-    required: true
+    required: true,
   },
   color: {
     type: String,
-    required: true
+    required: true,
   },
   teamSeasons: {
     type: Array,
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Team = mongoose.model("team", teamSchema);

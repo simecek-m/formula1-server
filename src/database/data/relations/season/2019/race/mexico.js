@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-mexicoGrandPrix2019.circuit = mexicoCircuit._id
+mexicoGrandPrix2019.circuit = mexicoCircuit._id;
 
 // RACE -> SEASON
-mexicoGrandPrix2019.season = season2019._id
+mexicoGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 mexicoGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ mexicoGrandPrix2019.qualifying = [
   mexicoGrandPrix2019GaslyQualifying._id,
   mexicoGrandPrix2019SainzQualifying._id,
   mexicoGrandPrix2019RussellQualifying._id,
-  mexicoGrandPrix2019KubicaQualifying._id
-]
+  mexicoGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 mexicoGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ mexicoGrandPrix2019.fastestLaps = [
   mexicoGrandPrix2019GaslyFastestLap._id,
   mexicoGrandPrix2019SainzFastestLap._id,
   mexicoGrandPrix2019RussellFastestLap._id,
-  mexicoGrandPrix2019KubicaFastestLap._id
-]
+  mexicoGrandPrix2019KubicaFastestLap._id,
+];

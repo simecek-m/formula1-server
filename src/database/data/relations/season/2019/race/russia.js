@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-russiaGrandPrix2019.circuit = sochiCircuit._id
+russiaGrandPrix2019.circuit = sochiCircuit._id;
 
 // RACE -> SEASON
-russiaGrandPrix2019.season = season2019._id
+russiaGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 russiaGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ russiaGrandPrix2019.qualifying = [
   russiaGrandPrix2019GaslyQualifying._id,
   russiaGrandPrix2019SainzQualifying._id,
   russiaGrandPrix2019RussellQualifying._id,
-  russiaGrandPrix2019KubicaQualifying._id
-]
+  russiaGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 russiaGrandPrix2019.fastestLaps = [
@@ -48,5 +48,5 @@ russiaGrandPrix2019.fastestLaps = [
   russiaGrandPrix2019GaslyFastestLap._id,
   russiaGrandPrix2019SainzFastestLap._id,
   russiaGrandPrix2019RussellFastestLap._id,
-  russiaGrandPrix2019KubicaFastestLap._id
-]
+  russiaGrandPrix2019KubicaFastestLap._id,
+];

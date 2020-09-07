@@ -3,7 +3,7 @@ const australiaGrandPrix2019BottasFastestLap = {
   position: 1,
   lap: 57,
   time: "1:25.580",
-  averageSpeed: 223.075
+  averageSpeed: 223.075,
 };
 
 const australiaGrandPrix2019HamiltonFastestLap = {
@@ -11,7 +11,7 @@ const australiaGrandPrix2019HamiltonFastestLap = {
   position: 2,
   lap: 57,
   time: "1:26.057",
-  averageSpeed: 221.839
+  averageSpeed: 221.839,
 };
 
 const australiaGrandPrix2019VerstappenFastestLap = {
@@ -19,7 +19,7 @@ const australiaGrandPrix2019VerstappenFastestLap = {
   position: 3,
   lap: 57,
   time: "1:26.256",
-  averageSpeed: 221.327
+  averageSpeed: 221.327,
 };
 
 const australiaGrandPrix2019LeclercFastestLap = {
@@ -27,7 +27,7 @@ const australiaGrandPrix2019LeclercFastestLap = {
   position: 4,
   lap: 58,
   time: "1:26.926",
-  averageSpeed: 219.621
+  averageSpeed: 219.621,
 };
 
 const australiaGrandPrix2019GaslyFastestLap = {
@@ -35,7 +35,7 @@ const australiaGrandPrix2019GaslyFastestLap = {
   position: 5,
   lap: 39,
   time: "1:27.229",
-  averageSpeed: 218.858
+  averageSpeed: 218.858,
 };
 
 const australiaGrandPrix2019KvyatFastestLap = {
@@ -43,7 +43,7 @@ const australiaGrandPrix2019KvyatFastestLap = {
   position: 6,
   lap: 39,
   time: "1:27.448",
-  averageSpeed: 218.310
+  averageSpeed: 218.31,
 };
 
 const australiaGrandPrix2019StrollFastestLap = {
@@ -51,7 +51,7 @@ const australiaGrandPrix2019StrollFastestLap = {
   position: 7,
   lap: 29,
   time: "1:27.568",
-  averageSpeed: 218.011
+  averageSpeed: 218.011,
 };
 
 const australiaGrandPrix2019VettelFastestLap = {
@@ -59,7 +59,7 @@ const australiaGrandPrix2019VettelFastestLap = {
   position: 8,
   lap: 16,
   time: "1:27.954",
-  averageSpeed: 217.054
+  averageSpeed: 217.054,
 };
 
 const australiaGrandPrix2019MagnussenFastestLap = {
@@ -67,7 +67,7 @@ const australiaGrandPrix2019MagnussenFastestLap = {
   position: 9,
   lap: 56,
   time: "1:28.182",
-  averageSpeed: 216.493
+  averageSpeed: 216.493,
 };
 
 const australiaGrandPrix2019AlbonFastestLap = {
@@ -75,7 +75,7 @@ const australiaGrandPrix2019AlbonFastestLap = {
   position: 10,
   lap: 43,
   time: "1:28.188",
-  averageSpeed: 216.478
+  averageSpeed: 216.478,
 };
 
 const australiaGrandPrix2019RaikkonenFastestLap = {
@@ -83,7 +83,7 @@ const australiaGrandPrix2019RaikkonenFastestLap = {
   position: 11,
   lap: 52,
   time: "1:28.270",
-  averageSpeed: 216.277
+  averageSpeed: 216.277,
 };
 
 const australiaGrandPrix2019HulkenbergFastestLap = {
@@ -91,7 +91,7 @@ const australiaGrandPrix2019HulkenbergFastestLap = {
   position: 12,
   lap: 52,
   time: "1:28.444",
-  averageSpeed: 215.851
+  averageSpeed: 215.851,
 };
 
 const australiaGrandPrix2019GrosjeanFastestLap = {
@@ -99,7 +99,7 @@ const australiaGrandPrix2019GrosjeanFastestLap = {
   position: 13,
   lap: 17,
   time: "1:28.462",
-  averageSpeed: 215.807
+  averageSpeed: 215.807,
 };
 
 const australiaGrandPrix2019GiovinazziFastestLap = {
@@ -107,7 +107,7 @@ const australiaGrandPrix2019GiovinazziFastestLap = {
   position: 14,
   lap: 29,
   time: "1:28.479",
-  averageSpeed: 215.766
+  averageSpeed: 215.766,
 };
 
 const australiaGrandPrix2019PerezFastestLap = {
@@ -115,7 +115,7 @@ const australiaGrandPrix2019PerezFastestLap = {
   position: 15,
   lap: 41,
   time: "1:28.485",
-  averageSpeed: 215.751
+  averageSpeed: 215.751,
 };
 
 const australiaGrandPrix2019NorrisFastestLap = {
@@ -123,7 +123,7 @@ const australiaGrandPrix2019NorrisFastestLap = {
   position: 16,
   lap: 17,
   time: "1:28.555",
-  averageSpeed: 215.581
+  averageSpeed: 215.581,
 };
 
 const australiaGrandPrix2019RussellFastestLap = {
@@ -131,7 +131,7 @@ const australiaGrandPrix2019RussellFastestLap = {
   position: 17,
   lap: 55,
   time: "1:28.713",
-  averageSpeed: 215.197
+  averageSpeed: 215.197,
 };
 
 const australiaGrandPrix2019KubicaFastestLap = {
@@ -139,7 +139,7 @@ const australiaGrandPrix2019KubicaFastestLap = {
   position: 18,
   lap: 30,
   time: "1:29.284",
-  averageSpeed: 213.821
+  averageSpeed: 213.821,
 };
 
 const australiaGrandPrix2019RicciardoFastestLap = {
@@ -147,7 +147,7 @@ const australiaGrandPrix2019RicciardoFastestLap = {
   position: 19,
   lap: 18,
   time: "1:29.848",
-  averageSpeed: 212.478
+  averageSpeed: 212.478,
 };
 
 const australiaGrandPrix2019SainzFastestLap = {
@@ -155,5 +155,5 @@ const australiaGrandPrix2019SainzFastestLap = {
   position: 20,
   lap: 9,
   time: "1:30.899",
-  averageSpeed: 210.022
+  averageSpeed: 210.022,
 };

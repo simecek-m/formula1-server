@@ -8,5 +8,5 @@ db.cars.insertMany([
   racingPoint2019Car,
   alfaRomeo2019Car,
   haas2019Car,
-  williams2019Car
+  williams2019Car,
 ]);

@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-canadaGrandPrix2019.circuit = canadaCircuit._id
+canadaGrandPrix2019.circuit = canadaCircuit._id;
 
 // RACE -> SEASON
-canadaGrandPrix2019.season = season2019._id
+canadaGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 canadaGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ canadaGrandPrix2019.qualifying = [
   canadaGrandPrix2019GaslyQualifying._id,
   canadaGrandPrix2019SainzQualifying._id,
   canadaGrandPrix2019RussellQualifying._id,
-  canadaGrandPrix2019KubicaQualifying._id
-]
+  canadaGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 canadaGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ canadaGrandPrix2019.fastestLaps = [
   canadaGrandPrix2019GaslyFastestLap._id,
   canadaGrandPrix2019SainzFastestLap._id,
   canadaGrandPrix2019RussellFastestLap._id,
-  canadaGrandPrix2019KubicaFastestLap._id
-]
+  canadaGrandPrix2019KubicaFastestLap._id,
+];

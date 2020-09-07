@@ -4,7 +4,7 @@ const canadaGrandPrix2019VettelQualifying = {
   q2Time: "1:11.142",
   q3Time: "1:10.240",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const canadaGrandPrix2019HamiltonQualifying = {
@@ -13,7 +13,7 @@ const canadaGrandPrix2019HamiltonQualifying = {
   q2Time: "1:11.010",
   q3Time: "1:10.446",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const canadaGrandPrix2019LeclercQualifying = {
@@ -22,7 +22,7 @@ const canadaGrandPrix2019LeclercQualifying = {
   q2Time: "1:11.205",
   q3Time: "1:10.920",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const canadaGrandPrix2019RicciardoQualifying = {
@@ -31,7 +31,7 @@ const canadaGrandPrix2019RicciardoQualifying = {
   q2Time: "1:11.532",
   q3Time: "1:11.071",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const canadaGrandPrix2019GaslyQualifying = {
@@ -40,7 +40,7 @@ const canadaGrandPrix2019GaslyQualifying = {
   q2Time: "1:11.196",
   q3Time: "1:11.079",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const canadaGrandPrix2019BottasQualifying = {
@@ -49,7 +49,7 @@ const canadaGrandPrix2019BottasQualifying = {
   q2Time: "1:11.095",
   q3Time: "1:11.101",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const canadaGrandPrix2019HulkenbergQualifying = {
@@ -58,7 +58,7 @@ const canadaGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:11.553",
   q3Time: "1:11.324",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const canadaGrandPrix2019NorrisQualifying = {
@@ -67,7 +67,7 @@ const canadaGrandPrix2019NorrisQualifying = {
   q2Time: "1:11.735",
   q3Time: "1:11.863",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const canadaGrandPrix2019SainzQualifying = {
@@ -76,7 +76,7 @@ const canadaGrandPrix2019SainzQualifying = {
   q2Time: "1:11.572",
   q3Time: "1:13.981",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const canadaGrandPrix2019MagnussenQualifying = {
@@ -85,7 +85,7 @@ const canadaGrandPrix2019MagnussenQualifying = {
   q2Time: "1:11.786",
   q3Time: null,
   note: null,
-  position: 10
+  position: 10,
 };
 
 const canadaGrandPrix2019VerstappenQualifying = {
@@ -94,7 +94,7 @@ const canadaGrandPrix2019VerstappenQualifying = {
   q2Time: "1:11.800",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const canadaGrandPrix2019KvyatQualifying = {
@@ -103,7 +103,7 @@ const canadaGrandPrix2019KvyatQualifying = {
   q2Time: "1:11.921",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const canadaGrandPrix2019GiovinazziQualifying = {
@@ -112,7 +112,7 @@ const canadaGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:12.136",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const canadaGrandPrix2019AlbonQualifying = {
@@ -121,7 +121,7 @@ const canadaGrandPrix2019AlbonQualifying = {
   q2Time: "1:12.193",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const canadaGrandPrix2019GrosjeanQualifying = {
@@ -130,7 +130,7 @@ const canadaGrandPrix2019GrosjeanQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const canadaGrandPrix2019PerezQualifying = {
@@ -139,7 +139,7 @@ const canadaGrandPrix2019PerezQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const canadaGrandPrix2019RaikkonenQualifying = {
@@ -148,7 +148,7 @@ const canadaGrandPrix2019RaikkonenQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const canadaGrandPrix2019StrollQualifying = {
@@ -157,7 +157,7 @@ const canadaGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const canadaGrandPrix2019RussellQualifying = {
@@ -166,7 +166,7 @@ const canadaGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const canadaGrandPrix2019KubicaQualifying = {
@@ -175,5 +175,5 @@ const canadaGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 20
+  position: 20,
 };

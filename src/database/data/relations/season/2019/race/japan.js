@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-japanGrandPrix2019.circuit = suzukaCircuit._id
+japanGrandPrix2019.circuit = suzukaCircuit._id;
 
 // RACE -> SEASON
-japanGrandPrix2019.season = season2019._id
+japanGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 japanGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ japanGrandPrix2019.qualifying = [
   japanGrandPrix2019GaslyQualifying._id,
   japanGrandPrix2019SainzQualifying._id,
   japanGrandPrix2019RussellQualifying._id,
-  japanGrandPrix2019KubicaQualifying._id
-]
+  japanGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 japanGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ japanGrandPrix2019.fastestLaps = [
   japanGrandPrix2019GaslyFastestLap._id,
   japanGrandPrix2019SainzFastestLap._id,
   japanGrandPrix2019RussellFastestLap._id,
-  japanGrandPrix2019KubicaFastestLap._id
-]
+  japanGrandPrix2019KubicaFastestLap._id,
+];

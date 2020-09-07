@@ -1,3 +1,1 @@
-db.seasons.insertMany([
-  season2019
-]);
+db.seasons.insertMany([season2019]);

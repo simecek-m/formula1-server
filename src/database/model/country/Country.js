@@ -3,24 +3,24 @@ const mongoose = require("mongoose");
 const countrySchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true
+    required: true,
   },
   factories: {
     type: Array,
-    required: true
+    required: true,
   },
   circuits: {
     type: Array,
-    required: true
+    required: true,
   },
   flag: {
     type: String,
-    required: true
+    required: true,
   },
   drivers: {
     type: Array,
-    required: true
-  }
+    required: true,
+  },
 });
 
 const Country = mongoose.model("country", countrySchema);

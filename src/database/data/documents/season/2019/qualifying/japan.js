@@ -4,7 +4,7 @@ const japanGrandPrix2019VettelQualifying = {
   q2Time: "1:28.174",
   q3Time: "1:27.064",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const japanGrandPrix2019LeclercQualifying = {
@@ -13,7 +13,7 @@ const japanGrandPrix2019LeclercQualifying = {
   q2Time: "1:28.179",
   q3Time: "1:27.253",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const japanGrandPrix2019BottasQualifying = {
@@ -22,7 +22,7 @@ const japanGrandPrix2019BottasQualifying = {
   q2Time: "1:27.688",
   q3Time: "1:27.293",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const japanGrandPrix2019HamiltonQualifying = {
@@ -31,7 +31,7 @@ const japanGrandPrix2019HamiltonQualifying = {
   q2Time: "1:27.826",
   q3Time: "1:27.302",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const japanGrandPrix2019VerstappenQualifying = {
@@ -40,7 +40,7 @@ const japanGrandPrix2019VerstappenQualifying = {
   q2Time: "1:28.499",
   q3Time: "1:27.851",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const japanGrandPrix2019AlbonQualifying = {
@@ -49,9 +49,8 @@ const japanGrandPrix2019AlbonQualifying = {
   q2Time: "1:28.156",
   q3Time: "1:27.851",
   note: null,
-  position: 6
+  position: 6,
 };
-
 
 const japanGrandPrix2019SainzQualifying = {
   _id: ObjectId(),
@@ -59,7 +58,7 @@ const japanGrandPrix2019SainzQualifying = {
   q2Time: "1:28.577",
   q3Time: "1:28.304",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const japanGrandPrix2019NorrisQualifying = {
@@ -68,7 +67,7 @@ const japanGrandPrix2019NorrisQualifying = {
   q2Time: "1:28.571",
   q3Time: "1:28.464",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const japanGrandPrix2019GaslyQualifying = {
@@ -77,7 +76,7 @@ const japanGrandPrix2019GaslyQualifying = {
   q2Time: "1:28.779",
   q3Time: "1:28.836",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const japanGrandPrix2019GrosjeanQualifying = {
@@ -86,7 +85,7 @@ const japanGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:29.144",
   q3Time: "1:29.341",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const japanGrandPrix2019GiovinazziQualifying = {
@@ -95,7 +94,7 @@ const japanGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:29.254",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const japanGrandPrix2019StrollQualifying = {
@@ -104,7 +103,7 @@ const japanGrandPrix2019StrollQualifying = {
   q2Time: "1:29.345",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const japanGrandPrix2019RaikkonenQualifying = {
@@ -113,7 +112,7 @@ const japanGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:29.358",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const japanGrandPrix2019KvyatQualifying = {
@@ -122,7 +121,7 @@ const japanGrandPrix2019KvyatQualifying = {
   q2Time: "1:29.563",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const japanGrandPrix2019HulkenbergQualifying = {
@@ -131,7 +130,7 @@ const japanGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:30.112",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const japanGrandPrix2019RicciardoQualifying = {
@@ -140,7 +139,7 @@ const japanGrandPrix2019RicciardoQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const japanGrandPrix2019PerezQualifying = {
@@ -149,7 +148,7 @@ const japanGrandPrix2019PerezQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const japanGrandPrix2019RussellQualifying = {
@@ -158,7 +157,7 @@ const japanGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const japanGrandPrix2019MagnussenQualifying = {
@@ -166,8 +165,9 @@ const japanGrandPrix2019MagnussenQualifying = {
   q1Time: null,
   q2Time: null,
   q3Time: null,
-  note: "Races at stewards' discretion after failing to set a qualifying time. Penalised 5 grid places for unscheduled gearbox change.",
-  position: 14
+  note:
+    "Races at stewards' discretion after failing to set a qualifying time. Penalised 5 grid places for unscheduled gearbox change.",
+  position: 14,
 };
 
 const japanGrandPrix2019KubicaQualifying = {
@@ -175,8 +175,7 @@ const japanGrandPrix2019KubicaQualifying = {
   q1Time: null,
   q2Time: null,
   q3Time: null,
-  note: "Races at stewards' discretion after failing to set a qualifying time. Required to start from the pit lane due to a change of chassis.",
-  position: 28
+  note:
+    "Races at stewards' discretion after failing to set a qualifying time. Required to start from the pit lane due to a change of chassis.",
+  position: 28,
 };
-
-

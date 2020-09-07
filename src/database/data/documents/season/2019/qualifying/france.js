@@ -4,7 +4,7 @@ const franceGrandPrix2019HamiltonQualifying = {
   q2Time: "1:29.520",
   q3Time: "1:28.319",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const franceGrandPrix2019BottasQualifying = {
@@ -13,7 +13,7 @@ const franceGrandPrix2019BottasQualifying = {
   q2Time: "1:29.437",
   q3Time: "1:28.605",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const franceGrandPrix2019LeclercQualifying = {
@@ -22,7 +22,7 @@ const franceGrandPrix2019LeclercQualifying = {
   q2Time: "1:29.699",
   q3Time: "1:28.965",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const franceGrandPrix2019VerstappenQualifying = {
@@ -31,7 +31,7 @@ const franceGrandPrix2019VerstappenQualifying = {
   q2Time: "1:30.099",
   q3Time: "1:29.409",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const franceGrandPrix2019NorrisQualifying = {
@@ -40,7 +40,7 @@ const franceGrandPrix2019NorrisQualifying = {
   q2Time: "1:30.019",
   q3Time: "1:29.418",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const franceGrandPrix2019SainzQualifying = {
@@ -49,7 +49,7 @@ const franceGrandPrix2019SainzQualifying = {
   q2Time: "1:30.319",
   q3Time: "1:29.522",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const franceGrandPrix2019VettelQualifying = {
@@ -58,7 +58,7 @@ const franceGrandPrix2019VettelQualifying = {
   q2Time: "1:29.506",
   q3Time: "1:29.799",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const franceGrandPrix2019RicciardoQualifying = {
@@ -67,7 +67,7 @@ const franceGrandPrix2019RicciardoQualifying = {
   q2Time: "1:30.369",
   q3Time: "1:29.918",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const franceGrandPrix2019GaslyQualifying = {
@@ -76,7 +76,7 @@ const franceGrandPrix2019GaslyQualifying = {
   q2Time: "1:30.421",
   q3Time: "1:30.184",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const franceGrandPrix2019GiovinazziQualifying = {
@@ -85,7 +85,7 @@ const franceGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:30.408",
   q3Time: "1:33.420",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const franceGrandPrix2019AlbonQualifying = {
@@ -94,7 +94,7 @@ const franceGrandPrix2019AlbonQualifying = {
   q2Time: "1:30.461",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const franceGrandPrix2019RaikkonenQualifying = {
@@ -103,7 +103,7 @@ const franceGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:30.533",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const franceGrandPrix2019HulkenbergQualifying = {
@@ -112,7 +112,7 @@ const franceGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:30.544",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const franceGrandPrix2019PerezQualifying = {
@@ -121,7 +121,7 @@ const franceGrandPrix2019PerezQualifying = {
   q2Time: "1:30.738",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const franceGrandPrix2019MagnussenQualifying = {
@@ -130,7 +130,7 @@ const franceGrandPrix2019MagnussenQualifying = {
   q2Time: "1:31.440",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const franceGrandPrix2019KvyatQualifying = {
@@ -139,7 +139,7 @@ const franceGrandPrix2019KvyatQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Start from back of grid due to multiple power unit element changes.",
-  position: 16
+  position: 16,
 };
 
 const franceGrandPrix2019GrosjeanQualifying = {
@@ -148,7 +148,7 @@ const franceGrandPrix2019GrosjeanQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const franceGrandPrix2019StrollQualifying = {
@@ -157,7 +157,7 @@ const franceGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
 
 const franceGrandPrix2019RussellQualifying = {
@@ -166,7 +166,7 @@ const franceGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Start from back of grid due to multiple power unit element changes.",
-  position: 19
+  position: 19,
 };
 
 const franceGrandPrix2019KubicaQualifying = {
@@ -175,5 +175,5 @@ const franceGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 20
+  position: 20,
 };

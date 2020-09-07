@@ -1,8 +1,8 @@
 // RACE -> CIRCUIT
-hungaryGrandPrix2019.circuit = hungaroringCircuit._id
+hungaryGrandPrix2019.circuit = hungaroringCircuit._id;
 
 // RACE -> SEASON
-hungaryGrandPrix2019.season = season2019._id
+hungaryGrandPrix2019.season = season2019._id;
 
 // RACE -> QUALIFYING
 hungaryGrandPrix2019.qualifying = [
@@ -25,8 +25,8 @@ hungaryGrandPrix2019.qualifying = [
   hungaryGrandPrix2019GaslyQualifying._id,
   hungaryGrandPrix2019SainzQualifying._id,
   hungaryGrandPrix2019RussellQualifying._id,
-  hungaryGrandPrix2019KubicaQualifying._id
-]
+  hungaryGrandPrix2019KubicaQualifying._id,
+];
 
 // RACE -> FASTEST_LAPS
 hungaryGrandPrix2019.fastestLaps = [
@@ -49,5 +49,5 @@ hungaryGrandPrix2019.fastestLaps = [
   hungaryGrandPrix2019GaslyFastestLap._id,
   hungaryGrandPrix2019SainzFastestLap._id,
   hungaryGrandPrix2019RussellFastestLap._id,
-  hungaryGrandPrix2019KubicaFastestLap._id
-]
+  hungaryGrandPrix2019KubicaFastestLap._id,
+];

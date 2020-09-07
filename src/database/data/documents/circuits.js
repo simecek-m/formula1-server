@@ -5,7 +5,7 @@ const melbourneCircuit = {
   opened: new Date("1953-11-20"),
   length: 5303,
   active: true,
-  map: "/static/assets/circuits/melbourne.png"
+  map: "/static/assets/circuits/melbourne.png",
 };
 
 const bahrainCircuit = {
@@ -15,7 +15,7 @@ const bahrainCircuit = {
   opened: new Date("2004-03-17"),
   length: 5412,
   active: true,
-  map: "/static/assets/circuits/bahrain.png"
+  map: "/static/assets/circuits/bahrain.png",
 };
 
 const hanoiCircuit = {
@@ -25,7 +25,7 @@ const hanoiCircuit = {
   opened: new Date("2019-03-21"),
   length: 5607,
   active: false,
-  map: "/static/assets/circuits/hanoi.png"
+  map: "/static/assets/circuits/hanoi.png",
 };
 
 const shanghaiCircuit = {
@@ -35,7 +35,7 @@ const shanghaiCircuit = {
   opened: new Date("2004-06-06"),
   length: 5451,
   active: true,
-  map: "/static/assets/circuits/shanghai.png"
+  map: "/static/assets/circuits/shanghai.png",
 };
 
 const zandvoortCircuit = {
@@ -45,7 +45,7 @@ const zandvoortCircuit = {
   opened: new Date("1948-08-07"),
   length: 4252,
   active: false,
-  map: "/static/assets/circuits/netherlands.png"
+  map: "/static/assets/circuits/netherlands.png",
 };
 
 const barcelonaCircuit = {
@@ -55,7 +55,7 @@ const barcelonaCircuit = {
   opened: new Date("1991-09-10"),
   length: 4655,
   active: true,
-  map: "/static/assets/circuits/spain.png"
+  map: "/static/assets/circuits/spain.png",
 };
 
 const monacoCircuit = {
@@ -65,7 +65,7 @@ const monacoCircuit = {
   opened: new Date("1929-04-14"),
   length: 3337,
   active: true,
-  map: "/static/assets/circuits/monaco.png"
+  map: "/static/assets/circuits/monaco.png",
 };
 
 const bakuCircuit = {
@@ -75,7 +75,7 @@ const bakuCircuit = {
   opened: new Date("2017-06-25"),
   length: 6003,
   active: true,
-  map: "/static/assets/circuits/baku.png"
+  map: "/static/assets/circuits/baku.png",
 };
 
 const canadaCircuit = {
@@ -85,7 +85,7 @@ const canadaCircuit = {
   opened: new Date("1978-09-24"),
   length: 4361,
   active: true,
-  map: "/static/assets/circuits/canada.png"
+  map: "/static/assets/circuits/canada.png",
 };
 
 const franceCircuit = {
@@ -95,7 +95,7 @@ const franceCircuit = {
   opened: new Date("1970-04-19"),
   length: 5842,
   active: true,
-  map: "/static/assets/circuits/france.png"
+  map: "/static/assets/circuits/france.png",
 };
 
 const austriaCircuit = {
@@ -105,7 +105,7 @@ const austriaCircuit = {
   opened: new Date("1969-07-27"),
   length: 4318,
   active: true,
-  map: "/static/assets/circuits/austria.png"
+  map: "/static/assets/circuits/austria.png",
 };
 
 const silverstoneCircuit = {
@@ -115,7 +115,7 @@ const silverstoneCircuit = {
   opened: new Date("1947-09-01"),
   length: 5891,
   active: true,
-  map: "/static/assets/circuits/silverstone.png"
+  map: "/static/assets/circuits/silverstone.png",
 };
 
 const hungaroringCircuit = {
@@ -125,7 +125,7 @@ const hungaroringCircuit = {
   opened: new Date("1986-03-24"),
   length: 4381,
   active: true,
-  map: "/static/assets/circuits/hungaroring.png"
+  map: "/static/assets/circuits/hungaroring.png",
 };
 
 const spaCircuit = {
@@ -135,7 +135,7 @@ const spaCircuit = {
   opened: new Date("1921-08-01"),
   length: 7004,
   active: true,
-  map: "/static/assets/circuits/spa.png"
+  map: "/static/assets/circuits/spa.png",
 };
 
 const monzaCircuit = {
@@ -145,7 +145,7 @@ const monzaCircuit = {
   opened: new Date("1922-09-03"),
   length: 5793,
   active: true,
-  map: "/static/assets/circuits/monza.png"
+  map: "/static/assets/circuits/monza.png",
 };
 
 const singaporeCircuit = {
@@ -155,7 +155,7 @@ const singaporeCircuit = {
   opened: new Date("2008-08-31"),
   length: 5063,
   active: true,
-  map: "/static/assets/circuits/singapore.png"
+  map: "/static/assets/circuits/singapore.png",
 };
 
 const sochiCircuit = {
@@ -165,7 +165,7 @@ const sochiCircuit = {
   opened: new Date("2014-09-21"),
   length: 5848,
   active: true,
-  map: "/static/assets/circuits/sochi.png"
+  map: "/static/assets/circuits/sochi.png",
 };
 
 const suzukaCircuit = {
@@ -175,7 +175,7 @@ const suzukaCircuit = {
   opened: new Date("1962-09-20"),
   length: 5807,
   active: true,
-  map: "/static/assets/circuits/suzuka.png"
+  map: "/static/assets/circuits/suzuka.png",
 };
 
 const usaCircuit = {
@@ -185,7 +185,7 @@ const usaCircuit = {
   opened: new Date("2012-10-21"),
   length: 5513,
   active: true,
-  map: "/static/assets/circuits/usa.png"
+  map: "/static/assets/circuits/usa.png",
 };
 
 const mexicoCircuit = {
@@ -195,7 +195,7 @@ const mexicoCircuit = {
   opened: new Date("1962-11-04"),
   length: 4304,
   active: true,
-  map: "/static/assets/circuits/mexico.png"
+  map: "/static/assets/circuits/mexico.png",
 };
 
 const brazilCircuit = {
@@ -205,7 +205,7 @@ const brazilCircuit = {
   opened: new Date("1940-05-12"),
   length: 4309,
   active: true,
-  map: "/static/assets/circuits/brazil.png"
+  map: "/static/assets/circuits/brazil.png",
 };
 
 const emiratesCircuit = {
@@ -215,7 +215,7 @@ const emiratesCircuit = {
   opened: new Date("2009-10-07"),
   length: 5554,
   active: true,
-  map: "/static/assets/circuits/emirates.png"
+  map: "/static/assets/circuits/emirates.png",
 };
 
 const hockenheimCircuit = {
@@ -225,5 +225,5 @@ const hockenheimCircuit = {
   opened: new Date("1932-05-29"),
   length: 4574,
   active: false,
-  map: "/static/assets/circuits/hockenheimring.png"
+  map: "/static/assets/circuits/hockenheimring.png",
 };

@@ -8,5 +8,5 @@ db.teams.insertMany([
   racingPoint,
   alfaRomeo,
   haas,
-  williams
+  williams,
 ]);

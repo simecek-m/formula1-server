@@ -4,7 +4,7 @@ const hungaryGrandPrix2019VerstappenQualifying = {
   q2Time: "1:15.573",
   q3Time: "1:14.572",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const hungaryGrandPrix2019BottasQualifying = {
@@ -13,7 +13,7 @@ const hungaryGrandPrix2019BottasQualifying = {
   q2Time: "1:15.669",
   q3Time: "1:14.590",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const hungaryGrandPrix2019HamiltonQualifying = {
@@ -22,7 +22,7 @@ const hungaryGrandPrix2019HamiltonQualifying = {
   q2Time: "1:15.548",
   q3Time: "1:14.769",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const hungaryGrandPrix2019LeclercQualifying = {
@@ -31,7 +31,7 @@ const hungaryGrandPrix2019LeclercQualifying = {
   q2Time: "1:15.792",
   q3Time: "1:15.043",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const hungaryGrandPrix2019VettelQualifying = {
@@ -40,7 +40,7 @@ const hungaryGrandPrix2019VettelQualifying = {
   q2Time: "1:15.885",
   q3Time: "1:15.071",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const hungaryGrandPrix2019GaslyQualifying = {
@@ -49,7 +49,7 @@ const hungaryGrandPrix2019GaslyQualifying = {
   q2Time: "1:16.393",
   q3Time: "1:15.450",
   note: null,
-  position: 6
+  position: 6,
 };
 
 const hungaryGrandPrix2019NorrisQualifying = {
@@ -58,7 +58,7 @@ const hungaryGrandPrix2019NorrisQualifying = {
   q2Time: "1:16.060",
   q3Time: "1:15.800",
   note: null,
-  position: 7
+  position: 7,
 };
 
 const hungaryGrandPrix2019SainzQualifying = {
@@ -67,7 +67,7 @@ const hungaryGrandPrix2019SainzQualifying = {
   q2Time: "1:16.308",
   q3Time: "1:15.852",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const hungaryGrandPrix2019GrosjeanQualifying = {
@@ -76,7 +76,7 @@ const hungaryGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:16.319",
   q3Time: "1:16.013",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const hungaryGrandPrix2019RaikkonenQualifying = {
@@ -85,7 +85,7 @@ const hungaryGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:16.518",
   q3Time: "1:16.041",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const hungaryGrandPrix2019HulkenbergQualifying = {
@@ -94,7 +94,7 @@ const hungaryGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:16.565",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const hungaryGrandPrix2019AlbonQualifying = {
@@ -103,7 +103,7 @@ const hungaryGrandPrix2019AlbonQualifying = {
   q2Time: "1:16.687",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const hungaryGrandPrix2019KvyatQualifying = {
@@ -112,7 +112,7 @@ const hungaryGrandPrix2019KvyatQualifying = {
   q2Time: "1:16.692",
   q3Time: null,
   note: null,
-  position: 13
+  position: 13,
 };
 
 const hungaryGrandPrix2019GiovinazziQualifying = {
@@ -121,7 +121,7 @@ const hungaryGrandPrix2019GiovinazziQualifying = {
   q2Time: "1:16.804",
   q3Time: null,
   note: null,
-  position: 14
+  position: 14,
 };
 
 const hungaryGrandPrix2019MagnussenQualifying = {
@@ -130,7 +130,7 @@ const hungaryGrandPrix2019MagnussenQualifying = {
   q2Time: "1:17.081",
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const hungaryGrandPrix2019RussellQualifying = {
@@ -139,7 +139,7 @@ const hungaryGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const hungaryGrandPrix2019PerezQualifying = {
@@ -148,7 +148,7 @@ const hungaryGrandPrix2019PerezQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 17
+  position: 17,
 };
 
 const hungaryGrandPrix2019RicciardoQualifying = {
@@ -157,9 +157,8 @@ const hungaryGrandPrix2019RicciardoQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 18
+  position: 18,
 };
-
 
 const hungaryGrandPrix2019StrollQualifying = {
   _id: ObjectId(),
@@ -167,7 +166,7 @@ const hungaryGrandPrix2019StrollQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const hungaryGrandPrix2019KubicaQualifying = {
@@ -176,5 +175,5 @@ const hungaryGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 20
+  position: 20,
 };

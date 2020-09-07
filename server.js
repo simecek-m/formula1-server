@@ -16,7 +16,7 @@ const GRAPH_API_PATH = "/graphql";
 const MONGOOSE_CONNECTION = "mongodb://localhost/formula1";
 const MONGOOSE_CONFIGURATION = {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 };
 
 // express app
@@ -31,10 +31,7 @@ app.use("/static", express.static("static"));
 // graph api
 const typeDefs = loadFiles(path.join(__dirname, GRAPH_SCHEMA_PATH));
 const resolvers = loadFiles(path.join(__dirname, GRAPH_RESOLVER_PATH));
-const apolloServer = new ApolloServer({
-  typeDefs,
-  resolvers
-});
+const apolloServer = new ApolloServer({ typeDefs, resolvers });
 apolloServer.applyMiddleware({ app, path: GRAPH_API_PATH });
 
 // db
@@ -43,7 +40,7 @@ mongoose
   .then(() => {
     console.log("MongoDB successfully connected!");
   })
-  .catch(error => {
+  .catch((error) => {
     console.log("Error while connection to MongoDB: ", error);
   });
 

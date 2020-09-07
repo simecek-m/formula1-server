@@ -8,5 +8,5 @@ db.factories.insertMany([
   racingPointFactory,
   alfaRomeoFactory,
   haasFactory,
-  williamsFactory
+  williamsFactory,
 ]);

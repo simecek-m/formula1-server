@@ -4,7 +4,7 @@ const belgiumGrandPrix2019LeclercQualifying = {
   q2Time: "1:42.938",
   q3Time: "1:42.519",
   note: null,
-  position: 1
+  position: 1,
 };
 
 const belgiumGrandPrix2019VettelQualifying = {
@@ -13,7 +13,7 @@ const belgiumGrandPrix2019VettelQualifying = {
   q2Time: "1:43.037",
   q3Time: "1:43.267",
   note: null,
-  position: 2
+  position: 2,
 };
 
 const belgiumGrandPrix2019HamiltonQualifying = {
@@ -22,7 +22,7 @@ const belgiumGrandPrix2019HamiltonQualifying = {
   q2Time: "1:43.592",
   q3Time: "1:43.282",
   note: null,
-  position: 3
+  position: 3,
 };
 
 const belgiumGrandPrix2019BottasQualifying = {
@@ -31,7 +31,7 @@ const belgiumGrandPrix2019BottasQualifying = {
   q2Time: "1:43.980",
   q3Time: "1:43.415",
   note: null,
-  position: 4
+  position: 4,
 };
 
 const belgiumGrandPrix2019VerstappenQualifying = {
@@ -40,7 +40,7 @@ const belgiumGrandPrix2019VerstappenQualifying = {
   q2Time: "1:44.132",
   q3Time: "1:43.690",
   note: null,
-  position: 5
+  position: 5,
 };
 
 const belgiumGrandPrix2019RicciardoQualifying = {
@@ -49,7 +49,7 @@ const belgiumGrandPrix2019RicciardoQualifying = {
   q2Time: "1:44.103",
   q3Time: "1:44.257",
   note: "Drops five grid places for use of additional power unit elements.",
-  position: 6
+  position: 6,
 };
 
 const belgiumGrandPrix2019HulkenbergQualifying = {
@@ -58,7 +58,7 @@ const belgiumGrandPrix2019HulkenbergQualifying = {
   q2Time: "1:44.549",
   q3Time: "1:44.542",
   note: "Drops five grid places for use of additional power unit elements.",
-  position: 7
+  position: 7,
 };
 
 const belgiumGrandPrix2019RaikkonenQualifying = {
@@ -67,7 +67,7 @@ const belgiumGrandPrix2019RaikkonenQualifying = {
   q2Time: "1:44.140",
   q3Time: "1:44.557",
   note: null,
-  position: 8
+  position: 8,
 };
 
 const belgiumGrandPrix2019PerezQualifying = {
@@ -76,7 +76,7 @@ const belgiumGrandPrix2019PerezQualifying = {
   q2Time: "1:44.707",
   q3Time: "1:44.706",
   note: null,
-  position: 9
+  position: 9,
 };
 
 const belgiumGrandPrix2019MagnussenQualifying = {
@@ -85,7 +85,7 @@ const belgiumGrandPrix2019MagnussenQualifying = {
   q2Time: "1:44.738",
   q3Time: "1:45.086",
   note: null,
-  position: 10
+  position: 10,
 };
 
 const belgiumGrandPrix2019GrosjeanQualifying = {
@@ -94,7 +94,7 @@ const belgiumGrandPrix2019GrosjeanQualifying = {
   q2Time: "1:44.797",
   q3Time: null,
   note: null,
-  position: 11
+  position: 11,
 };
 
 const belgiumGrandPrix2019NorrisQualifying = {
@@ -103,7 +103,7 @@ const belgiumGrandPrix2019NorrisQualifying = {
   q2Time: "1:44.847",
   q3Time: null,
   note: null,
-  position: 12
+  position: 12,
 };
 
 const belgiumGrandPrix2019StrollQualifying = {
@@ -111,8 +111,9 @@ const belgiumGrandPrix2019StrollQualifying = {
   q1Time: "1:46.000",
   q2Time: "1:45.047",
   q3Time: null,
-  note: "To start from back of grid due to multiple power unit element changes.",
-  position: 13
+  note:
+    "To start from back of grid due to multiple power unit element changes.",
+  position: 13,
 };
 
 const belgiumGrandPrix2019AlbonQualifying = {
@@ -120,8 +121,9 @@ const belgiumGrandPrix2019AlbonQualifying = {
   q1Time: "1:45.528",
   q2Time: "1:45.799",
   q3Time: null,
-  note: "To start from back of grid due to multiple power unit element changes.",
-  position: 14
+  note:
+    "To start from back of grid due to multiple power unit element changes.",
+  position: 14,
 };
 
 const belgiumGrandPrix2019GiovinazziQualifying = {
@@ -130,7 +132,7 @@ const belgiumGrandPrix2019GiovinazziQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 15
+  position: 15,
 };
 
 const belgiumGrandPrix2019GaslyQualifying = {
@@ -139,7 +141,7 @@ const belgiumGrandPrix2019GaslyQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 16
+  position: 16,
 };
 
 const belgiumGrandPrix2019SainzQualifying = {
@@ -148,7 +150,7 @@ const belgiumGrandPrix2019SainzQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Drops five grid places for use of additional power unit elements.",
-  position: 17
+  position: 17,
 };
 
 const belgiumGrandPrix2019KvyatQualifying = {
@@ -156,8 +158,9 @@ const belgiumGrandPrix2019KvyatQualifying = {
   q1Time: "1:46.518",
   q2Time: null,
   q3Time: null,
-  note: "To start from back of grid due to multiple power unit element changes and also penalised five grid places for an unscheduled gearbox change.",
-  position: 18
+  note:
+    "To start from back of grid due to multiple power unit element changes and also penalised five grid places for an unscheduled gearbox change.",
+  position: 18,
 };
 
 const belgiumGrandPrix2019RussellQualifying = {
@@ -166,7 +169,7 @@ const belgiumGrandPrix2019RussellQualifying = {
   q2Time: null,
   q3Time: null,
   note: null,
-  position: 19
+  position: 19,
 };
 
 const belgiumGrandPrix2019KubicaQualifying = {
@@ -175,5 +178,5 @@ const belgiumGrandPrix2019KubicaQualifying = {
   q2Time: null,
   q3Time: null,
   note: "Races at stewards' discretion after failing to set a qualifying time.",
-  position: 20
+  position: 20,
 };
