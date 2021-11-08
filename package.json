@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@graphql-toolkit/file-loading": "^0.9.1",
-    "apollo-server": "^2.14.2",
+    "apollo-server": "^2.25.3",
     "apollo-server-express": "^2.14.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
