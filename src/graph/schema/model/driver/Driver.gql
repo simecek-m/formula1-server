@@ -5,7 +5,7 @@ type Driver {
   lastname: String!
   height(unit: LengthUnit = METER): Float!
   birthday: Date!
-  picture: String!
+  picture: String
   links: Links
   driverSeasons: [DriverSeason]
 }

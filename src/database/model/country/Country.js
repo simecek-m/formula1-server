@@ -13,10 +13,7 @@ const countrySchema = new mongoose.Schema({
     type: Array,
     required: true,
   },
-  flag: {
-    type: String,
-    required: true,
-  },
+  flag: String,
   drivers: {
     type: Array,
     required: true,

@@ -3,6 +3,6 @@ type Country {
   drivers(filter: DriverFilter, sort: DriverSort, limit: Int): [Driver]!
   name: String!
   factories: [Factory]!
-  flag: String!
+  flag: String
   circuits(filter: CircuitFilter, sort: CircuitSort, limit: Int): [Circuit]!
 }

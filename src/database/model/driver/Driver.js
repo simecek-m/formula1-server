@@ -26,10 +26,7 @@ const driverSchema = new mongoose.Schema({
     type: ObjectId,
     required: true,
   },
-  picture: {
-    type: String,
-    required: true,
-  },
+  picture: String,
   links: {
     web: String,
     instagram: String,
